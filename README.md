@@ -9,10 +9,10 @@ Entry format is described in /format.js. The structure is dynamic and new fields
 
 # Roadmap
 
-  * add missing fields `tag`; tags are needed especially when more than one sample of type is present for language (+1 pangram, +1 paragraph etc.)
+  * add missing fields `tag`; tags are needed especially when more than one sample of type (pangram, paragraph, etc.) is present for language
   * add missing fields `script`
   * add missing fields `pangram`
-  * add missing fields `lettering` // this will take a while, unless a script is * * developed to automate this using Wiktionary
+  * add missing fields `lettering`; this will take a while, unless a script is developed to automate this using Wiktionary
   * add missing fields `alphabet`
   * add missing fields `specialCharacters`
 
