@@ -1,0 +1,19 @@
+{
+  "name": "@hyvyys/languages",
+  "version": "1.0.0",
+  "description": "Language data including pangrams, character sets, example sentences, and metadata: number of speakers, region, script.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "language",
+    "unicode",
+    "script",
+    "alphabet",
+    "pangram",
+    "testing"
+  ],
+  "author": "Adam Jagosz",
+  "license": "ISC"
+}
