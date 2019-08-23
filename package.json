@@ -31,10 +31,10 @@
   "dependencies": {
     "iso-15924": "^2.2.0",
     "lang-ietf-opentype": "0.0.1",
-    "language-tags": "^1.0.5"
+    "language-tags": "^1.0.5",
+    "colors": "^1.3.3"
   },
   "devDependencies": {
-    "colors": "^1.3.3",
     "esm": "^3.2.25"
   }
 }
