@@ -585,9 +585,6 @@
   },
   {
     "language": "Fula",
-    "altNames": [
-      "Fulah"
-    ],
     "region": "African",
     "speakers": 24000000,
     "pangrams": [
@@ -905,9 +902,6 @@
   },
   {
     "language": "Koyraboro Senni",
-    "altNames": [
-      "Koyraboro Senni Songhai"
-    ],
     "region": "African",
     "speakers": 430000,
     "specialCharacters": "Ã Õ ã õ Ŋ ŋ Š š Ž ž Ɲ ɲ Ẽ ẽ",
@@ -924,9 +918,6 @@
   },
   {
     "language": "Koyra Chiini",
-    "altNames": [
-      "Koyra Chiini Songhay"
-    ],
     "region": "African",
     "speakers": 240000,
     "specialCharacters": "Ã Õ ã õ Ŋ ŋ Š š Ž ž Ɲ ɲ Ẽ ẽ",

@@ -49,7 +49,7 @@ export default {
     type: String,
     required: true,
     regex: /[a-z]{2,3}/,
-    default: entry => findHtmlTag(entry),
+    default: findHtmlTag,
     description: "A minimal BCP-47 language tag used for HTML lang attribute. "
       + "Spec: https://www.ietf.org/rfc/bcp/bcp47.txt. "
       + "Typically equivalent to the 2-letter ISO-639-1 code "
@@ -58,7 +58,7 @@ export default {
   opentypeTag: {
     type: String,
     regex: /[A-Z0-9 ]{4}/,
-    default: entry => findOpentypeTag(entry),
+    default: findOpentypeTag,
     description: "Four-character language code (often three letters followed by space), "
       + "used by OpenType features; list of supported codes can be found at "
       + "https://docs.microsoft.com/en-us/typography/opentype/spec/languagetags. "
@@ -78,7 +78,7 @@ export default {
     type: String,
     required: true,
     regex: /[A-Za-z ]*/,
-    default: entry => findScriptName(entry),
+    default: findScriptName,
     description: "ISO-15924 script name, e.g. Latin or Cyrillic. "
       + "'IPA' for the (pseudo-)language IPA. ",
   },

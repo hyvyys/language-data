@@ -1,20 +1,20 @@
-import LanguageData from '../src/index.js';
-import LanguageTags from 'language-tags';
-import { ietfToOpenType } from 'lang-ietf-opentype';
-
-import config from '../src/config';
-config.DEBUG = true;
-
-
 /* Tests */
-const data = (new LanguageData()).get();
 
+/* simple import */
+import LanguageData from '../';
+// console.log(LanguageData.slice(16,20));
+
+/* import with debug */
+import { LanguageDataParser } from '../';
+const parser = new LanguageDataParser();
+parser.DEBUG = true;
+const data = parser.getData();
 // console.log(data.slice(16,20));
-// lookupTags('Greek');
-// lookupOpentypeTag('el');
 
 
 /* Utils */
+import LanguageTags from 'language-tags';
+import { ietfToOpenType } from 'lang-ietf-opentype';
 
 function lookupTags(languageName) {
   const tags = LanguageTags.search(languageName);
@@ -27,3 +27,6 @@ function lookupOpentypeTag(htmlTag) {
   let tag = ietfToOpenType('el');
   console.log('Greek OTtag: ' + tag);
 }
+
+// lookupTags('Koyra Chiini');
+// lookupOpentypeTag('el');

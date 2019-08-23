@@ -1,3 +1,4 @@
-import LanguageData from './src/index.js';
+import { LanguageDataParser } from './src';
 
-export default LanguageData;
+export { LanguageDataParser };
+export default new LanguageDataParser().getData();

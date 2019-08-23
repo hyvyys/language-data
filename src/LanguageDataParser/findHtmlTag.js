@@ -1,6 +1,5 @@
 import LanguageTags from 'language-tags'; // https://www.npmjs.com/package/language-tags
-import '../src/flatMap.polyfill';
-import config from './config';
+import '../utils/flatMap.polyfill';
 
 export default function findHtmlTag(entry) {
   const searches = [
@@ -21,6 +20,8 @@ export default function findHtmlTag(entry) {
         d => searches.some(s => s == nameFromDescription(d)))
       ) {
         tag = subtag.data.subtag;
+        if (entry.language == 'Fula')
+          console.log('here');
         break;
       }
     }
@@ -29,8 +30,8 @@ export default function findHtmlTag(entry) {
       tag = subtag.data.subtag;
       const matchedNames = subtag.descriptions();
 
-      if (config.DEBUG) {
-        console.warn(
+      if (this && this.DEBUG) {
+        this.warn(
           `Exported language '${entry.language}' with \`htmlTag\`: '${tag}'.\n`
           + `Is that correct? If so, consider adding ${matchedNames.map(n => `'${n}'`).join(', ')} to \`altNames\`.\n`
           + `If this is incorrect, manually set \`htmlTag\` (can be empty).\n`

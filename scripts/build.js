@@ -1,10 +1,7 @@
-import LanguageData from '../src/index.js';
-import entryFormat from '../src/entryFormat.js';
+import { LanguageDataParser } from '../';
+import entryFormat from '../src/LanguageDataParser/entryFormat';
 const fs = require('fs');
 const path = require('path');
-
-import config from '../src/config';
-config.DEBUG = true;
 
 /* create output directory */
 const dir = "./dist";
@@ -26,7 +23,7 @@ function buildJsonData() {
     fields = null;
   }
   // get and parse the data
-  const languages = (new LanguageData()).get();
+  const languages = (new LanguageDataParser({ debug: true })).getData();
   const text = JSON.stringify(languages, fields, 2);
 
   //save to disk

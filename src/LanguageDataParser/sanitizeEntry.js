@@ -1,5 +1,4 @@
-import entryFormat from './entryFormat.js';
-import config from './config.js';
+import entryFormat from './entryFormat';
 
 // Calculates and adds missing fields 
 export default function sanitizeEntry(entry) {
@@ -9,7 +8,7 @@ export default function sanitizeEntry(entry) {
 			&& typeof field.default !== 'undefined') {
 			// console.log(entry.language, key, entry[key])
 			if (typeof field.default === "function") {
-				const value = field.default(entry);
+				const value = field.default.call(this, entry);
 				if (typeof value !== 'undefined')
 					entry[key] = value;
 				else if (field.required) {
