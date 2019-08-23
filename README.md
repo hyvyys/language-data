@@ -8,7 +8,8 @@ Data structure: [`/dist/entryFormat.md`](https://github.com/hyvyys/language-data
 
 ## ES6 module
 ```javascript
-import ex from 'see';
+import LanguageData from 'language-data';
+const languages = new LanguageData().get();
 ```
 
 ## JSON

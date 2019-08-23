@@ -10,6 +10,7 @@
   },
   "bugs": "https://github.com/hyvyys/language-data/issues",
   "main": "src/index.js",
+  "files": [ "src/" ],
   "scripts": {
     "test": "node -r esm scripts/test.js",
     "build": "node -r esm scripts/build.js"
