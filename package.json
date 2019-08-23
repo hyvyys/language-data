@@ -9,7 +9,7 @@
     "url": "https://github.com/hyvyys/language-data.git"
   },
   "bugs": "https://github.com/hyvyys/language-data/issues",
-  "files": [ "src/" ],
+  "files": [ "index.js", "src/" ],
   "scripts": {
     "test": "node -r esm scripts/test.js",
     "build": "node -r esm scripts/build.js"
