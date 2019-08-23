@@ -1,19 +1,33 @@
 {
-  "name": "@hyvyys/languages",
+  "name": "language-data",
   "version": "1.0.0",
-  "description": "Language data including pangrams, character sets, example sentences, and metadata: number of speakers, region, script.",
+  "description": "Linguistic data useful for font testing and development.",
+  "author": "Adam Jagosz",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node -r esm scripts/test.js",
+    "build": "node -r esm scripts/build.js"
   },
   "keywords": [
-    "language",
-    "unicode",
-    "script",
-    "alphabet",
+    "dataset",
     "pangram",
+    "sample text",
+    "language",
+    "alphabet",
+    "character set",
+    "font",
+    "typeface",
+    "typography",
     "testing"
   ],
-  "author": "Adam Jagosz",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {
+    "iso-15924": "^2.2.0",
+    "lang-ietf-opentype": "0.0.1",
+    "language-tags": "^1.0.5"
+  },
+  "devDependencies": {
+    "colors": "^1.3.3",
+    "esm": "^3.2.25"
+  }
 }
