@@ -16,7 +16,7 @@ const languages = new LanguageData().get();
 ```
 
 ## JSON
-Full data is exported as a JSON file in [`/dist/languages.json](https://github.com/hyvyys/language-data/blob/master/dist/languages.json)`.
+Full data is exported as a JSON file in [`/dist/languages.json`](https://github.com/hyvyys/language-data/blob/master/dist/languages.json).
 
 If you want a file limited to the data you're interested in, you can build it yourself. You'll need Node.js (>= v10.15.3). Clone the project, install dependencies `npm i`, and build it `npm run build -- [fields]` where `[fields]` is a space-delimited list of fields you want to include, e.g.:
 
