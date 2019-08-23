@@ -1,5 +1,5 @@
-import rawLanguages from './src/Languages.js';
-import sanitizeEntry from './src/sanitizeEntry';
+import rawLanguages from './Languages.js';
+import sanitizeEntry from './sanitizeEntry';
 
 export default class Languages {
 	get() {

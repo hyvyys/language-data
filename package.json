@@ -1,9 +1,15 @@
 {
   "name": "language-data",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Linguistic data useful for font testing and development.",
-  "author": "Adam Jagosz",
-  "main": "index.js",
+  "author": "Adam Jagosz <adamjagosz@gmail.com> (http://adamjagosz.com/)",
+  "homepage": "https://github.com/hyvyys/language-data",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hyvyys/language-data.git"
+  },
+  "bugs": "https://github.com/hyvyys/language-data/issues",
+  "main": "src/index.js",
   "scripts": {
     "test": "node -r esm scripts/test.js",
     "build": "node -r esm scripts/build.js"

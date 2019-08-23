@@ -1,4 +1,4 @@
-import Languages from '../index.js';
+import Languages from '../src/index.js';
 import LanguageTags from 'language-tags';
 import { ietfToOpenType } from 'lang-ietf-opentype';
 

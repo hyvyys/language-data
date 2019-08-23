@@ -1,4 +1,4 @@
-import Languages from '../index.js';
+import Languages from '../src/index.js';
 import entryFormat from '../src/entryFormat.js';
 const fs = require('fs');
 const path = require('path');
