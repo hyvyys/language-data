@@ -7,6 +7,9 @@ Data structure: [`/dist/entryFormat.md`](https://github.com/hyvyys/language-data
 # Usage
 
 ## ES6 module
+
+Install from GitHub `npm i hyvyys/language-data`, then:
+
 ```javascript
 import LanguageData from 'language-data';
 const languages = new LanguageData().get();
