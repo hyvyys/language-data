@@ -3,7 +3,7 @@ import findOpentypeTag from './findOpentypeTag';
 import findScriptName from './findScriptName';
 
 /*
-  Each entry in the array exported from Languages.js
+  Each entry in the array exported from languageData.js
   represents a typographic convention for a given language and script.
   I.e., separate entries are provided for languages with several conventions,
   e.g. Serbian Latin and Serbian Cyrillic.
