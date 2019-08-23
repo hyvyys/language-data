@@ -8,7 +8,7 @@ Data structure: [`/dist/entryFormat.md`](https://github.com/hyvyys/language-data
 
 ## ES6 module
 
-Install from NPM `npm i language-data`, or from GitHub `npm i hyvyys/language-data`. Example of usage:
+Install from NPM `npm i language-data`, or from GitHub `npm i hyvyys/language-data`. Example usage:
 
 ```javascript
 import LanguageData from 'language-data';
