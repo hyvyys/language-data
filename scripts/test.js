@@ -1,4 +1,4 @@
-import Languages from '../src/index.js';
+import LanguageData from '../src/index.js';
 import LanguageTags from 'language-tags';
 import { ietfToOpenType } from 'lang-ietf-opentype';
 
@@ -7,9 +7,9 @@ config.DEBUG = true;
 
 
 /* Tests */
-const languages = (new Languages()).get();
+const data = (new LanguageData()).get();
 
-// console.log(Languages.slice(16,20));
+// console.log(data.slice(16,20));
 // lookupTags('Greek');
 // lookupOpentypeTag('el');
 

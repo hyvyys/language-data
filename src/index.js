@@ -1,9 +1,9 @@
-import rawLanguages from './Languages.js';
+import rawData from './languageData.js';
 import sanitizeEntry from './sanitizeEntry';
 
 export default class Languages {
 	get() {
-		return rawLanguages.map(
+		return rawData.map(
 			entry => sanitizeEntry(entry)
 		);
 	}

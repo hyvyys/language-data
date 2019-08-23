@@ -1,4 +1,4 @@
-import Languages from '../src/index.js';
+import LanguageData from '../src/index.js';
 import entryFormat from '../src/entryFormat.js';
 const fs = require('fs');
 const path = require('path');
@@ -26,11 +26,11 @@ function buildJsonData() {
     fields = null;
   }
   // get and parse the data
-  const languages = (new Languages()).get();
+  const languages = (new LanguageData()).get();
   const text = JSON.stringify(languages, fields, 2);
 
   //save to disk
-  const filePath = path.join(dir, 'languages.json');
+  const filePath = path.join(dir, 'language-data.json');
   fs.writeFile(filePath, text, function (err) {
     if (err) {
       return console.log(err);
