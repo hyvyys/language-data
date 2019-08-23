@@ -1,6 +1,7 @@
 import findHtmlTag from './findHtmlTag';
 import findOpentypeTag from './findOpentypeTag';
 import findScriptName from './findScriptName';
+import generateAlphabet from './generateAlphabet';
 
 /*
   Each entry in the array exported from languageData.js
@@ -175,7 +176,6 @@ export default {
     description: "The letters of the language's alphabet in order, separated by spaces. "
       + "Typically A-Z with `specialCharacters` intertwined or appended, "
       + "depending on the language's convention. ",
-    default: '',    // comment this out when all languages have this field specified
-    // required: true, // uncomment when all languages have this field specified
+    default: generateAlphabet,
   }
 };

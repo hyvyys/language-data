@@ -8,10 +8,30 @@ Data structure: [`/dist/entryFormat.md`](https://github.com/hyvyys/language-data
 
 ## ES6 module
 
-Install from GitHub `npm i hyvyys/language-data`, then:
+Install from NPM `npm i language-data`, or from GitHub `npm i hyvyys/language-data`, then:
 
 ```javascript
 import LanguageData from 'language-data';
+
+const polish = LanguageData.find(l => l.language == 'Polish');
+
+// ​polish = {
+//   alphabet: "",
+//   gotchas: Array [ {…} ],
+//   htmlTag: "pl"​,
+//   language: "Polish",
+//   letterings: Array [ "Aerofłot Bóbr Część Ćmić Dyndasz Ernest Farfocel Gringo Hochsztapler Irbis Jajko Krokus Lalka Łękotka Mąkami Nanizać Obrok Ósemka Poprzestań Quiz Rzeżączka Schniesz Świąt Tarty Uzurpator Victoria Warszawa Xero Yeti Złorzeczyć Źrebak Żółtko" ],
+//   opentypeTag: "PLK",
+//   pangrams: Array [ "Koń i żółw grali w kości z piękną ćmą u źródła." ],
+//   paragraphs: Array [],
+//   region: "European",
+//   script: "Latn",
+//   scriptName: "Latin",
+//   sentences: Array [],
+//   smallcaps: Array [],
+//   speakers: 40000000,
+//   specialCharacters: ""
+// }
 ```
 
 ## JSON

@@ -20,8 +20,6 @@ export default function findHtmlTag(entry) {
         d => searches.some(s => s == nameFromDescription(d)))
       ) {
         tag = subtag.data.subtag;
-        if (entry.language == 'Fula')
-          console.log('here');
         break;
       }
     }

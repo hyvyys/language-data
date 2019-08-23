@@ -448,7 +448,8 @@ export default function() {
       topic: 'łł',
       tags: ['metrics'],
       tests: ['Kołłątaj Piłka Ełk Półkole Półton PÓŁTON Radziwiłłów']
-    }]
+    }],
+    specialCharacters: 'Ą ą Ć ć Ę ę Ł ł Ń ń Ó ó Ś ś Ź ź Ż ż'
   },
   {
     language: 'Portuguese',
