@@ -212,7 +212,7 @@ export default function() {
   },
   {
     language: 'Fula',
-    // altNames: ['Fulah'],
+    altNames: ['Fulah'],
     region: 'African',
     speakers: 24 * MILLION,
     pangrams: ['Musidɓe tedduɓe, Fulɓe e leƴƴi kala gonɗi e Fuuta, haa Dakaar, e gure Senegaal kala, mi salminii on calminaali tedduɗi. abɓcdɗefghijklmnŋɲ(ñ)oprstuwyƴ\'ɠ ABƁCDƊEFGHIJKLMNŊƝ(Ñ)OPRSTUWYƳ\'Ɠ']
@@ -327,14 +327,14 @@ export default function() {
   },
   {
     language: 'Koyraboro Senni',
-    // altNames: ['Koyraboro Senni Songhai'],
+    altNames: ['Koyraboro Senni Songhai'],
     region: 'African',
     speakers: 430 * THOUSAND,
     specialCharacters: 'Ã Õ ã õ Ŋ ŋ Š š Ž ž Ɲ ɲ Ẽ ẽ'
   },
   {
     language: 'Koyra Chiini',
-    // altNames: ['Koyra Chiini Songhay'],
+    altNames: ['Koyra Chiini Songhay'],
     region: 'African',
     speakers: 240 * THOUSAND,
     specialCharacters: 'Ã Õ ã õ Ŋ ŋ Š š Ž ž Ɲ ɲ Ẽ ẽ'
