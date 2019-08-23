@@ -49,10 +49,6 @@ Both scripts internally turn debugging messages on.
 You can also do this when using the module like this:
 
 ```javascript
-//import LanguageData from 'language-data';
 import { LanguageDataParser } from 'language-data';
-
-const parser = new LanguageDataParser();
-parser.DEBUG = true;
-const data = parser.getData();
+new LanguageDataParser({ debug: true }).getData();
 ```
