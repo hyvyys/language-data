@@ -2,7 +2,7 @@
 
 Linguistic data especially useful for font designers: pangrams, sample sentences, character sets and metadata for the languages of the world. Extent and completeness of the data is limited, contributions are welcome!
 
-Data structure: [`/dist/entryFormat.md`](https://github.com/hyvyys/language-data/blob/master/dist/entryFormat.md)
+Data structure: [`/dist/README.md`](https://github.com/hyvyys/language-data/blob/master/dist/README.md)
 
 [![npm](https://img.shields.io/npm/v/language-data?color=yes)](https://www.npmjs.com/package/language-data)
 
@@ -80,7 +80,7 @@ If you want a file limited to the data you're interested in, you can build it yo
 npm run build -- script speakers pangrams
 ```
 
-The list of available fields with their descriptions is in [`/dist/entryFormat.md`](https://github.com/hyvyys/language-data/blob/master/dist/entryFormat.md).
+The list of available fields with their descriptions is in [`/dist/README.md`](https://github.com/hyvyys/language-data/blob/master/dist/README.md).
 
 # Roadmap
 

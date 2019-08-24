@@ -83,7 +83,7 @@ function generateDoc() {
   }
 
   //save to disk
-  const filePath = path.join(dir, 'entryFormat.md');
+  const filePath = path.join(dir, 'README.md');
   fs.writeFile(filePath, text, function (err) {
     if (err) {
       return console.log(err);
