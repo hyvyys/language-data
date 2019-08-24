@@ -10,7 +10,13 @@ Data structure: [`/dist/entryFormat.md`](https://github.com/hyvyys/language-data
 
 ## ES6 module
 
-Install from NPM `npm i language-data`, or from GitHub `npm i hyvyys/language-data`. Example usage:
+Install from NPM or from GitHub:
+
+`npm i language-data`
+
+`npm i hyvyys/language-data`
+
+Example usage:
 
 ```javascript
 import LanguageData from 'language-data';
@@ -57,6 +63,13 @@ console.log(JSON.stringify(polish, null, 2));
   }
   ```
 </details>
+
+or
+
+```javascript
+import { LanguageDataParser } from 'language-data';
+new LanguageDataParser({ debug: true }).getData();
+```
 
 ## JSON
 Full data is exported as a JSON file in [`/dist/language-data.json`](https://github.com/hyvyys/language-data/blob/master/dist/language-data.json).
