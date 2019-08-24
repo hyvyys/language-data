@@ -14,7 +14,6 @@ export default function (entry) {
     alphabet = [ ...az, ...AZ, ...entry.specialCharacters.split(' ') ]
       .sort((a, b) => a.localeCompare(b, entry.htmlTag + '-Latn', { caseFirst: 'upper' }))
       .join(' ');
-    console.log(alphabet)
   }
   return alphabet;
 }

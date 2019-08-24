@@ -21,8 +21,11 @@ const entryDefinition = {
   default: 'DFLT',    // value used to fill in missing fields in index.js
   // or function used to calculate it with the whole entry as argument
   description: "Field description formatted in Markdown, "
-    + "separated into lines each typically terminated by space. "
-    + "This field is used by the build script to generate documentation. ",
+  + "separated into lines each typically terminated by space. "
+  + "This field is used by the build script to generate documentation. ",
+  of: Object,         // valid for entries of type Array
+  elementFields: [],  // valid for entries with type: Array, of: Object,
+                      // defined the same as the whole entry
 }
 /*
   Fields with a defined `default` value can be omitted and will be added automatically.
@@ -51,8 +54,8 @@ export default {
     required: true,
     regex: /[a-z]{2,3}/,
     default: findHtmlTag,
-    description: "A minimal BCP-47 language tag used for HTML lang attribute. "
-      + "Spec: https://www.ietf.org/rfc/bcp/bcp47.txt. "
+    description: "A minimal [BCP-47 language tag](https://www.ietf.org/rfc/bcp/bcp47.txt) "
+      + "used for HTML lang attribute. "
       + "Typically equivalent to the 2-letter ISO-639-1 code "
       + "or the 3-letter ISO-639-3 code when the former isn't defined. ",
   },
@@ -60,28 +63,39 @@ export default {
     type: String,
     regex: /[A-Z0-9 ]{4}/,
     default: findOpentypeTag,
-    description: "Four-character language code (often three letters followed by space), "
-      + "used by OpenType features; list of supported codes can be found at "
-      + "https://docs.microsoft.com/en-us/typography/opentype/spec/languagetags. "
+    description: "[Four-character language code](https://docs.microsoft.com/en-us/typography/opentype/spec/languagetags) "
+      + "used by OpenType features. "
       + "For unsupported languages, some engines (notably Harfbuzz) "
       + "use ISO-639-3 codes as fallback, so it might be useful to implement them in fonts. ",
   },
-  // 
   script: {
     type: String,
     required: true,
     regex: /[A-Z][a-z]{3}/,
     default: 'Latn',
-    description: "Four letter ISO-15924 script code, e.g. 'Latn' or 'Cyrl'. "
-      + "Or the arbitrary value 'IPA', used for the IPA entry. ",
+    description: "Four letter ISO-15924 script code, e.g. `Latn` or `Cyrl`. "
+      + "Or the arbitrary value `IPA`, used for the IPA entry. ",
   },
   scriptName: {
     type: String,
     required: true,
     regex: /[A-Za-z ]*/,
     default: findScriptName,
-    description: "ISO-15924 script name, e.g. Latin or Cyrillic. "
-      + "'IPA' for the (pseudo-)language IPA. ",
+    description: "ISO-15924 script name, e.g. `Latin` or `Cyrillic`. "
+      + "`IPA` for the (pseudo-)language IPA. ",
+  },
+  specialCharacters: {
+    type: String,
+    description: "Special characters (mainly accented letters — diacritics) used by the language.",
+    default: '',       // comment this out when all languages have this field specified
+    // required: true, // uncomment when all languages have this field specified
+  },
+  alphabet: {
+    type: String,
+    description: "The letters of the language's alphabet in order, separated by spaces. "
+      + "Typically A-Z with `specialCharacters` intertwined or appended, "
+      + "depending on the language's convention. ",
+    default: generateAlphabet,
   },
   region: {
     type: String,
@@ -124,10 +138,8 @@ export default {
     type: Array,
     of: String,
     default: [],
-    description: "Paragraphs or sentences in HTML, sprinkled with small caps words formatted like this:\n\n"
-      + "```html\n"
-      + "<span style='font-variant-caps: all-small-caps;'>AWOL<span> "
-      + "\n```",
+    description: "Paragraphs or sentences in HTML, sprinkled with small caps words formatted like this: "
+      + "`<span style='font-variant-caps: all-small-caps;'>AWOL<span>` ",
   },
   gotchas: {
     type: Array,
@@ -136,7 +148,7 @@ export default {
     description: "Typographic challenges specific to given language, "
       + "e.g. required ligatures, kerning/spacing pairs (also for punctuation), "
       + "things to look out for when adding language support to a font. ",
-    fields: {
+    elementFields: {
       topic: {
         type: String,
         description: "Concerned letters or their names (applies to diacritics), "
@@ -145,16 +157,15 @@ export default {
       tags: {
         type: Array,
         of: String,
-        description: "Each element is one of `(metrics|ligature|contextual|localization|congruency|optional)`, where:\n"
-          + "\n"
-          + "* `metrics` — is related to spacing or kerning,\n"
-          + "* `ligature` — concerns a possibly needed ligature,\n"
-          + "* `contextual` — concerns a possibly needed contextual alternate,\n"
-          + "* `localization` — is related to alternate localized glyphs, "
-          + "(gotchas without this tag are just pointers to making a better font in general)"
-          + "* `congruency` — regards interplay between design of particular glyphs\n"
-          + "* `optional` — means the issue might be considered irrelevant "
-          + "(the feature it describes is more `nice-to-have` than `must-have`)."
+        description: "One or more of:\n"
+          + "* `metrics` — for issues related to spacing or kerning,\n"
+          + "* `ligature` — concerning a possibly needed ligature,\n"
+          + "* `contextual` — concerning a possibly needed contextual alternate,\n"
+          + "* `localization` — related to alternate localized glyphs, "
+          + "(gotchas without this tag are just pointers to making a better font in general)\n"
+          + "* `congruency` — regarding interplay between design of particular glyphs\n"
+          + "* `optional` — for issues that might be considered irrelevant "
+          + "(the described feature is more `nice-to-have` than `must-have`)."
         ,
         regex: /(metrics|ligature|contextual|localization|congruency|optional)/,
       },
@@ -165,17 +176,4 @@ export default {
       }
     },
   },
-  specialCharacters: {
-    type: String,
-    description: "Special characters (mainly accented letters — diacritics) used by the language.",
-    default: '',       // comment this out when all languages have this field specified
-    // required: true, // uncomment when all languages have this field specified
-  },
-  alphabet: {
-    type: String,
-    description: "The letters of the language's alphabet in order, separated by spaces. "
-      + "Typically A-Z with `specialCharacters` intertwined or appended, "
-      + "depending on the language's convention. ",
-    default: generateAlphabet,
-  }
 };
