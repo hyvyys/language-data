@@ -84,11 +84,15 @@ function generateDoc() {
     printFieldInfo(entryFormat, fieldName);
   }
 
-  text += "\n\n"
-    + `> This file is generated from ${repoLink('/src/LanguageDataParser/entryFormat.js')} `
-    + `by Node.js script ${repoLink('/scripts/build.js')}.\n`
-    + "> \n"
-    + "> To update it, edit either and `npm run build`.\n";
+  text += "\n<br>\n"
+    + "\n> #### Do not edit manually"
+    + `\n> This documentation file is generated from ${repoLink('/src/LanguageDataParser/entryFormat.js')}  `
+    + `\n> by the script at ${repoLink('/scripts/build.js')}.  `
+    + "\n>  "
+    + "\n> To update it, edit either and run `npm run build`.  "
+    + "\n> Then you can paste the result here to evaluate the preview  "
+    + "but instead of saving, commit your local changes.  "
+    ;
 
   //save to disk
   const filePath = path.join(dir, 'README.md');

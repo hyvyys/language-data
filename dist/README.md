@@ -24,7 +24,11 @@ gotchas[i].**topic** | `String` | Concerned letters or their names (applies to d
 gotchas[i].**tags** | `Array` of `String` | One or more of:<ul><li>`metrics` — for issues related to spacing or kerning,</li><li>`ligature` — concerning a possibly needed ligature,</li><li>`contextual` — concerning a possibly needed contextual alternate,</li><li>`localization` — related to alternate localized glyphs, (gotchas without this tag are just pointers to making a better font in general)</li><li>`congruency` — regarding interplay between design of particular glyphs</li><li>`optional` — for issues that might be considered irrelevant (the described feature is more `nice-to-have` than `must-have`).</li></ul>
 gotchas[i].**tests** | `Array` of `String` | Strings that can be used to test a font against the issue.
 
+<br>
 
-> This file is generated from [`/src/LanguageDataParser/entryFormat.js`](https://github.com/hyvyys/language-data/blob/master/src/LanguageDataParser/entryFormat.js) by Node.js script [`/scripts/build.js`](https://github.com/hyvyys/language-data/blob/master/scripts/build.js).
-> 
-> To update it, edit either and `npm run build`.
+> #### Do not edit manually
+> This documentation file is generated from [`/src/LanguageDataParser/entryFormat.js`](https://github.com/hyvyys/language-data/blob/master/src/LanguageDataParser/entryFormat.js)  
+> by the script at [`/scripts/build.js`](https://github.com/hyvyys/language-data/blob/master/scripts/build.js).  
+>  
+> To update it, edit either and run `npm run build`.  
+> Then you can paste the result here to evaluate the preview  but instead of saving, commit your local changes.  
