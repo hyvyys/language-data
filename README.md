@@ -1,8 +1,10 @@
-# The Project
+# Language Data
 
 Linguistic data especially useful for font designers: pangrams, sample sentences, character sets and metadata for the languages of the world. Extent and completeness of the data is limited, contributions are welcome!
 
 Data structure: [`/dist/entryFormat.md`](https://github.com/hyvyys/language-data/blob/master/dist/entryFormat.md)
+
+[![npm](https://img.shields.io/npm/v/language-data?color=yes)](https://www.npmjs.com/package/language-data)
 
 # Usage
 
