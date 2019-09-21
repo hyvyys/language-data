@@ -239,18 +239,20 @@
         "tags": [
           "metrics"
         ],
+        "description": "The vertical form of the caron diacritic found with <em>d</em> and <em>t</em> should be kerned against lowercase letters and punctuation.",
         "tests": [
           "Loďka ďábelska ďatlov ďábel objížďka buďto dešť loď",
           "loď. loď, loď: loď; loď- loď?"
         ]
       },
       {
-        "topic": "kruzek congruent with Scandinavian ring above",
+        "topic": "ring above",
         "tags": [
           "congruency"
         ],
+        "description": "It might be preferred that the ring above <em>u</em> (the Czech <em>kroužek</em> diacritic) be congruent with the Scandinavian ring above <em>a</em>, for the rare occasions where Scandinavian proper names are inflected in Czech or Slovak.",
         "tests": [
-          "Håkanův? "
+          "Håkanův?"
         ]
       }
     ],
@@ -1225,6 +1227,7 @@
         "tags": [
           "metrics"
         ],
+        "description": "The łł combination an sometimes produces a busy area. A spacing, kerning or ligature solution is possible should the problem arise.",
         "tests": [
           "Kołłątaj Piłka Ełk Półkole Półton PÓŁTON Radziwiłłów"
         ]
@@ -1266,6 +1269,19 @@
     "pangrams": [
       "Bând whisky, jazologul șprițuit vomă fix în tequila."
     ],
+    "gotchas": [
+      {
+        "topic": "șț",
+        "tags": [
+          "localization",
+          "optional"
+        ],
+        "description": "Consider substituting s-cedilla and t-cedilla with s-comma-below and t-comma-below for Romanian.",
+        "tests": [
+          "șprițuit (comma) = şpriţuit (cedilla)?"
+        ]
+      }
+    ],
     "htmlTag": "ro",
     "opentypeTag": "ROM",
     "script": "Latn",
@@ -1275,8 +1291,7 @@
     "letterings": [],
     "sentences": [],
     "paragraphs": [],
-    "smallcaps": [],
-    "gotchas": []
+    "smallcaps": []
   },
   {
     "language": "Russian",
@@ -1393,6 +1408,7 @@
         "tags": [
           "metrics"
         ],
+        "description": "The vertical form of the caron diacritic found with <em>d</em>, <em>L</em>, <em>l</em> and <em>t</em> should be kerned against lowercase letters and punctuation.",
         "tests": [
           "Ľadovec Ľudovít loďka ďábelska ďatlov ďábel objížďka buďto veľký dešť ľuľkovité loď ĽM",
           "loď, loď: loď; loď- loď?"
@@ -1541,8 +1557,10 @@
         "topic": "її",
         "tags": [
           "metrics",
-          "ligature"
+          "ligature",
+          "optional"
         ],
+        "description": "The possible collision of dieresis in Ukrainian word <em>її</em> (‘her’) can be avoided by providing a ligature with three dots instead of four.",
         "tests": [
           "ЗГОДОМ ЇЇ ВЖИВ без імени її творця. Ви вже бачили її нового друга? Обидві її дитини були шоковані від її нового друга, але змирилися з ситуацією, бо хотіли, щоб їх мама була щаслива."
         ]
