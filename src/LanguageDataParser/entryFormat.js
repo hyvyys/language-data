@@ -169,6 +169,10 @@ export default {
         ,
         regex: /(metrics|ligature|contextual|localization|congruency|optional)/,
       },
+      description: {
+        type: String,
+        description: "Description of the issue and/or design recommendations.",
+      },
       tests: {
         type: Array,
         of: String,

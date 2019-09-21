@@ -22,6 +22,7 @@ Field | Data type | Description
 **gotchas** | `Array` of `Object` | Typographic challenges specific to given language, e.g. required ligatures, kerning/spacing pairs (also for punctuation), things to look out for when adding language support to a font. 
 gotchas[i].**topic** | `String` | Concerned letters or their names (applies to diacritics), or other concise description of the issue.
 gotchas[i].**tags** | `Array` of `String` | One or more of:<ul><li>`metrics` — for issues related to spacing or kerning,</li><li>`ligature` — concerning a possibly needed ligature,</li><li>`contextual` — concerning a possibly needed contextual alternate,</li><li>`localization` — related to alternate localized glyphs, (gotchas without this tag are just pointers to making a better font in general)</li><li>`congruency` — regarding interplay between design of particular glyphs</li><li>`optional` — for issues that might be considered irrelevant (the described feature is more `nice-to-have` than `must-have`).</li></ul>
+gotchas[i].**description** | `String` | Description of the issue and/or design recommendations.
 gotchas[i].**tests** | `Array` of `String` | Strings that can be used to test a font against the issue.
 
 <br>
