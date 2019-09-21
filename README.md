@@ -118,3 +118,12 @@ You can also do this when using the module like this:
 import { LanguageDataParser } from 'language-data';
 new LanguageDataParser({ debug: true }).getData();
 ```
+
+To commit and publish changes:
+
+```
+npm run build
+npm version patch -m "version description"
+git push --tags
+npm publish
+```
