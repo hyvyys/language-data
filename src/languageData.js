@@ -25,7 +25,7 @@ export default function () {
     language: 'Asturian',
     region: 'European',
     speakers: 351000,
-    specialCharacters: 'ḥ ḷ',
+    specialCharacters: 'Ḥ ḥ Ḷ ḷ',
     paragraphs: ['Tolos seres humanos nacen llibres y iguales en dignidá y drechos y, pola mor de la razón y la conciencia de so, han comportase hermaniblemente los unos colos otros.'],
   },
   {
