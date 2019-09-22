@@ -1,4 +1,4 @@
-import { LanguageDataParser } from '../';
+import { LanguageDataParser } from '../src';
 import entryFormat from '../src/LanguageDataParser/entryFormat';
 const fs = require('fs');
 const path = require('path');
