@@ -14,9 +14,6 @@ export default function (entry, originalEntry) {
       ...entry.sentences
     ].join('');
 
-    if (entry.language == "Maltese") {
-      console.log(pangram)
-    }
     let str = pangram.toLowerCase() + pangram.toUpperCase()
     const splitter = new GraphemeSplitter();
     const graphemes = splitter.splitGraphemes(str);

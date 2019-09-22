@@ -227,7 +227,7 @@ export default function () {
     speakers: 95 * MILLION,
     region: 'European',
     pangrams: ['Victor jagt zwölf Boxkämpfer quer über den großen Sylter Deich.'],
-    specialCharacters: '​Ä Ö Ü ä ö ü ß',
+    specialCharacters: 'Ä Ö Ü ä ö ü ß ẞ',
   },
   {
     language: 'Greek',

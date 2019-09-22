@@ -56,7 +56,7 @@
     "language": "Asturian",
     "region": "European",
     "speakers": 351000,
-    "specialCharacters": "ḥ ḷ",
+    "specialCharacters": "Ḥ ḥ Ḷ ḷ",
     "paragraphs": [
       "Tolos seres humanos nacen llibres y iguales en dignidá y drechos y, pola mor de la razón y la conciencia de so, han comportase hermaniblemente los unos colos otros."
     ],
@@ -68,7 +68,7 @@
     "sentences": [],
     "smallcaps": [],
     "gotchas": [],
-    "alphabet": "A a B b C c D d E e F f G g H h ḥ I i J j K k L l ḷ M m N n O o P p Q q R r S s T t U u V v W w X x Y y Z z"
+    "alphabet": "A a B b C c D d E e F f G g H h Ḥ ḥ I i J j K k L l Ḷ ḷ M m N n O o P p Q q R r S s T t U u V v W w X x Y y Z z"
   },
   {
     "language": "Azeri",
@@ -615,7 +615,7 @@
     "pangrams": [
       "Victor jagt zwölf Boxkämpfer quer über den großen Sylter Deich."
     ],
-    "specialCharacters": "​Ä Ö Ü ä ö ü ß",
+    "specialCharacters": "Ä Ö Ü ä ö ü ß ẞ",
     "htmlTag": "de",
     "opentypeTag": "DEU",
     "script": "Latn",
@@ -625,7 +625,7 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "alphabet": "A a ​Ä ä B b C c D d E e F f G g H h I i J j K k L l M m N n O o Ö ö P p Q q R r S s ß T t U u Ü ü V v W w X x Y y Z z"
+    "alphabet": "A a Ä ä B b C c D d E e F f G g H h I i J j K k L l M m N n O o Ö ö P p Q q R r S s ẞ ß T t U u Ü ü V v W w X x Y y Z z"
   },
   {
     "language": "Greek",
