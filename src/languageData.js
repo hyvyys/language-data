@@ -12,7 +12,7 @@ export default function () {
     language: 'Aghem',
     region: 'African',
     speakers: 27000,
-    specialCharacters: 'À Â È Ê Ì Î Ò Ô Ù Û à â è ê ì î ò ô ù û Ā ā Ē ē Ě ě Ī ī Ŋ ŋ Ō ō Ū ū Ɔ Ɛ Ɨ Ǎ ǎ Ǐ ǐ Ǒ ǒ Ǔ ǔ Ʉ ɔ ɛ ɨ ʉ ​ʔ',
+    specialCharacters: 'À Â È Ê Ì Î Ò Ô Ù Û à â è ê ì î ò ô ù û Ā ā Ē ē Ě ě Ī ī Ŋ ŋ Ō ō Ū ū Ɔ Ɛ Ɨ Ǎ ǎ Ǐ ǐ Ǒ ǒ Ǔ ǔ Ʉ ɔ ɛ ɨ ʉ ʔ',
   },
   {
     language: 'Akan',
@@ -164,7 +164,7 @@ export default function () {
     region: 'African',
     speakers: 580 * THOUSAND,
     pangram: '',
-    specialCharacters: 'À Á Â È É Ê Ì Í Î Ò Ó Ô Ù Ú Û à á â è é ê ì í î ò ó ô ù ú û Ě ě Ń ń Ŋ ŋ Ɔ Ə Ɛ Ǎ ǎ Ǐ ǐ Ǒ ǒ Ǔ ǔ Ǹ ǹ ɔ ə ​ɛ',
+    specialCharacters: 'À Á Â È É Ê Ì Í Î Ò Ó Ô Ù Ú Û à á â è é ê ì í î ò ó ô ù ú û Ě ě Ń ń Ŋ ŋ Ɔ Ə Ɛ Ǎ ǎ Ǐ ǐ Ǒ ǒ Ǔ ǔ Ǹ ǹ ɔ ə ɛ',
   },
   {
     language: 'Esperanto',
@@ -213,7 +213,7 @@ export default function () {
     region: 'European',
     speakers: 470 * THOUSAND,
     pangrams: ['Alve bazige froulju wachtsje op dyn komst'],
-    specialCharacters: '​Á Ä É Ë Ì Ï Ò Ö Ú Ü á ä é ë ì ï ò ö ú ü Ỳ ỳ',
+    specialCharacters: 'Á Ä É Ë Ì Ï Ò Ö Ú Ü á ä é ë ì ï ò ö ú ü Ỳ ỳ',
   },
   {
     language: 'Fula',
@@ -322,7 +322,7 @@ export default function () {
     language: 'Kako',
     region: 'African',
     speakers: 120 * THOUSAND,
-    specialCharacters: 'À Á Â È É Ê Ì Í Î Ò Ó Ô Ù Ú Û à á â è é ê ì í î ò ó ô ù ú û Ŋ ŋ Ɓ Ɔ Ɗ Ɛ Ǌ ǋ ǌ ɓ ɔ ɗ ​ɛ',
+    specialCharacters: 'À Á Â È É Ê Ì Í Î Ò Ó Ô Ù Ú Û à á â è é ê ì í î ò ó ô ù ú û Ŋ ŋ Ɓ Ɔ Ɗ Ɛ Ǌ ǋ ǌ ɓ ɔ ɗ ɛ',
   },
   {
     language: 'Khoekhoe',
@@ -432,14 +432,14 @@ export default function () {
     region: 'African',
     speakers: 250 * THOUSAND,
     script: 'Latn',
-    specialCharacters: '​À​ Á Â È É Ê Ì Í Ò Ó Ô Ù Ú Û à á â è é ê ì í ò ó ô ù ú û ÿ Ě ě Ń ń Ŋ ŋ Ÿ Ɔ  Ɛ Ǎ ǎ Ǒ ǒ Ǔ ǔ Ʉ ɔ ɛ ʉ ʼ Ḿ ḿ Ẅ ẅ',
+    specialCharacters: 'À Á Â È É Ê Ì Í Ò Ó Ô Ù Ú Û à á â è é ê ì í ò ó ô ù ú û ÿ Ě ě Ń ń Ŋ ŋ Ÿ Ɔ  Ɛ Ǎ ǎ Ǒ ǒ Ǔ ǔ Ʉ ɔ ɛ ʉ ʼ Ḿ ḿ Ẅ ẅ',
   },
   {
     language: 'Ngomba',
     region: 'African',
     speakers: 63000,
     script: 'Latn',
-    specialCharacters: '​Á Â Í Î Ú Û á â í î ú û Ń ń Ŋ ŋ Ɔ Ɛ Ǎ ǎ Ǐ ǐ Ǔ ǔ Ǹ ǹ Ʉ ɔ ɛ ʉ Ḿ ḿ Ẅ ẅ Ꞌ ​ꞌ',
+    specialCharacters: 'Á Â Í Î Ú Û á â í î ú û Ń ń Ŋ ŋ Ɔ Ɛ Ǎ ǎ Ǐ ǐ Ǔ ǔ Ǹ ǹ Ʉ ɔ ɛ ʉ Ḿ ḿ Ẅ ẅ Ꞌ ꞌ',
   },
   {
     language: 'Norwegian',
@@ -591,7 +591,7 @@ export default function () {
     region: 'African',
     script: 'Latn',
     speakers: 120 * THOUSAND,
-    specialCharacters: 'Á​ Ã É Í Ó Õ Ú á ã é í ó õ ú Ĩ ĩ Ŋ ŋ Ũ ũ Ɓ  Ɔ  Ɗ Ɛ ɓ ɔ ɗ ɛ Ẽ ẽ',
+    specialCharacters: 'Á Ã É Í Ó Õ Ú á ã é í ó õ ú Ĩ ĩ Ŋ ŋ Ũ ũ Ɓ  Ɔ  Ɗ Ɛ ɓ ɔ ɗ ɛ Ẽ ẽ',
   },
   {
     language: 'Vietnamese',
@@ -604,7 +604,7 @@ export default function () {
       tags: ['metrics'],
       tests: ['lựt mưng nữi nựi nưm lưu'],
     }],
-    specialCharacters: 'À​ Á Â Ã È É Ê Ì Í Ò Ó Ô Õ Ù Ú Ý à á â ã è é ê ì í ò ó ô õ ù ú ý Ă ă Đ đ Ĩ ĩ Ũ ũ Ơ ơ Ư ư Ạ ạ Ả ả Ấ ấ Ầ ầ Ẩ ẩ Ẫ ẫ Ậ ậ Ắ ắ Ằ ằ Ẳ ẳ Ẵ ẵ Ặ ặ Ẹ ẹ Ẻ ẻ Ẽ ẽ Ế ế Ề ề Ể ể Ễ ễ Ệ ệ Ỉ ỉ Ị ị Ọ ọ Ỏ ỏ Ố ố Ồ ồ Ổ ổ Ỗ ỗ Ộ ộ Ớ ớ Ờ ờ Ở ở Ỡ ỡ Ợ ợ Ụ ụ Ủ ủ Ứ ứ Ừ ừ Ử ử Ữ ữ Ự ự Ỳ ỳ Ỵ ỵ Ỷ ỷ Ỹ ỹ',
+    specialCharacters: 'À Á Â Ã È É Ê Ì Í Ò Ó Ô Õ Ù Ú Ý à á â ã è é ê ì í ò ó ô õ ù ú ý Ă ă Đ đ Ĩ ĩ Ũ ũ Ơ ơ Ư ư Ạ ạ Ả ả Ấ ấ Ầ ầ Ẩ ẩ Ẫ ẫ Ậ ậ Ắ ắ Ằ ằ Ẳ ẳ Ẵ ẵ Ặ ặ Ẹ ẹ Ẻ ẻ Ẽ ẽ Ế ế Ề ề Ể ể Ễ ễ Ệ ệ Ỉ ỉ Ị ị Ọ ọ Ỏ ỏ Ố ố Ồ ồ Ổ ổ Ỗ ỗ Ộ ộ Ớ ớ Ờ ờ Ở ở Ỡ ỡ Ợ ợ Ụ ụ Ủ ủ Ứ ứ Ừ ừ Ử ử Ữ ữ Ự ự Ỳ ỳ Ỵ ỵ Ỷ ỷ Ỹ ỹ',
     paragraphs: ['Ảnh hưởng này kéo theo sự xuất hiện của nhiều từ gốc Pháp trong nhiều lĩnh vực khác nhau, đặc biệt là trong khoa học – kỹ thuật. Ễnh ương đốm.', `Tiếng Việt, còn gọi tiếng Việt Nam[5] hay Việt ngữ, là ngôn ngữ của người Việt (người Kinh) và là ngôn ngữ chính thức tại Việt Nam. Đây là tiếng mẹ đẻ của khoảng 85% dân cư Việt Nam, cùng với hơn bốn triệu người Việt hải ngoại. Tiếng Việt còn là ngôn ngữ thứ hai của các dân tộc thiểu số tại Việt Nam. Mặc dù tiếng Việt có một số từ vựng vay mượn từ tiếng Hán và trước đây dùng chữ Nôm — một hệ chữ dựa trên chữ Hán — để viết nhưng tiếng Việt được coi là một trong số các ngôn ngữ thuộc ngữ hệ Nam Á có số người nói nhiều nhất (nhiều hơn một số lần so với các ngôn ngữ khác cùng hệ cộng lại). Ngày nay, tiếng Việt dùng bảng chữ cái Latinh, gọi là chữ Quốc ngữ, cùng các dấu thanh để viết.`,
       `Tiếng Việt được chính thức ghi nhận trong Hiến pháp nước Cộng hòa Xã hội chủ nghĩa Việt Nam 2013, tại chương I điều 5 mục 3, là ngôn ngữ quốc gia của Việt Nam [6]. Tiếng Việt bao gồm cách phát âm tiếng Việt và chữ Quốc ngữ để viết. Tuy nhiên hiện chưa có bất kỳ văn bản nào ở cấp nhà nước quy định giọng chuẩn và quốc tự của tiếng Việt [7]. Hiện nay phần lớn các văn bản trong nước được viết theo những "Quy định về chính tả tiếng Việt và về thuật ngữ tiếng Việt" áp dụng cho các sách giáo khoa, báo và văn bản của ngành giáo dục nêu tại Quyết định của Bộ Giáo dục số 240/QĐ ngày 5 tháng 3 năm 1984 [8] do những người thụ hưởng giáo dục đó sau này ra làm việc trong mọi lĩnh vực xã hội.`, `Cũng cần lưu ý tránh nhầm lẫn với Việt ngữ (粵語) hay tiếng Quảng Đông, một ngôn ngữ được sử dụng ở miền nam Trung Quốc (Quảng Đông, Quảng Tây) cũng như ở Hồng Kông và Ma Cao.`, `Tổ chức tiêu chuẩn hóa quốc tế đặt mã ngôn ngữ hai chữ cái cho tiếng Việt là "vi" (tiêu chuẩn ISO 639-1) và đặt mã ngôn ngữ ba chữ cái cho tiếng Việt là "vie" (tiêu chuẩn ISO 639-2) [9][10][11].`
     ],
