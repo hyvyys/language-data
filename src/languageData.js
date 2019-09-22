@@ -133,20 +133,7 @@ export default function () {
       tags: ['ligature', 'localization', 'contextual'],
       tests: ['Wíjze'],
     }],
-  },
-  {
-    language: 'Ewe',
-    region: 'African',
-    speakers: 6.5 * MILLION,
-    pangrams: ['Ʋu axaléɖiƒe. Wo dona Eʋegbe le Ghana kple Togo kpakple Benin Dahumey dukɔ siwo le Afrika ƒe ɣetoɖoƒe lɔƒo la me. Gbe gbɔgblɔ siwo teɖe Eʋegbe ŋu wonye Fɔŋgbe kpakple Adzágbe. Esiawo katã wonye Gbe siwo doƒome kple Ʋegbe. Ŋɔŋlɔdzesi blaetɔ̃ ye le Eʋegbe me.'],
-    specialCharacters: 'A a Á á À à Ã ã B b D d Ɖ ɖ E e É é È è Ẽ ẽ Ɛ ɛ F f Ƒ ƒ G g Ɣ ɣ H h X x I i Í í Ì ì Ĩ ĩ K k L l M m N n Ŋ ŋ O o Ó ó Ò ò Õ õ Ɔ ​ ɔ P p R r S s T t U u Ú ú Ù ù Ũ ũ V v Ʋ ʋ W w Y y Z z',
-  },
-  {
-    language: 'Ewondo',
-    region: 'African',
-    speakers: 580 * THOUSAND,
-    pangram: '',
-    specialCharacters: 'À Á Â È É Ê Ì Í Î Ò Ó Ô Ù Ú Û à á â è é ê ì í î ò ó ô ù ú û Ě ě Ń ń Ŋ ŋ Ɔ Ə Ɛ Ǎ ǎ Ǐ ǐ Ǒ ǒ Ǔ ǔ Ǹ ǹ ɔ ə ​ɛ',
+    specialCharacters: "IJ ij Á É Í Ó Ú á é í ó ú ÍJ íj",
   },
   {
     language: 'English',
@@ -162,6 +149,22 @@ export default function () {
     ],
     numerals: ['Unicode just made its new emoji list for 2019 official, and the update adds 230 new symbols, including a yawning face, white heart, and pinching hand symbol.', 'Though the list of new emoji has now been finalized, it will still be several months before the update hits your phone. Unicode will release the update in March, but it will take some time after that for apps and operating systems to roll out support for the new characters. Updates will start hitting in April and continue through the end of the year, according to Emojipedia.'],
     smallcaps: ['Private Johnson went <span style="font-variant-caps: all-small-caps;">AWOL</span> after he received an order to join major combat forces in Iraq.', 'Developing apps requires a knowledge of <span style="font-variant-caps: all-small-caps;">html</span> and JavaScript, and that\'s it.', 'This nomination will be examined in 2009 by the responsible <span style="font-variant-caps: all-small-caps;">UNESCO</span> Committee.'],
+    specialCharacters: '',
+    optionalCharacters: '', /* todo: include letters with diereses and others used in common loans */
+  },
+  {
+    language: 'Ewe',
+    region: 'African',
+    speakers: 6.5 * MILLION,
+    pangrams: ['Ʋu axaléɖiƒe. Wo dona Eʋegbe le Ghana kple Togo kpakple Benin Dahumey dukɔ siwo le Afrika ƒe ɣetoɖoƒe lɔƒo la me. Gbe gbɔgblɔ siwo teɖe Eʋegbe ŋu wonye Fɔŋgbe kpakple Adzágbe. Esiawo katã wonye Gbe siwo doƒome kple Ʋegbe. Ŋɔŋlɔdzesi blaetɔ̃ ye le Eʋegbe me.'],
+    specialCharacters: 'A a Á á À à Ã ã B b D d Ɖ ɖ E e É é È è Ẽ ẽ Ɛ ɛ F f Ƒ ƒ G g Ɣ ɣ H h X x I i Í í Ì ì Ĩ ĩ K k L l M m N n Ŋ ŋ O o Ó ó Ò ò Õ õ Ɔ ​ ɔ P p R r S s T t U u Ú ú Ù ù Ũ ũ V v Ʋ ʋ W w Y y Z z',
+  },
+  {
+    language: 'Ewondo',
+    region: 'African',
+    speakers: 580 * THOUSAND,
+    pangram: '',
+    specialCharacters: 'À Á Â È É Ê Ì Í Î Ò Ó Ô Ù Ú Û à á â è é ê ì í î ò ó ô ù ú û Ě ě Ń ń Ŋ ŋ Ɔ Ə Ɛ Ǎ ǎ Ǐ ǐ Ǒ ǒ Ǔ ǔ Ǹ ǹ ɔ ə ​ɛ',
   },
   {
     language: 'Esperanto',
@@ -223,7 +226,8 @@ export default function () {
     language: 'German',
     speakers: 95 * MILLION,
     region: 'European',
-    pangrams: ['Victor jagt zwölf Boxkämpfer quer über den großen Sylter Deich'],
+    pangrams: ['Victor jagt zwölf Boxkämpfer quer über den großen Sylter Deich.'],
+    specialCharacters: '​Ä Ö Ü ä ö ü ß',
   },
   {
     language: 'Greek',
@@ -404,7 +408,7 @@ export default function () {
     speakers: 55000,
     script: 'Latn',
     pangrams: ['E-ar den̄ōt er. N̄a i-j yokwe ajiri ro nej-ū. em̧m̧an io̧kwe ļalem M̧aaj M̧aļo-eļap '],
-    specialCharacters: 'A Ā B D E I J K L Ļ M M̧ N Ņ N̄ O O̧ Ō P R T U Ū W a ā b d e i j k l ļ m m̧ n ņ n̄ o o̧ ō p r t u ū w',
+    alphabet: 'A a Ā ā B b D d E e I i J j K k L l Ļ ļ M m M̧ m̧ N n Ņ ņ N̄ n̄ O o O̧ o̧ Ō ō P p R r T t U u Ū ū W w',
   },
   {
     language: 'Mongolian',

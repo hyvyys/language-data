@@ -2,13 +2,15 @@ import entryFormat from './entryFormat';
 
 // Calculates and adds missing fields 
 export default function sanitizeEntry(entry) {
+	const originalEntry = JSON.parse(JSON.stringify(entry));
+
 	for (let key in entryFormat) {
 		let field = entryFormat[key];
 		if (typeof entry[key] === 'undefined'
 			&& typeof field.default !== 'undefined') {
 			// console.log(entry.language, key, entry[key])
 			if (typeof field.default === "function") {
-				const value = field.default.call(this, entry);
+				const value = field.default.call(this, entry, originalEntry);
 				if (typeof value !== 'undefined')
 					entry[key] = value;
 				else if (field.required) {

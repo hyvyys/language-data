@@ -2,6 +2,7 @@ import findHtmlTag from './findHtmlTag';
 import findOpentypeTag from './findOpentypeTag';
 import findScriptName from './findScriptName';
 import generateAlphabet from './generateAlphabet';
+import generateSpecialCharacters from './generateSpecialCharacters';
 
 /*
   Each entry in the array exported from languageData.js
@@ -83,19 +84,6 @@ export default {
     default: findScriptName,
     description: "ISO-15924 script name, e.g. `Latin` or `Cyrillic`. "
       + "`IPA` for the (pseudo-)language IPA. ",
-  },
-  specialCharacters: {
-    type: String,
-    description: "Special characters (mainly accented letters — diacritics) used by the language.",
-    default: '',       // comment this out when all languages have this field specified
-    // required: true, // uncomment when all languages have this field specified
-  },
-  alphabet: {
-    type: String,
-    description: "The letters of the language's alphabet in order, separated by spaces. "
-      + "Typically A-Z with `specialCharacters` intertwined or appended, "
-      + "depending on the language's convention. ",
-    default: generateAlphabet,
   },
   region: {
     type: String,
@@ -179,5 +167,20 @@ export default {
         description: `Strings that can be used to test a font against the issue.`,
       }
     },
+  },
+  
+  // order: after texts, so that it can be generated from them
+  specialCharacters: {
+    type: String,
+    description: "Special characters (mainly accented letters — diacritics) used by the language.",
+    default: generateSpecialCharacters,       // comment this out when all languages have this field specified
+    // required: true, // uncomment when all languages have this field specified
+  },
+  alphabet: {
+    type: String,
+    description: "The letters of the language's alphabet in order, separated by spaces. "
+      + "Typically A-Z with `specialCharacters` intertwined or appended, "
+      + "depending on the language's convention. ",
+    default: generateAlphabet,
   },
 };
