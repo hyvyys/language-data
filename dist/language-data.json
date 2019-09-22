@@ -56,7 +56,7 @@
     "language": "Asturian",
     "region": "European",
     "speakers": 351000,
-    "specialCharacters": "ḷḷeite ḷḷinu ḥou, ḥenu, ḥuera",
+    "specialCharacters": "ḥ ḷ",
     "paragraphs": [
       "Tolos seres humanos nacen llibres y iguales en dignidá y drechos y, pola mor de la razón y la conciencia de so, han comportase hermaniblemente los unos colos otros."
     ],
@@ -68,7 +68,7 @@
     "sentences": [],
     "smallcaps": [],
     "gotchas": [],
-    "alphabet": "A a B b C c D d E e F f G g H h ḥenu, ḥou, ḥuera I i J j K k L l ḷḷeite ḷḷinu M m N n O o P p Q q R r S s T t U u V v W w X x Y y Z z"
+    "alphabet": "A a B b C c D d E e F f G g H h ḥ I i J j K k L l ḷ M m N n O o P p Q q R r S s T t U u V v W w X x Y y Z z"
   },
   {
     "language": "Azeri",
@@ -89,8 +89,8 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": "Ç ç Ə ə Ğ ğ I ı Ö ö Ş ş Ü ü",
-    "alphabet": "A a B b C c Ç ç D d E e Ə ə F f G g Ğ ğ H h I I i ı J j K k L l M m N n O o Ö ö P p Q q R r S s Ş ş T t U u Ü ü V v W w X x Y y Z z"
+    "specialCharacters": "Ç ç Ə ə Ğ ğ ı Ö ö Ş ş Ü ü",
+    "alphabet": "A a B b C c Ç ç D d E e Ə ə F f G g Ğ ğ H h I i ı J j K k L l M m N n O o Ö ö P p Q q R r S s Ş ş T t U u Ü ü V v W w X x Y y Z z"
   },
   {
     "language": "Basaa",
@@ -271,7 +271,7 @@
     "language": "Dagbani",
     "region": "African",
     "speakers": 1160000,
-    "specialCharacters": "A B CH D E Ɛ F G GB Ɣ H I J K KP L M N NY Ŋ O Ɔ P R S SH T U W Y Z Ʒ ’ a b ch d e ɛ f g gb ɣ h i j k kp l m n ny ŋ o ɔ p r s sh t u w y z ʒ ’ ",
+    "alphabet": "’ A a B b CH ch D d E e Ɛ ɛ F f G g GB gb Ɣ ɣ H h I i J j K k KP kp L l M m N n NY ny Ŋ ŋ O o Ɔ ɔ P p R r S s SH sh T t U u W w Y y Z z Ʒ ʒ",
     "htmlTag": "dag",
     "script": "Latn",
     "scriptName": "Latin",
@@ -281,7 +281,7 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "alphabet": "’ ’ A A a a B B b b C c CH ch D D d d E E e e Ɛ ɛ F F f f G G g g GB gb Ɣ ɣ H H h h I I i i J J j j K K k k KP kp L L l l M M m m N N n n NY ny Ŋ ŋ O O o o Ɔ ɔ P P p p Q q R R r r S S s s SH sh T T t t U U u u V v W W w w X x Y Y y y Z Z z z Ʒ ʒ"
+    "specialCharacters": "CH ch Ɛ ɛ GB gb Ɣ ɣ KP kp NY ny Ŋ ŋ Ɔ ɔ SH sh Ʒ ʒ"
   },
   {
     "language": "Danish",
@@ -414,7 +414,7 @@
     "pangrams": [
       "Ʋu axaléɖiƒe. Wo dona Eʋegbe le Ghana kple Togo kpakple Benin Dahumey dukɔ siwo le Afrika ƒe ɣetoɖoƒe lɔƒo la me. Gbe gbɔgblɔ siwo teɖe Eʋegbe ŋu wonye Fɔŋgbe kpakple Adzágbe. Esiawo katã wonye Gbe siwo doƒome kple Ʋegbe. Ŋɔŋlɔdzesi blaetɔ̃ ye le Eʋegbe me."
     ],
-    "specialCharacters": "A a Á á À à Ã ã B b D d Ɖ ɖ E e É é È è Ẽ ẽ Ɛ ɛ F f Ƒ ƒ G g Ɣ ɣ H h X x I i Í í Ì ì Ĩ ĩ K k L l M m N n Ŋ ŋ O o Ó ó Ò ò Õ õ Ɔ ​ ɔ P p R r S s T t U u Ú ú Ù ù Ũ ũ V v Ʋ ʋ W w Y y Z z",
+    "alphabet": "A a Á á À à Ã ã B b D d Ɖ ɖ E e É é È è Ẽ ẽ Ɛ ɛ F f Ƒ ƒ G g Ɣ ɣ H h X x I i Í í Ì ì Ĩ ĩ K k L l M m N n Ŋ ŋ O o Ó ó Ò ò Õ õ Ɔ ɔ P p R r S s T t U u Ú ú Ù ù Ũ ũ V v Ʋ ʋ W w Y y Z z",
     "htmlTag": "ee",
     "opentypeTag": "EWE",
     "script": "Latn",
@@ -424,7 +424,7 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "alphabet": "​ A A a a Á á À à Ã ã B B b b C c D D d d Ɖ ɖ E E e e É é È è Ẽ ẽ Ɛ ɛ F F f f Ƒ ƒ G G g g Ɣ ɣ H H h h I I i i Í í Ì ì Ĩ ĩ J j K K k k L L l l M M m m N N n n Ŋ ŋ O O o o Ó ó Ò ò Õ õ Ɔ ɔ P P p p Q q R R r r S S s s T T t t U U u u Ú ú Ù ù Ũ ũ V V v v Ʋ ʋ W W w w X X x x Y Y y y Z Z z z"
+    "specialCharacters": "Á á À à Ã ã Ɖ ɖ É é È è Ẽ ẽ Ɛ ɛ Ƒ ƒ Ɣ ɣ Í í Ì ì Ĩ ĩ Ŋ ŋ Ó ó Ò ò Õ õ Ɔ ɔ Ú ú Ù ù Ũ ũ Ʋ ʋ"
   },
   {
     "language": "Ewondo",
@@ -675,7 +675,7 @@
     "sentences": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": "̃ Ã ã Ẽ ẽ Ĩ ĩ Ñ ñ Õ õ Ũ ũ Ỹ ỹ"
+    "specialCharacters": "Ã ã Ch ch Ẽ ẽ G̃ g̃ Ĩ ĩ Mb mb Ñ ñ Nd nd Ng ng Nt nt Õ õ Rr rr Ũ ũ Ỹ ỹ"
   },
   {
     "language": "Hausa",
@@ -695,7 +695,7 @@
     "sentences": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": "̃ Ɓ ɓ Ɗ ɗ Ƙ ƙ Ƴ ƴ ʼ"
+    "specialCharacters": "(Ƴ Ɓ ɓ Ɗ ɗ Ƙ ƙ R̃ r̃ Sh sh Ts ts ƴ) ʼ"
   },
   {
     "language": "Hungarian",
@@ -773,6 +773,7 @@
     "pangrams": [
       "Muharjo seorang xenofobia universal yang takut pada warga jazirah, contohnya Qatar."
     ],
+    "specialCharacters": "",
     "htmlTag": "id",
     "opentypeTag": "IND",
     "script": "Latn",
@@ -782,8 +783,7 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": "",
-    "alphabet": ""
+    "alphabet": "A a B b C c D d E e F f G g H h I i J j K k L l M m N n O o P p Q q R r S s T t U u V v W w X x Y y Z z"
   },
   {
     "language": "Irish",
@@ -822,6 +822,7 @@
         ]
       }
     ],
+    "specialCharacters": "À à É é È è Ì ì Ó ó Ò ò Ù ù",
     "htmlTag": "it",
     "opentypeTag": "ITA",
     "script": "Latn",
@@ -830,8 +831,7 @@
     "sentences": [],
     "paragraphs": [],
     "smallcaps": [],
-    "specialCharacters": "",
-    "alphabet": ""
+    "alphabet": "A a À à B b C c D d E e É é È è F f G g H h I i Ì ì J j K k L l M m N n O o Ó ó Ò ò P p Q q R r S s T t U u Ù ù V v W w X x Y y Z z"
   },
   {
     "language": "Jula",
@@ -841,7 +841,7 @@
     ],
     "region": "African",
     "speakers": 2200000,
-    "specialCharacters": "A B C D E Ɛ F G H I J K L M N Ɲ Ŋ O Ɔ P R S T U V W Y Z a b c d e ɛ f g h i j k l m n ɲ ŋ o ɔ p r s t u v w y z ",
+    "alphabet": "A a B b C c D d E e Ɛ ɛ F f G g H h I i J j K k L l M m N n Ɲ ɲ Ŋ ŋ O o Ɔ ɔ P p R r S s T t U u V v W w Y y Z z",
     "htmlTag": "dyu",
     "opentypeTag": "JUL",
     "script": "Latn",
@@ -852,7 +852,7 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "alphabet": "A A a a B B b b C C c c D D d d E E e e Ɛ ɛ F F f f G G g g H H h h I I i i J J j j K K k k L L l l M M m m N N n n Ɲ ɲ Ŋ ŋ O O o o Ɔ ɔ P P p p Q q R R r r S S s s T T t t U U u u V V v v W W w w X x Y Y y y Z Z z z"
+    "specialCharacters": "Ɛ ɛ Ɲ ɲ Ŋ ŋ Ɔ ɔ"
   },
   {
     "language": "Kabyle",
@@ -951,6 +951,7 @@
     "pangrams": [
       "Sic fugiens, dux, zelotypos, quam Karus haberis."
     ],
+    "specialCharacters": "",
     "htmlTag": "la",
     "opentypeTag": "LAT",
     "script": "Latn",
@@ -960,8 +961,7 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": "",
-    "alphabet": ""
+    "alphabet": "A a B b C c D d E e F f G g H h I i J j K k L l M m N n O o P p Q q R r S s T t U u V v W w X x Y y Z z"
   },
   {
     "language": "Latvian",
@@ -1009,8 +1009,8 @@
     "sentences": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": "",
-    "alphabet": ""
+    "specialCharacters": "Á á É é Ê ê Ɛ ɛ Ɛ́ ɛ́ Í í Ó ó Ô ô Ɔ ɔ Ɔ́ ɔ́ Ú ú",
+    "alphabet": "A a Á á B b C c D d E e É é Ê ê Ɛ ɛ Ɛ́ ɛ́ F f G g H h I i Í í J j K k L l M m N n O o Ó ó Ô ô Ɔ ɔ Ɔ́ ɔ́ P p Q q R r S s T t U u Ú ú V v W w X x Y y Z z"
   },
   {
     "language": "Lithuanian",
@@ -1048,7 +1048,7 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": "Ɛ ɛ Ɨ ɨ Ŋ ŋ Ɔ ɔ Ʉ ʉ ʔ"
+    "specialCharacters": "ch ɛ ɨ ny ŋ ɔ rr sh ʉ wu yi ʔ"
   },
   {
     "language": "Macedonian",
@@ -1074,18 +1074,19 @@
     "region": "European",
     "speakers": 520000,
     "script": "Latn",
-    "pangram": "L-Unjoni hija mibnija fuq il-valuri ta' rispett għad-dinjità tal-bniedem, ta' libertà, ta' demokrazija, ta' ugwaljanza, ta' l-istat tad-dritt u tar-rispett għad-drittijiet tal-bniedem, inklużi d-drittijiet ta' persuni li jagħmlu parti minn minoranzi. Dawn il-valuri huma komuni għall-Istati Membri f'soċjetà karatterizzata mill-pluraliżmu, in-non-diskriminazzjoni, it-tolleranza, il-ġustizzja, is-solidarjetà u l-ugwaljanza bejn in-nisa u l-irġiel.",
+    "pangrams": [
+      "L-Unjoni hija mibnija fuq il-valuri ta' rispett għad-dinjità tal-bniedem, ta' libertà, ta' demokrazija, ta' ugwaljanza, ta' l-istat tad-dritt u tar-rispett għad-drittijiet tal-bniedem, inklużi d-drittijiet ta' persuni li jagħmlu parti minn minoranzi. Dawn il-valuri huma komuni għall-Istati Membri f'soċjetà karatterizzata mill-pluraliżmu, in-non-diskriminazzjoni, it-tolleranza, il-ġustizzja, is-solidarjetà u l-ugwaljanza bejn in-nisa u l-irġiel."
+    ],
     "htmlTag": "mt",
     "opentypeTag": "MTS",
     "scriptName": "Latin",
-    "pangrams": [],
     "letterings": [],
     "sentences": [],
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": "",
-    "alphabet": ""
+    "specialCharacters": "À à Ċ ċ Ġ ġ Ħ ħ Ż ż",
+    "alphabet": "A a À à B b C c Ċ ċ D d E e F f G g Ġ ġ H h Ħ ħ I i J j K k L l M m N n O o P p Q q R r S s T t U u V v W w X x Y y Z z Ż ż"
   },
   {
     "language": "Mapudungun",
@@ -1124,7 +1125,7 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": "̧ ̄ Ā ā Ļ ļ Ņ ņ Ō ō Ū ū"
+    "specialCharacters": "Ā ā Ļ ļ M̧ m̧ Ņ ņ N̄ n̄ O̧ o̧ Ō ō Ū ū"
   },
   {
     "language": "Mongolian",
@@ -1150,7 +1151,7 @@
     "region": "African",
     "speakers": 240000,
     "script": "Latn",
-    "specialCharacters": "A B Ɓ C D Ɗ E Ə F G H I J K L M N Ŋ O P R S T U V W Y Z a b ɓ c d ɗ e ə f g h i j k l m n ŋ o p r s t u v w y z ã ẽ ə̃ ĩ õ",
+    "alphabet": "A a Ã ã B b Ɓ ɓ C c D d Ɗ ɗ E e Ẽ ẽ Ə ə Ə̃ ə̃ F f G g H h I i Ĩ ĩ J j K k L l M m N n Ŋ ŋ O o Õ õ P p R r S s T t U u V v W w Y y Z z",
     "htmlTag": "mua",
     "scriptName": "Latin",
     "pangrams": [],
@@ -1159,7 +1160,7 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "alphabet": "A A a a ã B B b b Ɓ ɓ C C c c D D d d Ɗ ɗ E E e e ẽ Ə ə ə̃ F F f f G G g g H H h h I I i i ĩ J J j j K K k k L L l l M M m m N N n n Ŋ ŋ O O o o õ P P p p Q q R R r r S S s s T T t t U U u u V V v v W W w w X x Y Y y y Z Z z z"
+    "specialCharacters": "Ã ã Ɓ ɓ Ɗ ɗ Ẽ ẽ Ə ə Ə̃ ə̃ Ĩ ĩ Ŋ ŋ Õ õ"
   },
   {
     "language": "Ngiemboon",
@@ -1542,8 +1543,8 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": "Ç ç Ğ ğ I ı Ö ö Ş ş Ü ü",
-    "alphabet": "A a B b C c Ç ç D d E e F f G g Ğ ğ H h I I i ı J j K k L l M m N n O o Ö ö P p Q q R r S s Ş ş T t U u Ü ü V v W w X x Y y Z z"
+    "specialCharacters": "Ç ç Ğ ğ ı Ö ö Ş ş Ü ü",
+    "alphabet": "A a B b C c Ç ç D d E e F f G g Ğ ğ H h I i ı J j K k L l M m N n O o Ö ö P p Q q R r S s Ş ş T t U u Ü ü V v W w X x Y y Z z"
   },
   {
     "language": "Ukrainian",
@@ -1650,8 +1651,8 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": "« » [ ] É é Ö ö Ü ü",
-    "alphabet": "« » [ ] A a B b C c D d E e É é F f G g H h I i J j K k L l M m N n O o Ö ö P p Q q R r S s T t U u Ü ü V v W w X x Y y Z z"
+    "specialCharacters": "« » É é Ö ö Ü ü",
+    "alphabet": "« » A a B b C c D d E e É é F f G g H h I i J j K k L l M m N n O o Ö ö P p Q q R r S s T t U u Ü ü V v W w X x Y y Z z"
   },
   {
     "language": "Welsh",
@@ -1707,8 +1708,8 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": "̩ Á á À à É é È è Ì ì Ń ń Ó ó Ò ò Ú ú",
-    "alphabet": "̩ A a Á á À à B b C c D d E e É é È è F f G g H h I i Ì ì J j K k L l M m N n Ń ń O o Ó ó Ò ò P p Q q R r S s T t U u Ú ú V v W w X x Y y Z z"
+    "specialCharacters": "Á á À à É é É̩ é̩ È̩ è̩ Ì ì Ń ń Ó ó Ó̩ ó̩ Ò̩ ò̩ S̩ s̩ Ú ú",
+    "alphabet": "A a Á á À à B b C c D d E e É é É̩ é̩ È̩ è̩ F f G g H h I i Ì ì J j K k L l M m N n Ń ń O o Ó ó Ó̩ ó̩ Ò̩ ò̩ P p Q q R r S s S̩ s̩ T t U u Ú ú V v W w X x Y y Z z"
   },
   {
     "language": "Zarma",
@@ -1736,6 +1737,7 @@
     "pangrams": [
       "Thina, bantu baseNingizimu Afrika, Siyakukhumbula ukucekelwa phansi kwamalungelo okwenzeka eminyakeni eyadlula;  Sibungaza labo abahluphekela ubulungiswa nenkululeko kulo mhlaba wethu;  Sihlonipha labo abasebenzela ukwakha nokuthuthukisa izwe lethu; futhi  Sikholelwa ekutheni iNingizimu Afrika ingeyabo bonke abahlala kuyo, sibumbene nakuba singafani."
     ],
+    "specialCharacters": "",
     "htmlTag": "zu",
     "opentypeTag": "ZUL",
     "script": "Latn",
@@ -1745,8 +1747,7 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": "",
-    "alphabet": ""
+    "alphabet": "A a B b C c D d E e F f G g H h I i J j K k L l M m N n O o P p Q q R r S s T t U u V v W w X x Y y Z z"
   },
   {
     "language": "IPA",

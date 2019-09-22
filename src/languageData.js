@@ -25,7 +25,7 @@ export default function () {
     language: 'Asturian',
     region: 'European',
     speakers: 351000,
-    specialCharacters: 'ḷḷeite ḷḷinu ḥou, ḥenu, ḥuera',
+    specialCharacters: 'ḥ ḷ',
     paragraphs: ['Tolos seres humanos nacen llibres y iguales en dignidá y drechos y, pola mor de la razón y la conciencia de so, han comportase hermaniblemente los unos colos otros.'],
   },
   {
@@ -105,7 +105,7 @@ export default function () {
     language: 'Dagbani',
     region: 'African',
     speakers: 1160 * THOUSAND,
-    specialCharacters: 'A B CH D E Ɛ F G GB Ɣ H I J K KP L M N NY Ŋ O Ɔ P R S SH T U W Y Z Ʒ ’ a b ch d e ɛ f g gb ɣ h i j k kp l m n ny ŋ o ɔ p r s sh t u w y z ʒ ’ ',
+    alphabet: '’ A a B b CH ch D d E e Ɛ ɛ F f G g GB gb Ɣ ɣ H h I i J j K k KP kp L l M m N n NY ny Ŋ ŋ O o Ɔ ɔ P p R r S s SH sh T t U u W w Y y Z z Ʒ ʒ',
   },
   {
     language: 'Danish',
@@ -149,7 +149,7 @@ export default function () {
     ],
     numerals: ['Unicode just made its new emoji list for 2019 official, and the update adds 230 new symbols, including a yawning face, white heart, and pinching hand symbol.', 'Though the list of new emoji has now been finalized, it will still be several months before the update hits your phone. Unicode will release the update in March, but it will take some time after that for apps and operating systems to roll out support for the new characters. Updates will start hitting in April and continue through the end of the year, according to Emojipedia.'],
     smallcaps: ['Private Johnson went <span style="font-variant-caps: all-small-caps;">AWOL</span> after he received an order to join major combat forces in Iraq.', 'Developing apps requires a knowledge of <span style="font-variant-caps: all-small-caps;">html</span> and JavaScript, and that\'s it.', 'This nomination will be examined in 2009 by the responsible <span style="font-variant-caps: all-small-caps;">UNESCO</span> Committee.'],
-    specialCharacters: '',
+    specialCharacters: '', // empty, allows alphabet to be auto-generated
     optionalCharacters: '', /* todo: include letters with diereses and others used in common loans */
   },
   {
@@ -157,7 +157,7 @@ export default function () {
     region: 'African',
     speakers: 6.5 * MILLION,
     pangrams: ['Ʋu axaléɖiƒe. Wo dona Eʋegbe le Ghana kple Togo kpakple Benin Dahumey dukɔ siwo le Afrika ƒe ɣetoɖoƒe lɔƒo la me. Gbe gbɔgblɔ siwo teɖe Eʋegbe ŋu wonye Fɔŋgbe kpakple Adzágbe. Esiawo katã wonye Gbe siwo doƒome kple Ʋegbe. Ŋɔŋlɔdzesi blaetɔ̃ ye le Eʋegbe me.'],
-    specialCharacters: 'A a Á á À à Ã ã B b D d Ɖ ɖ E e É é È è Ẽ ẽ Ɛ ɛ F f Ƒ ƒ G g Ɣ ɣ H h X x I i Í í Ì ì Ĩ ĩ K k L l M m N n Ŋ ŋ O o Ó ó Ò ò Õ õ Ɔ ​ ɔ P p R r S s T t U u Ú ú Ù ù Ũ ũ V v Ʋ ʋ W w Y y Z z',
+    alphabet: 'A a Á á À à Ã ã B b D d Ɖ ɖ E e É é È è Ẽ ẽ Ɛ ɛ F f Ƒ ƒ G g Ɣ ɣ H h X x I i Í í Ì ì Ĩ ĩ K k L l M m N n Ŋ ŋ O o Ó ó Ò ò Õ õ Ɔ ɔ P p R r S s T t U u Ú ú Ù ù Ũ ũ V v Ʋ ʋ W w Y y Z z',
   },
   {
     language: 'Ewondo',
@@ -285,6 +285,7 @@ export default function () {
     speakers: 43 * MILLION,
     region: 'Asian',
     pangrams: ['Muharjo seorang xenofobia universal yang takut pada warga jazirah, contohnya Qatar.'],
+    specialCharacters: "",
   },
   {
     language: 'Irish',
@@ -302,13 +303,14 @@ export default function () {
       tags: ['metrics'],
       tests: ["curly quotes: d’A L’A l’A, straight quotes: d'A L'A l'A"],
     }],
+    specialCharacters: "À à É é È è Ì ì Ó ó Ò ò Ù ù",
   },
   {
     language: 'Jula',
     altNames: ['Dyula', 'Dioula'],
     region: 'African',
     speakers: 2.2 * MILLION,
-    specialCharacters: 'A B C D E Ɛ F G H I J K L M N Ɲ Ŋ O Ɔ P R S T U V W Y Z a b c d e ɛ f g h i j k l m n ɲ ŋ o ɔ p r s t u v w y z ',
+    alphabet: 'A a B b C c D d E e Ɛ ɛ F f G g H h I i J j K k L l M m N n Ɲ ɲ Ŋ ŋ O o Ɔ ɔ P p R r S s T t U u V v W w Y y Z z',
   },
   {
     language: 'Kabyle',
@@ -350,6 +352,7 @@ export default function () {
     speakers: 0,
     region: 'European',
     pangrams: ['Sic fugiens, dux, zelotypos, quam Karus haberis.'],
+    specialCharacters: "",
   },
   {
     language: 'Latvian',
@@ -394,7 +397,7 @@ export default function () {
     region: 'European',
     speakers: 520 * THOUSAND,
     script: 'Latn',
-    pangram: "L-Unjoni hija mibnija fuq il-valuri ta' rispett għad-dinjità tal-bniedem, ta' libertà, ta' demokrazija, ta' ugwaljanza, ta' l-istat tad-dritt u tar-rispett għad-drittijiet tal-bniedem, inklużi d-drittijiet ta' persuni li jagħmlu parti minn minoranzi. Dawn il-valuri huma komuni għall-Istati Membri f'soċjetà karatterizzata mill-pluraliżmu, in-non-diskriminazzjoni, it-tolleranza, il-ġustizzja, is-solidarjetà u l-ugwaljanza bejn in-nisa u l-irġiel.",
+    pangrams: ["L-Unjoni hija mibnija fuq il-valuri ta' rispett għad-dinjità tal-bniedem, ta' libertà, ta' demokrazija, ta' ugwaljanza, ta' l-istat tad-dritt u tar-rispett għad-drittijiet tal-bniedem, inklużi d-drittijiet ta' persuni li jagħmlu parti minn minoranzi. Dawn il-valuri huma komuni għall-Istati Membri f'soċjetà karatterizzata mill-pluraliżmu, in-non-diskriminazzjoni, it-tolleranza, il-ġustizzja, is-solidarjetà u l-ugwaljanza bejn in-nisa u l-irġiel."],
   },
   {
     language: 'Mapudungun',
@@ -422,7 +425,7 @@ export default function () {
     region: 'African',
     speakers: 240 * THOUSAND,
     script: 'Latn',
-    specialCharacters: 'A B Ɓ C D Ɗ E Ə F G H I J K L M N Ŋ O P R S T U V W Y Z a b ɓ c d ɗ e ə f g h i j k l m n ŋ o p r s t u v w y z ã ẽ ə̃ ĩ õ',
+    alphabet: 'A a Ã ã B b Ɓ ɓ C c D d Ɗ ɗ E e Ẽ ẽ Ə ə Ə̃ ə̃ F f G g H h I i Ĩ ĩ J j K k L l M m N n Ŋ ŋ O o Õ õ P p R r S s T t U u V v W w Y y Z z',
   },
   {
     language: 'Ngiemboon',
@@ -646,6 +649,7 @@ export default function () {
     region: 'African',
     speakers: 12 * MILLION,
     pangrams: ['Thina, bantu baseNingizimu Afrika, Siyakukhumbula ukucekelwa phansi kwamalungelo okwenzeka eminyakeni eyadlula;  Sibungaza labo abahluphekela ubulungiswa nenkululeko kulo mhlaba wethu;  Sihlonipha labo abasebenzela ukwakha nokuthuthukisa izwe lethu; futhi  Sikholelwa ekutheni iNingizimu Afrika ingeyabo bonke abahlala kuyo, sibumbene nakuba singafani.'],
+    specialCharacters: "",
   },
   {
     language: 'IPA',

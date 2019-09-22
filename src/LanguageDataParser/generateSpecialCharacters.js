@@ -1,3 +1,4 @@
+import GraphemeSplitter from "grapheme-splitter";
 import genCharArray from "./generateCharArray";
 
 export default function (entry, originalEntry) {
@@ -6,15 +7,23 @@ export default function (entry, originalEntry) {
     letters = originalEntry.alphabet.split(' ');
   }
   else {
-    let pangram = (entry.pangrams
-      || [ ...entry.letteringsm, ...entry.paragraphs, ...entry.sentences]
-    ).join('');
+    let pangram = [
+      ...entry.pangrams,
+      ...entry.letterings,
+      ...entry.paragraphs,
+      ...entry.sentences
+    ].join('');
+
+    if (entry.language == "Maltese") {
+      console.log(pangram)
+    }
     let str = pangram.toLowerCase() + pangram.toUpperCase()
-    // won't work for combining diacritics - TODO
-    const set = new Set(str.split(''));
+    const splitter = new GraphemeSplitter();
+    const graphemes = splitter.splitGraphemes(str);
+    const set = new Set(graphemes);
     letters = Array.from(set)
   }
-  
+
   let specialCharacters = '';
   if (entry.script == 'Latn') {
     const abc = genCharArray('a', 'z').join('');
