@@ -553,6 +553,7 @@
         ]
       }
     ],
+    "specialCharacters": "À à Â â Æ æ Ç ç É é È è Ê ê Ë ë Î î Ï ï Ô ô Œ œ Ù ù Û û Ü ü Ÿ ÿ",
     "htmlTag": "fr",
     "opentypeTag": "FRA",
     "script": "Latn",
@@ -561,8 +562,7 @@
     "sentences": [],
     "paragraphs": [],
     "smallcaps": [],
-    "specialCharacters": "É é È è Ë ë Œ œ",
-    "alphabet": "A a B b C c D d E e É é È è Ë ë F f G g H h I i J j K k L l M m N n O o Œ œ P p Q q R r S s T t U u V v W w X x Y y Z z"
+    "alphabet": "A a À à Â â Æ æ B b C c Ç ç D d E e É é È è Ê ê Ë ë F f G g H h I i Î î Ï ï J j K k L l M m N n O o Ô ô Œ œ P p Q q R r S s T t U u Ù ù Û û Ü ü V v W w X x Y y Ÿ ÿ Z z"
   },
   {
     "language": "West Frisian",

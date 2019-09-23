@@ -206,6 +206,7 @@ export default function () {
       tags: ['metrics'],
       tests: ["curly quotes: d’A L’A l’A, straight quotes: d'A L'A l'A"],
     }],
+    specialCharacters: 'À à Â â Æ æ Ç ç É é È è Ê ê Ë ë Î î Ï ï Ô ô Œ œ Ù ù Û û Ü ü Ÿ ÿ',
   },
   {
     language: 'West Frisian',
