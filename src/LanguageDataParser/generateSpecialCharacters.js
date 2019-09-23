@@ -14,7 +14,14 @@ export default function (entry, originalEntry) {
       ...entry.sentences
     ].join('');
 
-    let str = pangram.toLowerCase() + pangram.toUpperCase()
+    let str = pangram.toLowerCase() + pangram.toUpperCase();
+
+    if (str.indexOf('ı')) { // if "ı" is present, it is a Turkic language
+      str += 'İ'; // "i".toUpperCase() returns I instead of İ, so add it manually
+    }
+    
+    str = str.replace(/i̇/g, 'i'); // i followed by combining dot above => just "i"
+    
     const splitter = new GraphemeSplitter();
     const graphemes = splitter.splitGraphemes(str);
     const set = new Set(graphemes);
