@@ -16,7 +16,7 @@ export default function (entry, originalEntry) {
 
     let str = pangram.toLowerCase() + pangram.toUpperCase();
 
-    if (str.indexOf('ı')) { // if "ı" is present, it is a Turkic language
+    if (str.indexOf('ı') > -1) { // if "ı" is present, it is a Turkic language
       str += 'İ'; // "i".toUpperCase() returns I instead of İ, so add it manually
     }
     
