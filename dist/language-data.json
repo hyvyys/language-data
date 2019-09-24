@@ -154,6 +154,7 @@
     "pangrams": [
       "Yec’hed mat Jakez ! Skarzhit ar gwerennoù-mañ, kavet e vo gwin betek fin ho puhez."
     ],
+    "specialCharacters": "Â â Ê ê Î î Ñ ñ Ô ô Û û Ù ù Ü ü",
     "htmlTag": "br",
     "opentypeTag": "BRE",
     "script": "Latn",
@@ -163,8 +164,7 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": "Ñ ñ Ù ù",
-    "alphabet": "A a B b C c D d E e F f G g H h I i J j K k L l M m N n Ñ ñ O o P p Q q R r S s T t U u Ù ù V v W w X x Y y Z z"
+    "alphabet": "A a Â â B b C c D d E e Ê ê F f G g H h I i Î î J j K k L l M m N n Ñ ñ O o Ô ô P p Q q R r S s T t U u Ù ù Û û Ü ü V v W w X x Y y Z z"
   },
   {
     "language": "Bulgarian",

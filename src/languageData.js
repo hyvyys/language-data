@@ -61,6 +61,7 @@ export default function () {
     region: 'European',
     speakers: 210 * THOUSAND,
     pangrams: ['Yec’hed mat Jakez ! Skarzhit ar gwerennoù-mañ, kavet e vo gwin betek fin ho puhez.'],
+    specialCharacters: 'Â â Ê ê Î î Ñ ñ Ô ô Û û Ù ù Ü ü',
   },
   {
     language: 'Bulgarian',
