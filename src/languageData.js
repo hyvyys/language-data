@@ -92,8 +92,11 @@ export default function () {
       tags: ['metrics'],
       description: 'The vertical form of the caron diacritic found with <em>d</em> and <em>t</em> should be kerned against lowercase letters and punctuation.',
       tests: [
-        'Loďka ďábelska ďatlov ďábel objížďka buďto dešť loď',
-        'loď. loď, loď: loď; loď- loď?',
+        'loďka ďábelska ďatlov ďábel objížďka buďto',
+        'břeťa cenťák žesťový řiťka opúšťať hradišťský tchaj-ťi šťuka dvanásťročný',
+        'loď. loď, loď: loď; loď- loď? loď!',
+        'dešť. dešť, dešť; dešť: dešť- dešť? dešť!',
+        'ď” ľ” ť” ď“ ľ“ ť“',
       ],
     }, {
       topic: 'ring above',
@@ -530,8 +533,14 @@ export default function () {
       tags: ['metrics'],
       description: 'The vertical form of the caron diacritic found with <em>d</em>, <em>L</em>, <em>l</em> and <em>t</em> should be kerned against lowercase letters and punctuation.',
       tests: [
-        'Ľadovec Ľudovít loďka ďábelska ďatlov ďábel objížďka buďto veľký dešť ľuľkovité loď ĽM',
-        'loď, loď: loď; loď- loď?',
+        'loďka ďábelska ďatlov ďábel objížďka buďto',
+        'Ľadovec Ľudovít ĽM ',
+        'veľký ľuľkovité Iľja Akýkoľvek Teľa Diaľnica',
+        'břeťa cenťák žesťový řiťka opúšťať hradišťský tchaj-ťi šťuka dvanásťročný',
+        'loď. loď, loď: loď; loď- loď? loď!',
+        'čmeľ. čmeľ, čmeľ; čmeľ: čmeľ- čmeľ? čmeľ!',
+        'dešť. dešť, dešť; dešť: dešť- dešť? dešť!',
+        'ď” ľ” ť” ď“ ľ“ ť“',
       ],
     }, {
       topic: 'caron and inverted caron',

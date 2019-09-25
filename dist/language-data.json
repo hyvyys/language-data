@@ -241,8 +241,11 @@
         ],
         "description": "The vertical form of the caron diacritic found with <em>d</em> and <em>t</em> should be kerned against lowercase letters and punctuation.",
         "tests": [
-          "Loďka ďábelska ďatlov ďábel objížďka buďto dešť loď",
-          "loď. loď, loď: loď; loď- loď?"
+          "loďka ďábelska ďatlov ďábel objížďka buďto",
+          "loď. loď, loď: loď; loď- loď? loď!",
+          "Ľadovec Ľudovít veľký ľuľkovité ĽM",
+          "břeťa cenťák žesťový řiťka opúšťať hradišťský tchaj-ťi šťuka dvanásťročný",
+          "ď” ľ” ť” ď“ ľ“ ť“"
         ]
       },
       {
@@ -1412,8 +1415,11 @@
         ],
         "description": "The vertical form of the caron diacritic found with <em>d</em>, <em>L</em>, <em>l</em> and <em>t</em> should be kerned against lowercase letters and punctuation.",
         "tests": [
-          "Ľadovec Ľudovít loďka ďábelska ďatlov ďábel objížďka buďto veľký dešť ľuľkovité loď ĽM",
-          "loď, loď: loď; loď- loď?"
+          "loďka ďábelska ďatlov ďábel objížďka buďto",
+          "loď. loď, loď: loď; loď- loď? loď!",
+          "Ľadovec Ľudovít veľký ľuľkovité ĽM",
+          "břeťa cenťák žesťový řiťka opúšťať hradišťský tchaj-ťi šťuka dvanásťročný",
+          "ď” ľ” ť” ď“ ľ“ ť“"
         ]
       },
       {
