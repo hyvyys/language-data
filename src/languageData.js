@@ -86,7 +86,7 @@ export default function () {
       {
         topic: 'punt volat',
         tags: ['metrics', 'contextual', 'localization'],
-        description: 'Localized variants of /periodcentered, visually centered between two L\'s or l\'s.',
+        description: 'Localized variants of <em>periodcentered</em>, visually centered between two letters <em>L</em> and <em>l</em>, respectively.',
         tests: [
           'il·lús cal·lígraf sibil·la ombrel·la novel·la metàl·lic',
           'IL·LÚS CAL·LÍGRAF SIBIL·LA OMBREL·LA NOVEL·LA METÀL·LIC',
@@ -604,7 +604,7 @@ export default function () {
       {
         topic: 'Dotted/dotless i',
         tags: ['localization'],
-        description: 'Small caps and all-caps fonts need special consideration for Turkic languages, which map lowercase /i to uppercase /Idotaccent, and uppercase /I to lowercase /dotlessi. OpenType codes: assign this feature to languages TRK, AZE, CRT, TAT, KAZ of script latn.',
+        description: 'Small caps and all-caps fonts need special consideration for Turkic languages, which map lowercase <em>i</em> to uppercase <em>Idotaccent</em>, and uppercase <em>I</em> to lowercase <em>dotlessi</em>. OpenType codes: assign this feature to languages <code>TRK, AZE, CRT, TAT, KAZ</code> of script <code>latn</code>.',
         tests: [
           '“kevgir” & “direk” always have dots',
           '“Işım” has no dots',
