@@ -82,6 +82,17 @@ export default function () {
     region: 'European',
     speakers: million(4.1),
     pangrams: ['«Dóna amor que seràs feliç!». Això, il·lús company geniüt, ja és un lluït rètol blavís d’onze kWh. aïllament'],
+    gotchas: [
+      {
+        topic: 'punt volat',
+        tags: ['metrics', 'contextual', 'localization'],
+        description: 'Localized variants of /periodcentered, visually centered between two L\'s or l\'s.',
+        tests: [
+          'il·lús cal·lígraf sibil·la ombrel·la novel·la metàl·lic',
+          'IL·LÚS CAL·LÍGRAF SIBIL·LA OMBREL·LA NOVEL·LA METÀL·LIC',
+        ],
+      }
+    ],
   },
   {
     language: 'Croatian',
@@ -589,6 +600,18 @@ export default function () {
     region: 'European',
     speakers: million(63),
     pangrams: ['Pijamalı hasta yağız şoföre çabucak güvendi. Öküz ajan hapse düştü yavrum, ocağı felç gibi.'],
+    gotchas: [
+      {
+        topic: 'Dotted/dotless i',
+        tags: ['localization'],
+        description: 'Small caps and all-caps fonts need special consideration for Turkic languages, which map lowercase /i to uppercase /Idotaccent, and uppercase /I to lowercase /dotlessi. OpenType codes: assign this feature to languages TRK, AZE, CRT, TAT, KAZ of script latn.',
+        tests: [
+          '“kevgir” & “direk” always have dots',
+          '“Işım” has no dots',
+          '“haritacı” & “siyahımsı” have dots over the first i only',
+        ],
+      }
+    ],
   },
   {
     language: 'Ukrainian',

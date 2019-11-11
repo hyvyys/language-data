@@ -195,6 +195,21 @@
     "pangrams": [
       "«Dóna amor que seràs feliç!». Això, il·lús company geniüt, ja és un lluït rètol blavís d’onze kWh. aïllament"
     ],
+    "gotchas": [
+      {
+        "topic": "punt volat",
+        "tags": [
+          "metrics",
+          "contextual",
+          "localization"
+        ],
+        "description": "Localized variants of /periodcentered, visually centered between two L's or l's.",
+        "tests": [
+          "il·lús cal·lígraf sibil·la ombrel·la novel·la metàl·lic",
+          "IL·LÚS CAL·LÍGRAF SIBIL·LA OMBREL·LA NOVEL·LA METÀL·LIC"
+        ]
+      }
+    ],
     "htmlTag": "ca",
     "opentypeTag": "CAT",
     "script": "Latn",
@@ -203,7 +218,6 @@
     "sentences": [],
     "paragraphs": [],
     "smallcaps": [],
-    "gotchas": [],
     "specialCharacters": "· « » À à Ç ç É é È è Í í Ï ï Ó ó Ò ò Ú ú Ü ü",
     "alphabet": "· « » A a À à B b C c Ç ç D d E e É é È è F f G g H h I i Í í Ï ï J j K k L l M m N n O o Ó ó Ò ò P p Q q R r S s T t U u Ú ú Ü ü V v W w X x Y y Z z"
   },
@@ -1543,6 +1557,20 @@
     "pangrams": [
       "Pijamalı hasta yağız şoföre çabucak güvendi. Öküz ajan hapse düştü yavrum, ocağı felç gibi."
     ],
+    "gotchas": [
+      {
+        "topic": "Dotted/dotless i",
+        "tags": [
+          "localization"
+        ],
+        "description": "Small caps and all-caps fonts need special consideration for Turkic languages, which map lowercase /i to uppercase /Idotaccent, and uppercase /I to lowercase /dotlessi. OpenType codes: assign this feature to languages TRK, AZE, CRT, TAT, KAZ of script latn.",
+        "tests": [
+          "“kevgir” & “direk” always have dots",
+          "“Işım” has no dots",
+          "“haritacı” & “siyahımsı” have dots over the first i only"
+        ]
+      }
+    ],
     "htmlTag": "tr",
     "opentypeTag": "TRK",
     "script": "Latn",
@@ -1551,7 +1579,6 @@
     "sentences": [],
     "paragraphs": [],
     "smallcaps": [],
-    "gotchas": [],
     "specialCharacters": "Ç ç Ğ ğ ı İ Ö ö Ş ş Ü ü",
     "alphabet": "A a B b C c Ç ç D d E e F f G g Ğ ğ H h I ı İ i J j K k L l M m N n O o Ö ö P p Q q R r S s Ş ş T t U u Ü ü V v W w X x Y y Z z"
   },
