@@ -442,7 +442,7 @@ export default function () {
       {
         topic: 'cedilla',
         tags: ['localization'],
-        description: 'Marshallese support requires combining <em>cedilla</em> with letters <em>M</em> and <em>O</em>, as no precomposed codepoints exist for there letters. Furthermore, <em>L</em> and <em>N</em> cedilla accents are preferred to be rendered with actual <em>cedilla</em>s, and not <em>comma</em> accents as required for Latvian usage.',
+        description: 'Marshallese support requires combining <em>cedilla</em> with letters <em>M</em> and <em>O</em>, as no precomposed codepoints exist for these letters. Furthermore, <em>L</em> and <em>N</em> cedilla accents are preferred to be rendered with actual <em>cedilla</em>s, and not <em>comma</em> accents as required for Latvian usage.',
         tests: ['katļo̧k Ļaņtōn M̧ajeļ'],
       },
     ],
