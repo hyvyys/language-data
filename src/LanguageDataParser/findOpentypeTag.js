@@ -7,5 +7,9 @@ export default function findOpentypeTag(entry) {
     return;
   }
   let tag = ietfToOpenType(htmlTag);
+  if (!tag) {
+    console.warn(`No OpenType tag for language ${entry.language}, HTML tag ${htmlTag}.`)
+    return;
+  }
   return tag;
 }

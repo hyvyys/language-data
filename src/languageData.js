@@ -32,6 +32,7 @@ export default function () {
     language: 'Asturian',
     region: 'European',
     speakers: thousand(351),
+    opentypeTag: 'AST ',
     specialCharacters: 'Ḥ ḥ Ḷ ḷ',
     paragraphs: ['Tolos seres humanos nacen llibres y iguales en dignidá y drechos y, pola mor de la razón y la conciencia de so, han comportase hermaniblemente los unos colos otros.'],
   },
@@ -338,6 +339,7 @@ export default function () {
     language: 'Kabyle',
     region: 'African',
     speakers: million(5.5),
+    opentypeTag: 'KAB0',
     pangrams: ['Yiwen wass, Ğeḥḥa yefka-yas baba-s frank, akken ad d-yaɣ aqerruy n tixsi. Yuɣ-it-id, yečča akk aksum-is. Yeqqim-d uceqlal d ilem, yewwi-yas-t-id i baba-s. Ihi, mi t-iwala yenna-yas: "acu-t wa?" yenna-yas: "d aqerruy n tixsi". – A ccmata, anida llan imeẓẓuɣen-is?'],
   },
   {
@@ -432,8 +434,18 @@ export default function () {
     region: 'Austronesian',
     speakers: 55000,
     script: 'Latn',
+    opentypeTag: 'MAH ',
+    htmlTag: 'mh',
     pangrams: ['E-ar den̄ōt er. N̄a i-j yokwe ajiri ro nej-ū. em̧m̧an io̧kwe ļalem M̧aaj M̧aļo-eļap '],
     alphabet: 'A a Ā ā B b D d E e I i J j K k L l Ļ ļ M m M̧ m̧ N n Ņ ņ N̄ n̄ O o O̧ o̧ Ō ō P p R r T t U u Ū ū W w',
+    gotchas: [
+      {
+        topic: 'cedilla',
+        tags: ['localization'],
+        description: 'Marshallese support requires combining <em>cedilla</em> with letters <em>M</em> and <em>O</em>, as no precomposed codepoints exist for there letters. Furthermore, <em>L</em> and <em>N</em> cedilla accents are preferred to be rendered with actual <em>cedilla</em>s, and not <em>comma</em> accents as required for Latvian usage.',
+        tests: ['katļo̧k Ļaņtōn M̧ajeļ'],
+      },
+    ],
   },
   {
     language: 'Mongolian',
@@ -593,6 +605,7 @@ export default function () {
     language: 'Tagalog',
     region: 'Austronesian',
     speakers: million(28),
+    opentypeTag: 'TGL ',
     pangrams: ['Ang bawat rehistradong kalahok sa patimpalak ay umaasang magantimpalaan ng ñino.'],
   },
   {
