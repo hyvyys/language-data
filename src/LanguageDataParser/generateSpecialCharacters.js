@@ -31,8 +31,9 @@ export default function (entry, originalEntry) {
   let specialCharacters = '';
   if (entry.script == 'Latn') {
     const abc = genCharArray('a', 'z').join('');
+    const digits = '0-9';
     const punct = ' ,.;:!?"\'„“”‘’()\\[\\]{}–—-';
-    const regex = new RegExp(`^[${abc + punct}]$`, 'i');
+    const regex = new RegExp(`^[${abc + digits + punct}]$`, 'i');
     specialCharacters = letters
       .filter(c => c)
       .filter(c => c !== ' ')

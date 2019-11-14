@@ -515,8 +515,8 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": "1 8 Å å Ä ä Ö ö",
-    "alphabet": "1 8 A a B b C c D d E e F f G g H h I i J j K k L l M m N n O o P p Q q R r S s T t U u V v W w X x Y y Z z Å å Ä ä Ö ö"
+    "specialCharacters": "Å å Ä ä Ö ö",
+    "alphabet": "A a B b C c D d E e F f G g H h I i J j K k L l M m N n O o P p Q q R r S s T t U u V v W w X x Y y Z z Å å Ä ä Ö ö"
   },
   {
     "language": "Fon",
@@ -1145,7 +1145,7 @@
         "tags": [
           "localization"
         ],
-        "description": "Marshallese support requires combining <em>cedilla</em> with letters <em>M</em> and <em>O</em>, as no precomposed codepoints exist for these letters. Furthermore, <em>L</em> and <em>N</em> cedilla accents are preferred to be rendered with actual <em>cedilla</em>s, and not <em>comma</em> accents as required for Latvian usage. The cedilla should be centered below all letters, including <em>M</em>",
+        "description": "Marshallese support requires combining <em>cedilla</em> with letters <em>M</em> and <em>O</em>, as no precomposed codepoints exist for these letters. Furthermore, <em>L</em> and <em>N</em> cedilla accents are preferred to be rendered with actual <em>cedilla</em>s, and not <em>comma</em> accents as required for Latvian usage. The cedilla should be centered below all letters, including <em>M</em> and <em>N</en>",
         "tests": [
           "katļo̧k Ļaņtōn M̧ajeļ"
         ]
