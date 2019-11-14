@@ -136,7 +136,7 @@
     "region": "African",
     "speakers": 0,
     "script": "Latn",
-    "specialCharacters": "Č Ḍ Ɛ Ǧ Ɣ Ḥ Ř Ṛ Ṣ Ṭ Ẓ",
+    "specialCharacters": "Č Ḍ Ɛ Ǧ Ɣ Ḥ Ř Ṛ Ṣ Ṭ Ẓ č ḍ ɛ ǧ ɣ ḥ ř ṛ ṣ ṭ ẓ",
     "htmlTag": "ber",
     "opentypeTag": "BBR",
     "scriptName": "Latin",
@@ -146,7 +146,7 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "alphabet": "A a B b C c Č D d Ḍ E e Ɛ F f G g Ǧ Ɣ H h Ḥ I i J j K k L l M m N n O o P p Q q R r Ř Ṛ S s Ṣ T t Ṭ U u V v W w X x Y y Z z Ẓ"
+    "alphabet": "A a B b C c Č č D d Ḍ ḍ E e Ɛ ɛ F f G g Ǧ ǧ Ɣ ɣ H h Ḥ ḥ I i J j K k L l M m N n O o P p Q q R r Ř ř Ṛ ṛ S s Ṣ ṣ T t Ṭ ṭ U u V v W w X x Y y Z z Ẓ ẓ"
   },
   {
     "language": "Breton",

@@ -62,7 +62,7 @@ export default function () {
     region: 'African',
     speakers: 0,
     script: 'Latn',
-    specialCharacters: 'Č Ḍ Ɛ Ǧ Ɣ Ḥ Ř Ṛ Ṣ Ṭ Ẓ',
+    specialCharacters: 'Č Ḍ Ɛ Ǧ Ɣ Ḥ Ř Ṛ Ṣ Ṭ Ẓ č ḍ ɛ ǧ ɣ ḥ ř ṛ ṣ ṭ ẓ',
   },
   {
     language: 'Breton',
