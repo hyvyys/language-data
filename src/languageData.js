@@ -34,7 +34,25 @@ export default function () {
     speakers: thousand(351),
     opentypeTag: 'AST ',
     specialCharacters: 'Ḥ ḥ Ḷ ḷ',
-    paragraphs: ['Tolos seres humanos nacen llibres y iguales en dignidá y drechos y, pola mor de la razón y la conciencia de so, han comportase hermaniblemente los unos colos otros.'],
+    paragraphs: [
+      'Tolos seres humanos nacen llibres y iguales en dignidá y drechos y, pola mor de la razón y la conciencia de so, han comportase hermaniblemente los unos colos otros.'
+    ],
+  },
+  {
+    language: 'Armenian',
+    region: 'Caucasian',
+    speakers: million(6.7),
+    opentypeTag: 'HYE ',
+    script: 'Armn',
+    pangrams: [
+      'Բել դղյակի ձախ ժամն օֆ ազգությանը ցպահանջ չճշտած վնաս էր եւ փառք։',
+      'Չին ֆիզիկոսը օճառաջուր ցողելով բժշկում է հայ գնդապետի փքված ձախ թևը:',
+    ],
+    paragraphs: [
+      'Ամբողջագրերի ակնհայտ կիրառություններից զատ՝ տառատեսակների ներկայացում, հաղորդալարերի միջոցով գրվածքի փոխանցման ստուգում, տպիչ մեքենաների փորձարկում և այլն, առաջարկվում էր այն օգտագործեկ ծածկագրության մեջ:',
+      'Ճապոներենում «Իրոխա» ամբողջագիրը կիրառվում է որպես այբբենական շարվածքի համարժեքներից մեկը XI դարից սկսած:',
+    ],
+    alphabet: 'Ա ա Բ բ Գ գ Դ դ Ե ե Զ զ Է է Ը ը Թ թ Ժ ժ Ի ի Լ լ Խ խ Ծ ծ Կ կ Հ հ Ձ ձ Ղ ղ Ճ ճ Մ մ Յ յ Ն ն Շ շ Ո ո Չ չ Պ պ Ջ ջ Ռ ռ Ս ս Վ վ Տ տ Ր ր Ց ց Ւ ւ Փ փ Ք ք Օ օ Ֆ ֆ ՈՒ ու ԵՒ և',
   },
   {
     language: 'Azeri',
