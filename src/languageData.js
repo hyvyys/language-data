@@ -27,6 +27,16 @@ export default function () {
     speakers: million(32),
     specialCharacters: 'Ɛ ɛ Ɔ ɔ Á á É é Ɛ́ ɛ́ Í í Ḿ ḿ Ń ń Ó ó Ɔ́ ɔ́ Ú ú À à È è Ɛ̀ ɛ̀ Ì ì M̀ m̀ Ǹ ǹ Ò ò Ɔ̀ ɔ̀ Ù ù',
     paragraphs: ['Dèdé: Èhé nà Kégyétíá wó? Méfá kwáń béǹ só ákó hó? Kyèí: Kò w’àníḿ tèè kòsí sè wóbéhúnú sòtóò bí áà yéátwéré àníḿ sé ‘Ònyàmé túmí’.'],
+    gotchas: [
+      {
+        topic: 'mark positioning',
+        tags: ['mark'],
+        description: 'Acute and grave must be positioned properly (centered) over letters open E and open O (Ɛ́ ɛ́ Ɛ̀ ɛ̀ Ɔ́ ɔ́ Ɔ̀ ɔ̀), as these combinations do not have precomposed diacritics.',
+        tests: [
+          'Ɛ́ ɛ́ Ɛ̀ ɛ̀ Ɔ́ ɔ́ Ɔ̀ ɔ̀',
+        ],
+      },
+    ],
   },
   {
     language: 'Asturian',
@@ -53,6 +63,7 @@ export default function () {
       'Ճապոներենում «Իրոխա» ամբողջագիրը կիրառվում է որպես այբբենական շարվածքի համարժեքներից մեկը XI դարից սկսած:',
     ],
     alphabet: 'Ա ա Բ բ Գ գ Դ դ Ե ե Զ զ Է է Ը ը Թ թ Ժ ժ Ի ի Լ լ Խ խ Ծ ծ Կ կ Հ հ Ձ ձ Ղ ղ Ճ ճ Մ մ Յ յ Ն ն Շ շ Ո ո Չ չ Պ պ Ջ ջ Ռ ռ Ս ս Վ վ Տ տ Ր ր Ց ց Ւ ւ Փ փ Ք ք Օ օ Ֆ ֆ ՈՒ ու ԵՒ և',
+    specialCharacters: '՝ ․ ։ ֊ ՟ ՚ ՜ ՛ ՞',
   },
   {
     language: 'Azeri',
@@ -74,6 +85,7 @@ export default function () {
     speakers: million(7.6),
     script: 'Cyrl',
     pangrams: ['Літаратурная мова абслугоўвае (паралельна з рускай) розныя сферы дзейнасці беларускага народа, з\'яўляецца поліфункцыянальнай.'],
+    alphabet: 'А а Б б В в Г г Д д Е е Ё ё Ж ж З з І і Й й К к Л л М м Н н О о П п Р р С с Т т У у Ў ў Ф ф Х х Ц ц Ч ч Ш ш Ы ы Ь ь Э э Ю ю Я я ʼ',
   },
   {
     language: 'Berber languages',
@@ -95,6 +107,7 @@ export default function () {
     speakers: million(9),
     script: 'Cyrl',
     pangrams: ['Фучейки и хълцайки, кьоравият грухтящ шопар жадно стъпка зюмбюлите.', 'Ах чудна българска земьо, полюшвай цъфтящи жита.', 'Жълтата дюля беше щастлива, че пухът, който цъфна, замръзна като гьон.', 'Под южно дърво, цъфтящо в синьо, бягаше малко пухкаво зайче. '],
+    alphabet: 'А а Б б В в Г г Д д Е е Ж ж З з И и Й й К к Л л М м Н н О о П п Р р С с Т т У у Ф ф Х х Ц ц Ч ч Ш ш Щ щ Ъ ъ Ь ь Ю ю Я я',
   },
   {
     language: 'Catalan',
@@ -145,7 +158,7 @@ export default function () {
   {
     language: 'Dagbani',
     region: 'African',
-    speakers: thousand(1160),
+    speakers: million(1.16),
     alphabet: '’ A a B b CH ch D d E e Ɛ ɛ F f G g GB gb Ɣ ɣ H h I i J j K k KP kp L l M m N n NY ny Ŋ ŋ O o Ɔ ɔ P p R r S s SH sh T t U u W w Y y Z z Ʒ ʒ',
   },
   {
@@ -153,6 +166,12 @@ export default function () {
     speakers: million(5.5),
     region: 'European',
     pangrams: ['Quizdeltagerne spiste jordbær med fløde, mens cirkusklovnen Walther spillede på xylofon.'],
+  },
+  {
+    language: 'Dinka',
+    region: 'African',
+    speakers: million(1.3),
+    specialCharacters: 'a ä b c d dh e ë ɛ ɛ̈ g ɣ i ï j k l m n nh ny ŋ t th u w o ö ɔ ɔ̈ p r y',
   },
   {
     language: 'Duala',
@@ -181,7 +200,11 @@ export default function () {
     region: 'European',
     speakers: million(360),
     pangrams: ['Amazingly few discotheques provide jukeboxes.', 'Why shouldn’t a quixotic Kazakh vampire jog barefoot?', 'Battle of Thermopylae: Quick javelin grazed wry Xerxes.', 'Quick zephyrs blow, vexing daft Jim.', 'Two driven jocks help fax my big quiz.', 'Show mangled quartz flip vibe exactly.', 'Public junk dwarves hug my quartz fox.', 'Jumbling vext frowzy hacks PDQ.', 'Nymphs blitz quick vex dwarf jog.', 'Schwarzkopf vexed Iraq big-time in July.', 'Boxers had zap of gay jock love, quit women.', 'Fix problem quickly with galvanized jets.', 'Watch “Jeopardy!”, Alex Trebek’s fun TV quiz game.'],
-    letterings: ['Attaboy Bubble Cache Dwindle Essence Flyleaf Grunge Headache Infinite Jinjer Kinky Lonely Murmur Norwegian Officious Purpose Qashqai Rarity Sognefjord’s Testy Usual Vivian Woodwind Xerxes Yuppy Zanzibar'],
+    letterings: [
+      'Attaboy Bubble Cache Dwindle Essence Flyleaf Grunge Headache Infinite Jinjer Kinky Lonely Murmur Norwegian Officious Purpose Qashqai Rarity Sognefjord’s Testy Usual Vivian Woodwind Xerxes Yuppy Zanzibar',
+      'Autoinstall Beetlebrain Cyberschool Disposedly Empowered Forefix Graylag Highline Ineffective Jujuman Kangaroolike Ludophilia Minimalize Nondesired Overzealous Propellered Quisqualate Rejoinder Soundclash Throstle Ultracasual Valuative Westward Xenotoxic Youngerly Zigzagger',
+      'Airway Bebeast Chickdom Deadringer Endeavor Foxfish Gigatonne Hipsterish Invariable Jujitsu Kickboxing Lithophile Mommykins Nonfragrant Otoacoustic Prospect Quasiquote Refactoring Spokesbird Thattaboy Unsubmitted Velvetfish Wristwork Xeroxable Youngberry Zettahertz',
+    ],
     paragraphs: ['Unicode just made its new emoji list for 2019 official, and the update adds 230 new symbols, including a yawning face, white heart, and pinching hand symbol.',
       'This nomination will be examined in 2009 by the responsible UNESCO Committee.',
       'Reinstate the 17 trainees to flight status. — I will...but I just want you to understand...that I-',
@@ -262,7 +285,10 @@ export default function () {
     altNames: ['Fulah'],
     region: 'African',
     speakers: million(24),
-    pangrams: ['Musidɓe tedduɓe, Fulɓe e leƴƴi kala gonɗi e Fuuta, haa Dakaar, e gure Senegaal kala, mi salminii on calminaali tedduɗi. abɓcdɗefghijklmnŋɲ(ñ)oprstuwyƴ\'ɠ ABƁCDƊEFGHIJKLMNŊƝ(Ñ)OPRSTUWYƳ\'Ɠ'],
+    alphabet: '',
+    alphabet: "A a B b Ɓ ɓ C c D d Ɗ ɗ E e F f G g Ɠ ɠ H h I i J j K k L l M m N n Ñ ñ Ɲ ɲ Ŋ ŋ O o P p R r S s T t U u W w Y y Ƴ ƴ '",
+    optionalCharacters: 'Ñ ñ',
+    pangrams: ['Musidɓe tedduɓe, Fulɓe e leƴƴi kala gonɗi e Fuuta, haa Dakaar, e gure Senegaal kala, mi salminii on calminaali tedduɗi.'],
   },
   {
     language: 'German',
@@ -279,7 +305,12 @@ export default function () {
     speakers: million(12),
     pangrams: ['Ξεσκεπάζω τὴν ψυχοφθόρα βδελυγμία.', 'Ζαφείρι δέξου πάγκαλο, βαθῶν ψυχῆς τὸ σῆμα.', 'Ταχίστη αλώπηξ βαφής ψημένη γη, δρασκελίζει υπέρ νωθρού κυνός.', 'Διαφυλάξτε γενικά τη ζωή σας από βαθειά ψυχικά τραύματα.'],
     paragraphs: [],
-    letterings: ['Αμαζόνιος Βραβεία Γουάνγκ Διόδωρος Εργαλεία Ζεμτσούζινα Ηγησιππος Θεοξενιος Ιστορία Καζακστάν Λαμπροκλης Μάρμαρο Νίζνι Ξέρξης Οινομαχος Περσέπολη Ροτόρ Σθενελαος Ταυτιστεί Υπάρχουν Φρολόφ Χοχλόφ Ψαρρής Ωφελιων'],
+    letterings: [
+      'Αμαζόνιος Βραβεία Γουάνγκ Διόδωρος Εργαλεία Ζεμτσούζινα Ηγησιππος Θεοξενιος Ιστορία Καζακστάν Λαμπροκλης Μάρμαρο Νίζνι Ξέρξης Οινομαχος Περσέπολη Ροτόρ Σθενελαος Ταυτιστεί Υπάρχουν Φρολόφ Χοχλόφ Ψαρρής Ωφελιων',
+      'Αιγιαλός Βενετσιάνος Γραμματοκιβώτιο Διάγνωση Ενστερνίζομαι Ζωγραφίζω Ηλεκτροχημικός Θυμωμένος Ικανοποιημένος Κατάληψη Λογχίζομαι Ματοκυλιέμαι Ντούμπνιο Ξυπόλητος Οξύτονος Προλεταριάτο Ρουαντέζος Σταυρόλεξο Τρινιδάδ Υποχρεωτικός Φιλανδικά Χιονάνθρωπος Ψυχίατρος Ωφελούμαι',
+      'Αετιδέας Βαμβάκι Γραίγος Δαμαλίδα Ευσεβής Ζεματίζω Ηγέτης Ιδιώτης Καθέλκω Λουλακής Μάθημα Νάνος Ομορφιά Παπάρα Ρεκόρ Σύγκλιση Τσιτσί Υπάκουος Φουφού Χάχανο Ψιψίνα Ωρίμως',
+      'Αγκίδα Βέλγα Γύπας Δημιούργημα Εξηγούμαι Ζεσταμένος Ηλιοθεραπεία Θεσμός Ιστιοδρομία Κρασί Λογχίζομαι Μισώ Νωρίς Ξαίνω Οπλίζομαι Παπαρδέλα  Ρύζι Συμφωνία Τσέλιγκας Υποχρέωση Φύομαι Χριστόψωμο Ψυχίατρος Ωταλγία',
+    ],
     numbers: ['Έχει θερμοκρασία τήξης 304°C και θερμοκρασία βρασμού 1473°C.', 'Το φυσικό οξυγόνο αποτελείται από τρία (3) σταθερά ισότοπα: το <sup>16</sup>O (σε ποσοστό 99,762&nbsp;%), το <sup>17</sup>O και το <sup>18</sup>O.'],
     alphabet: 'Α α Β β Γ γ Δ δ Ε ε Ζ ζ Η η Θ θ Ι ι Κ κ Λ λ Μ μ Ν ν Ξ ξ Ο ο Π π Ρ ρ Σ σ ς Τ τ Υ υ Φ φ Χ χ Ψ ψ Ω ω',
   },
@@ -412,6 +443,16 @@ export default function () {
     region: 'African',
     speakers: million(15),
     paragraphs: ['Tatá wa bísó, ozala o likoló, bato bakúmisa Nkómbó ya Yɔ́, bandima bokonzi bwa Yɔ́, mpo elingo Yɔ́, basálá yangó o nsé, lokóla bakosalaka o likoló Pésa bísó lɛlɔ́ biléi bya mokɔlɔ na mokɔlɔ, límbisa mabé ma bísó, lokóla bísó tokolimbisaka baníngá. Sálisa bísó tondima masɛ́nginyá tê, mpe bíkisa bísó o mabé. Na yɔ́ bokonzi, nguyá na nkembo, o bileko o binso sékô. Amen.'],
+    gotchas: [
+      {
+        topic: 'mark positioning',
+        tags: ['mark'],
+        description: 'Acute must be positioned properly (centered) over letters open E and open O (Ɛ́ ɛ́ Ɔ́ ɔ́), as these combinations do not have precomposed diacritics.',
+        tests: [
+          'Ɛ́ ɛ́ Ɔ́ ɔ́',
+        ],
+      },
+    ],
   },
   {
     language: 'Lithuanian',
@@ -433,6 +474,8 @@ export default function () {
     speakers: million(2),
     script: 'Cyrl',
     pangrams: ['Ѕидарски пејзаж: шугав билмез со чудење џвака ќофте и кељ на туѓ цех.'],
+    alphabet: 'А а Б б В в Г г Д д Ѓ ѓ Е е Ж ж З з Ѕ ѕ И и Ј ј К к Л л Љ љ М м Н н Њ њ О о П п Р р С с Т т Ќ ќ У у Ф ф Х х Ц ц Ч ч Џ џ Ш ш',
+    specialCharacters: 'Ѓ ѓ Ѕ ѕ Ј ј Љ љ Њ њ Ќ ќ',
   },
   {
     language: 'Maltese',
@@ -471,13 +514,15 @@ export default function () {
     region: 'Asian',
     script: 'Cyrl',
     pangrams: ['Щётканы фермд пийшин цувъя. Бөгж зогсч хэльюү.'],
+    specialCharacters: 'Өө Үү',
+    alphabet: 'А а Б б В в Г г Д д Е е Ё ё Ж ж З з И и Й й К к Л л М м Н н О о Ө ө П п Р р С с Т т У у Ү ү Ф ф Х х Ц ц Ч ч Ш ш Щ щ Ъ ъ Ы ы Ь ь Э э Ю ю Я я',
   },
   {
     language: 'Mundang',
     region: 'African',
     speakers: thousand(240),
     script: 'Latn',
-    alphabet: 'A a Ã ã B b Ɓ ɓ C c D d Ɗ ɗ E e Ẽ ẽ Ə ə Ə̃ ə̃ F f G g H h I i Ĩ ĩ J j K k L l M m N n Ŋ ŋ O o Õ õ P p R r S s T t U u V v W w Y y Z z',
+    alphabet: 'A a Ã ã B b Ɓ ɓ C c D d Ɗ ɗ E e Ẽ ẽ Ə ə Ə̃ ə̃ F f G g H h I i Ĩ ĩ J j K k L l M m N n Ŋ ŋ O o Õ õ P p R r S s T t U u V v Ṽ ṽ W w Y y Z z',
   },
   {
     language: 'Ngiemboon',
@@ -504,7 +549,10 @@ export default function () {
     region: 'European',
     speakers: million(40),
     pangrams: ['Koń i żółw grali w kości z piękną ćmą u źródła.'],
-    letterings: ['Aerofłot Bóbr Część Ćmić Dyndasz Ernest Farfocel Gringo Hochsztapler Irbis Jajko Krokus Lalka Łękotka Mąkami Nanizać Obrok Ósemka Poprzestań Quiz Rzeżączka Schniesz Świąt Tarty Uzurpator Victoria Warszawa Xero Yeti Złorzeczyć Źrebak Żółtko'],
+    letterings: [
+      'Aerofłot Bóbr Część Ćmić Dyndasz Ernest Farfocel Gringo Hochsztapler Irbis Jajko Krokus Lalka Łękotka Mąkami Nanizać Obrok Ósemka Poprzestań Quiz Rzeżączka Schniesz Świąt Tarty Uzurpator Victoria Warszawa Xero Yeti Złorzeczyć Źrebak Żółtko',
+      'Aniołek Ą-ę Błękit Często Ćwikiel Dożywocie Estończyk Écru Ę-ą Frunięcie Gąszcz Huśtawka Imię Jeż Kryształ Liść Łeb Męstwo Nieporządek Obłędny Ósmy Ponawiać Różnobarwny Spieprzać Światło Trójskok Ustępstwo Vanuatu Wielkość Xbox Yeti Zauważalnie Źródło Żywioł',
+    ],
     gotchas: [{
       topic: 'łł',
       tags: ['metrics'],
@@ -538,7 +586,9 @@ export default function () {
     script: 'Cyrl',
     pangrams: ['— Любя, съешь щипцы, — вздохнёт мэр, — Кайф жгуч!'],
     paragraphs: ['Я только в главную мысль мою верю. Она именно состоит в том, что люди, по закону природы, разделяются вообще на два разряда: на низший (обыкновенных), то есть, так сказать, на материал, служащий единственно для зарождения себе подобных, и собственно на людей, то есть имеющих дар или талант сказать в среде своей новое слово... Первый разряд всегда — господин настоящего, второй разряд — господин будущего. Первые сохраняют мир и приумножают его численно; вторые двигают мир и ведут его к цели. И те, и другие имеют совершенно одинаковое право существовать. Одним словом, у меня все равносильное право имеют, и — vive la guerre eternelle, — до Нового Иерусалима, разумеется!'],
-    letterings: ['Аудиограф Бомбист Втузовец Гуглить Драгдилер Евгения Ё-моё Жоржет Звёздно Иберийский Йельский Классика Льяло Мнемоник Нутационный Ожогин Пилоправ Рэппер Сфинкс Тлить Узуфрукт Фуфачёв Холедох Цугцванг Чёлочка Шропшир Щадящий Ынахсыт Эмвэдэшник Ююба Ягьяев'],
+    letterings: [
+      'Аудиограф Бомбист Втузовец Гуглить Драгдилер Евгения Ё-моё Жоржет Звёздно Иберийский Йельский Классика Льяло Мнемоник Нутационный Ожогин Пилоправ Рэппер Сфинкс Тлить Узуфрукт Фуфачёв Холедох Цугцванг Чёлочка Шропшир Щадящий Ынахсыт Эмвэдэшник Ююба Ягьяев',
+    ],
     alphabet: 'А а Б б В в Г г Д д Е е Ё ё Ж ж З з И и Й й К к Л л М м Н н О о П п Р р С с Т т У у Ф ф Х х Ц ц Ч ч Ш ш Щ щ Ъ ъ Ы ы Ь ь Э э Ю ю Я я',
   },
   {
@@ -553,7 +603,12 @@ export default function () {
     region: 'European',
     speakers: million(19),
     region: 'European',
+    letterings: [
+      'Акцептор Брецати Вео Граничан Дунст Ђилкош Ејакулација Жаба Захвала Измјенично Јединица Карати Лихвар Љуљачка Мјесечина Небулозан Њујорк Опходити Притварати Ружан Стењ Тврд Ћилимарство Успављивати Финџан Хипероним Цертифициран Човечанство Џудо Шраф',
+    ],
     pangrams: ['Љубазни фењерџија чађавог лица хоће да ми покаже штос.', 'Ајшо, лепото и чежњо, за љубав срца мога дођи у Хаџиће на кафу.'],
+    alphabet: 'А а Б б В в Г г Д д Ђ ђ Е е Ж ж З з И и Ј ј К к Л л Љ љ М м Н н Њ њ О о П п Р р С с Т т Ћ ћ У у Ф ф Х х Ц ц Ч ч Џ џ Ш ш',
+    specialCharacters: 'Ђ ђ Ј ј Љ љ Њ њ Ћ ћ Џ џ',
   },
   {
     language: 'Serbian',
@@ -561,6 +616,7 @@ export default function () {
     region: 'European',
     speakers: million(19),
     pangrams: ['Ljubazni fenjerdžija čađavog lica hoće da mi pokaže štos.'],
+    alphabet: 'A a B b C c Ć ć Č č D d Đ đ DŽ dž E e F f G g H h I i J j K k L l LJ lj M m N n NJ nj O o P p R r S s Š š T t U u V v Z z Ž ž',
   },
   {
     language: 'Shilha',
@@ -656,6 +712,8 @@ export default function () {
       description: 'The possible collision of dieresis in Ukrainian word <em>її</em> (‘her’) can be avoided by providing a ligature with three dots instead of four.',
       tests: ['ЗГОДОМ ЇЇ ВЖИВ без імени її творця. Ви вже бачили її нового друга? Обидві її дитини були шоковані від її нового друга, але змирилися з ситуацією, бо хотіли, щоб їх мама була щаслива.'],
     }],
+    specialCharacters: "Ґ ґ Є є І і Ї ї ",
+    alphabet: "А а Б б В в Г г Ґ ґ Д д Е е Є є Ж ж З з И и І і Ї ї Й й К к Л л М м Н н О о П п Р р С с Т т У у Ф ф Х х Ц ц Ч ч Ш ш Щ щ Ь ь Ю ю Я я",
   },
   {
     language: 'Vai',
@@ -707,6 +765,16 @@ export default function () {
     region: 'African',
     speakers: million(28),
     pangrams: ['Ìwò̩fà ń yò̩ séji tó gbojúmó̩, ó hàn pákànpò̩ gan-an nis̩é̩ rè̩ bó dò̩la.'],
+    gotchas: [
+      {
+        topic: 'mark positioning',
+        tags: ['mark'],
+        description: 'Vertical line must be positioned properly (centered) below letters Egrave, Eacute, Ograve, Oacute, S (É̩ é̩ È̩ è̩ Ó̩ ó̩ Ò̩ ò̩ S̩ s̩), as these combinations do not have precomposed diacritics.',
+        tests: [
+          'É̩ é̩ È̩ è̩ Ó̩ ó̩ Ò̩ ò̩ S̩ s̩ ',
+        ],
+      },
+    ],
   },
   {
     language: 'Zarma',

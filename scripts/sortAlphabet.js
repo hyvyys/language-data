@@ -12,20 +12,26 @@ locale = process.argv[3];
 let alphabet = process.argv[2];
 
 function sortAlphabet(alphabet, locale) {
+  
+  if (alphabet.indexOf(' ') === -1) {
+    alphabet = alphabet.split('').join(' ');
+  }
+
   alphabet = alphabet.toLowerCase() + ' ' + alphabet.toUpperCase();
-  alphabet = alphabet.replace(/i̇/g, 'i'); // replace i followed by combining dot above
-  let array = alphabet.split(" ").filter(c => c);
+  
+  // alphabet = alphabet.replace(/i̇/g, 'i'); // replace i followed by combining dot above
+  let array = alphabet.split(' ').filter(c => c).filter((c, i, a) => a.indexOf(c) === i);
   array = Array.from(new Set(array));
   console.log(locale);
   array.sort((a, b) => a.localeCompare(b, locale, { caseFirst: 'upper' }));
   return array.join(' ');
 }
 
-//console.log(sortAlphabet(alphabet, locale));
+console.log(sortAlphabet(alphabet, locale));
 
-ss = "I i İ ı";
+// ss = "I i İ ı";
 
-aa = ss.split(" ").sort((a,b) => a.localeCompare(b, "tr-Latn", { caseFirst: "upper"}));
+// aa = ss.split(" ").sort((a,b) => a.localeCompare(b, "tr-Latn", { caseFirst: "upper"}));
 
-console.log(ss);
-console.log(aa);
+// console.log(ss);
+// console.log(aa);

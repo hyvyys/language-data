@@ -4,6 +4,8 @@ import findScriptName from './findScriptName';
 import generateAlphabet from './generateAlphabet';
 import generateSpecialCharacters from './generateSpecialCharacters';
 
+function noop() {}
+
 /*
   Each entry in the array exported from languageData.js
   represents a typographic convention for a given language and script.
@@ -21,6 +23,7 @@ const entryDefinition = {
   regex: /[A-Z ]{4}/, // defines acceptable values,
   default: 'DFLT',    // value used to fill in missing fields in index.js
   // or function used to calculate it with the whole entry as argument
+  sanitize: noop, // same as `default` but always applied even if value is specified
   description: "Field description formatted in Markdown, "
   + "separated into lines each typically terminated by space. "
   + "This field is used by the build script to generate documentation. ",
@@ -173,7 +176,7 @@ export default {
   specialCharacters: {
     type: String,
     description: "Special characters (mainly accented letters — diacritics) used by the language.",
-    default: generateSpecialCharacters,       // comment this out when all languages have this field specified
+    sanitize: generateSpecialCharacters,       // comment this out when all languages have this field specified
     // required: true, // uncomment when all languages have this field specified
   },
   alphabet: {

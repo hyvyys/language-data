@@ -1,4 +1,5 @@
 import genCharArray from "./generateCharArray";
+import buildAlphabet from "./buildAlphabet";
 
 export default function (entry, originalEntry) {
   let alphabet = entry.alphabet || '';
@@ -6,11 +7,8 @@ export default function (entry, originalEntry) {
     && (originalEntry.specialCharacters != null || entry.specialCharacters)
     && entry.htmlTag
   ) {
-    const az = genCharArray('a', 'z');
-    const AZ = genCharArray('A', 'Z');
-    alphabet = [ ...az, ...AZ, ...entry.specialCharacters.split(' ').filter(c => c) ]
-      .sort((a, b) => a.localeCompare(b, entry.htmlTag + '-Latn', { caseFirst: 'upper' }))
-      .join(' ');
+    let letters = [ ...genCharArray('a', 'z'), ...entry.specialCharacters.split(' ').filter(c => c) ];
+    alphabet = buildAlphabet(letters.join(' '), entry.htmlTag + '-Latn');
   }
   return alphabet;
 }

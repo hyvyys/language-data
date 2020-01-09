@@ -6,6 +6,9 @@ export default function sanitizeEntry(entry) {
 
 	for (let key in entryFormat) {
 		let field = entryFormat[key];
+		if (field.sanitize) {
+			entry[key] = field.sanitize.call(this, entry, originalEntry);
+		}
 		if (typeof entry[key] === 'undefined'
 			&& typeof field.default !== 'undefined') {
 			// console.log(entry.language, key, entry[key])
