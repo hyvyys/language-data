@@ -15,7 +15,9 @@
     "smallcaps": [],
     "gotchas": [],
     "specialCharacters": "Ɖ ɖ Ɛ ɛ Ŋ ŋ Ɔ ɔ",
-    "alphabet": "A a B b C c D d Ɖ ɖ E e Ɛ ɛ F f G g H h I i J j K k L l M m N n Ŋ ŋ O o Ɔ ɔ P p Q q R r S s T t U u V v W w X x Y y Z z"
+    "alphabet": "A a B b C c D d Ɖ ɖ E e Ɛ ɛ F f G g H h I i J j K k L l M m N n Ŋ ŋ O o Ɔ ɔ P p Q q R r S s T t U u V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Aghem",
@@ -31,7 +33,9 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "alphabet": "A a À à Â â Ǎ ǎ Ā ā B b C c D d E e È è Ê ê Ě ě Ē ē Ɛ ɛ F f G g H h I i Ì ì Î î Ǐ ǐ Ī ī Ɨ ɨ J j K k L l M m N n Ŋ ŋ O o Ò ò Ô ô Ǒ ǒ Ō ō Ɔ ɔ P p Q q R r S s T t U u Ù ù Û û Ǔ ǔ Ū ū Ʉ ʉ V v W w X x Y y Z z ʔ"
+    "alphabet": "A a À à Â â Ǎ ǎ Ā ā B b C c D d E e È è Ê ê Ě ě Ē ē Ɛ ɛ F f G g H h I i Ì ì Î î Ǐ ǐ Ī ī Ɨ ɨ J j K k L l M m N n Ŋ ŋ O o Ò ò Ô ô Ǒ ǒ Ō ō Ɔ ɔ P p Q q R r S s T t U u Ù ù Û û Ǔ ǔ Ū ū Ʉ ʉ V v W w X x Y y Z z ʔ",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Akan",
@@ -43,7 +47,7 @@
     ],
     "gotchas": [
       {
-        "topic": "mark positioning",
+        "topic": "open E open O grave acute",
         "tags": [
           "mark"
         ],
@@ -61,7 +65,33 @@
     "letterings": [],
     "sentences": [],
     "smallcaps": [],
-    "alphabet": "A a Á á À à B b C c D d E e É é È è Ɛ ɛ Ɛ́ ɛ́ Ɛ̀ ɛ̀ F f G g H h I i Í í Ì ì J j K k L l M m Ḿ ḿ M̀ m̀ N n Ń ń Ǹ ǹ O o Ó ó Ò ò Ɔ ɔ Ɔ́ ɔ́ Ɔ̀ ɔ̀ P p Q q R r S s T t U u Ú ú Ù ù V v W w X x Y y Z z"
+    "alphabet": "A a Á á À à B b C c D d E e É é È è Ɛ ɛ Ɛ́ ɛ́ Ɛ̀ ɛ̀ F f G g H h I i Í í Ì ì J j K k L l M m Ḿ ḿ M̀ m̀ N n Ń ń Ǹ ǹ O o Ó ó Ò ò Ɔ ɔ Ɔ́ ɔ́ Ɔ̀ ɔ̀ P p Q q R r S s T t U u Ú ú Ù ù V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
+  },
+  {
+    "language": "Albanian",
+    "region": "European",
+    "speakers": 7600000,
+    "specialCharacters": "Ç ç Ë ë",
+    "sentences": [
+      "Rrugë të mbarë, paç fat!",
+      "Ç’kemi, gëzohem që të takova."
+    ],
+    "paragraphs": [
+      "Të gjithë njerëzit lindin të lirë dhe të barabartë në dinjitet dhe në të drejta. Ata kanë arsye dhe ndërgjegje dhe duhet të sillen ndaj njëri tjetrit me frymë vëllazërimi."
+    ],
+    "htmlTag": "sq",
+    "opentypeTag": "SQI",
+    "script": "Latn",
+    "scriptName": "Latin",
+    "pangrams": [],
+    "letterings": [],
+    "smallcaps": [],
+    "gotchas": [],
+    "alphabet": "A a B b C c Ç ç D d E e Ë ë F f G g H h I i J j K k L l M m N n O o P p Q q R r S s T t U u V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Asturian",
@@ -80,7 +110,9 @@
     "sentences": [],
     "smallcaps": [],
     "gotchas": [],
-    "alphabet": "A a B b C c D d E e F f G g H h Ḥ ḥ I i J j K k L l Ḷ ḷ M m N n O o P p Q q R r S s T t U u V v W w X x Y y Z z"
+    "alphabet": "A a B b C c D d E e F f G g H h Ḥ ḥ I i J j K k L l Ḷ ḷ M m N n O o P p Q q R r S s T t U u V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Armenian",
@@ -97,13 +129,16 @@
       "Ճապոներենում «Իրոխա» ամբողջագիրը կիրառվում է որպես այբբենական շարվածքի համարժեքներից մեկը XI դարից սկսած:"
     ],
     "alphabet": "Ա ա Բ բ Գ գ Դ դ Ե ե Զ զ Է է Ը ը Թ թ Ժ ժ Ի ի Լ լ Խ խ Ծ ծ Կ կ Հ հ Ձ ձ Ղ ղ Ճ ճ Մ մ Յ յ Ն ն Շ շ Ո ո Չ չ Պ պ Ջ ջ Ռ ռ Ս ս Վ վ Տ տ Ր ր Ց ց Ւ ւ Փ փ Ք ք Օ օ Ֆ ֆ ՈՒ ու ԵՒ և",
-    "specialCharacters": "֊ ՝ ։ ՜ ՞ ․ ՚ ՛ ՟",
+    "punctuation": "֊ ՝ ։ ՜ ՞ ․ ՚ ՛ ՟",
     "htmlTag": "hy",
     "scriptName": "Armenian",
     "letterings": [],
     "sentences": [],
     "smallcaps": [],
-    "gotchas": []
+    "gotchas": [],
+    "specialCharacters": "Ա ա Բ բ Գ գ Դ դ Ե ե ԵՒ եւ և Զ զ Է է Ը ը Թ թ Ժ ժ Ի ի Լ լ Խ խ Ծ ծ Կ կ Հ հ Ձ ձ Ղ ղ Ճ ճ Մ մ Յ յ Ն ն Շ շ Ո ո ՈՒ ու Չ չ Պ պ Ջ ջ Ռ ռ Ս ս Վ վ Տ տ Ր ր Ց ց Ւ ւ Փ փ Ք ք Օ օ Ֆ ֆ",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Azeri",
@@ -115,6 +150,8 @@
     "pangrams": [
       "Zəfər, jaketini də papağını da götür, bu axşam hava çox soyuq olacaq."
     ],
+    "alphabet": "A a B b C c Ç ç D d E e Ə ə F f G g Ğ ğ H h X x I ı İ i J j K k Q q L l M m N n O o Ö ö P p R r S s Ş ş T t U u Ü ü V v Y y Z z",
+    "alphabetIsSorted": true,
     "htmlTag": "az",
     "opentypeTag": "AZE",
     "script": "Latn",
@@ -124,8 +161,9 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": "Ç ç Ə ə Ğ ğ I İ i̇ ı Ö ö Ş ş Ü ü",
-    "alphabet": "A a B b C c Ç ç D d E e Ə ə F f G g Ğ ğ H h I i İ İ i̇ ı J j K k L l M m N n O o Ö ö P p Q q R r S s Ş ş T t U u Ü ü V v W w X x Y y Z z"
+    "specialCharacters": "Ç ç Ə ə Ğ ğ I i İ ı Ö ö Ş ş Ü ü",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Basaa",
@@ -144,7 +182,28 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "alphabet": "A a Á á À à Â â Ǎ ǎ Ā ā B b Ɓ ɓ C c D d E e É é È è Ê ê Ě ě Ē ē Ɛ ɛ F f G g H h I i Í í Ì ì Î î Ǐ ǐ Ī ī J j K k L l M m N n Ń ń Ǹ ǹ Ŋ ŋ O o Ó ó Ò ò Ô ô Ǒ ǒ Ō ō Ɔ ɔ P p Q q R r S s T t U u Ú ú Ù ù Û û Ǔ ǔ Ū ū V v W w X x Y y Z z"
+    "alphabet": "A a Á á À à Â â Ǎ ǎ Ā ā B b Ɓ ɓ C c D d E e É é È è Ê ê Ě ě Ē ē Ɛ ɛ F f G g H h I i Í í Ì ì Î î Ǐ ǐ Ī ī J j K k L l M m N n Ń ń Ǹ ǹ Ŋ ŋ O o Ó ó Ò ò Ô ô Ǒ ǒ Ō ō Ɔ ɔ P p Q q R r S s T t U u Ú ú Ù ù Û û Ǔ ǔ Ū ū V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
+  },
+  {
+    "language": "Bashkir",
+    "speakers": 1200000,
+    "script": "Cyrl",
+    "region": "Asian",
+    "alphabet": "А а Б б В в Г г Ғ ғ Д д Ҙ ҙ Е е Ё ё Ж ж З з И и Й й К к Ҡ ҡ Л л М м Н н Ң ң О о Ө ө П п Р р С с Ҫ ҫ Т т У у Ү ү Ф ф Х х Һ һ Ц ц Ч ч Ш ш Щ щ Ъ ъ Ы ы Ь ь Э э Ә ә Ю ю Я я",
+    "htmlTag": "ba",
+    "opentypeTag": "BSH",
+    "scriptName": "Cyrillic",
+    "pangrams": [],
+    "letterings": [],
+    "sentences": [],
+    "paragraphs": [],
+    "smallcaps": [],
+    "gotchas": [],
+    "specialCharacters": "Ә ә Ғ ғ Ҙ ҙ Ё ё Ҡ ҡ Ң ң Ө ө Ҫ ҫ Ү ү Һ һ",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Belarusian",
@@ -163,24 +222,9 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": ""
-  },
-  {
-    "language": "Berber languages",
-    "region": "African",
-    "speakers": 0,
-    "script": "Latn",
-    "specialCharacters": "Č č Ḍ ḍ Ɛ ɛ Ǧ ǧ Ɣ ɣ Ḥ ḥ Ř ř Ṛ ṛ Ṣ ṣ Ṭ ṭ Ẓ ẓ",
-    "htmlTag": "ber",
-    "opentypeTag": "BBR",
-    "scriptName": "Latin",
-    "pangrams": [],
-    "letterings": [],
-    "sentences": [],
-    "paragraphs": [],
-    "smallcaps": [],
-    "gotchas": [],
-    "alphabet": "A a B b C c Č č D d Ḍ ḍ E e Ɛ ɛ F f G g Ǧ ǧ Ɣ ɣ H h Ḥ ḥ I i J j K k L l M m N n O o P p Q q R r Ř ř Ṛ ṛ S s Ṣ ṣ T t Ṭ ṭ U u V v W w X x Y y Z z Ẓ ẓ"
+    "specialCharacters": "ʼ Ё ё І і Ў ў",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Breton",
@@ -199,7 +243,9 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "alphabet": "A a Â â B b C c D d E e Ê ê F f G g H h I i Î î J j K k L l M m N n Ñ ñ O o Ô ô P p Q q R r S s T t U u Ù ù Û û Ü ü V v W w X x Y y Z z"
+    "alphabet": "A a Â â B b C c D d E e Ê ê F f G g H h I i Î î J j K k L l M m N n Ñ ñ O o Ô ô P p Q q R r S s T t U u Ù ù Û û Ü ü V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Bulgarian",
@@ -221,7 +267,9 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": ""
+    "specialCharacters": "",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Catalan",
@@ -245,6 +293,8 @@
         ]
       }
     ],
+    "optionalCharacters": "Ŀ ŀ",
+    "optionalCharactersNote": "legacy",
     "htmlTag": "ca",
     "opentypeTag": "CAT",
     "script": "Latn",
@@ -253,8 +303,47 @@
     "sentences": [],
     "paragraphs": [],
     "smallcaps": [],
-    "specialCharacters": "· « » À à Ç ç É é È è Í í Ï ï Ó ó Ò ò Ú ú Ü ü",
-    "alphabet": "· « » A a À à B b C c Ç ç D d E e É é È è F f G g H h I i Í í Ï ï J j K k L l M m N n O o Ó ó Ò ò P p Q q R r S s T t U u Ú ú Ü ü V v W w X x Y y Z z"
+    "specialCharacters": "· ’ « » À à Ç ç É é È è Í í Ï ï Ó ó Ò ò Ú ú Ü ü",
+    "alphabet": "· ’ « » A a À à B b C c Ç ç D d E e É é È è F f G g H h I i Í í Ï ï J j K k L l M m N n O o Ó ó Ò ò P p Q q R r S s T t U u Ú ú Ü ü V v W w X x Y y Z z"
+  },
+  {
+    "language": "Chinese (Pinyin)",
+    "htmlTag": "",
+    "speakers": 0,
+    "region": "Asian",
+    "specialCharacters": "Ü ü Ā Ē Ī Ō Ū Ǖ ā ē ī ō ū ǖ Á É Í Ó Ú Ǘ á é í ó ú ǘ Ǎ Ě Ǐ Ǒ Ǔ Ǚ ǎ ě ǐ ǒ ǔ ǚ À È Ì Ò Ù Ǜ à è ì ò ù ǜ",
+    "alphabetIsSorted": true,
+    "pseudo": true,
+    "script": "Latn",
+    "scriptName": "Latin",
+    "pangrams": [],
+    "letterings": [],
+    "sentences": [],
+    "paragraphs": [],
+    "smallcaps": [],
+    "gotchas": [],
+    "alphabet": "A a Á á À à Ǎ ǎ Ā ā B b C c D d E e É é È è Ě ě Ē ē F f G g H h I i Í í Ì ì Ǐ ǐ Ī ī J j K k L l M m N n O o Ó ó Ò ò Ǒ ǒ Ō ō P p Q q R r S s T t U u Ú ú Ù ù Ǔ ǔ Ü ü Ǘ ǘ Ǜ ǜ Ǚ ǚ Ǖ ǖ Ū ū V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
+  },
+  {
+    "language": "Chuvash",
+    "speakers": 1043000,
+    "script": "Cyrl",
+    "region": "Asian",
+    "alphabet": "А а Ӑ ӑ Б б В в Г г Д д Е е Ё ё Ӗ ӗ Ж ж З з И и Й й К к Л л М м Н н О о П п Р р С с Ҫ ҫ Т т У у Ӳ ӳ Ф ф Х х Ц ц Ч ч Ш ш Щ щ Ъ ъ Ы ы Ь ь Э э Ю ю Я я",
+    "htmlTag": "cv",
+    "opentypeTag": "CHU",
+    "scriptName": "Cyrillic",
+    "pangrams": [],
+    "letterings": [],
+    "sentences": [],
+    "paragraphs": [],
+    "smallcaps": [],
+    "gotchas": [],
+    "specialCharacters": "Ӑ ӑ Ӗ ӗ Ё ё Ҫ ҫ Ӳ ӳ",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Croatian",
@@ -273,7 +362,9 @@
     "smallcaps": [],
     "gotchas": [],
     "specialCharacters": "Ć ć Č č Đ đ Š š Ž ž",
-    "alphabet": "A a B b C c Ć ć Č č D d Đ đ E e F f G g H h I i J j K k L l M m N n O o P p Q q R r S s Š š T t U u V v W w X x Y y Z z Ž ž"
+    "alphabet": "A a B b C c Ć ć Č č D d Đ đ E e F f G g H h I i J j K k L l M m N n O o P p Q q R r S s Š š T t U u V v W w X x Y y Z z Ž ž",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Czech",
@@ -317,7 +408,9 @@
     "paragraphs": [],
     "smallcaps": [],
     "specialCharacters": "Á á Č č Ď ď É é Ě ě Í í Ň ň Ó ó Ř ř Š š Ť ť Ú ú Ů ů Ý ý Ž ž",
-    "alphabet": "A a Á á B b C c Č č D d Ď ď E e É é Ě ě F f G g H h I i Í í J j K k L l M m N n Ň ň O o Ó ó P p Q q R r Ř ř S s Š š T t Ť ť U u Ú ú Ů ů V v W w X x Y y Ý ý Z z Ž ž"
+    "alphabet": "A a Á á B b C c Č č D d Ď ď E e É é Ě ě F f G g H h I i Í í J j K k L l M m N n Ň ň O o Ó ó P p Q q R r Ř ř S s Š š T t Ť ť U u Ú ú Ů ů V v W w X x Y y Ý ý Z z Ž ž",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Dagbani",
@@ -333,7 +426,9 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": "CH ch Ɛ ɛ GB gb Ɣ ɣ KP kp NY ny Ŋ ŋ Ɔ ɔ SH sh Ʒ ʒ"
+    "specialCharacters": "’ Ɛ ɛ Ɣ ɣ Ŋ ŋ Ɔ ɔ Ʒ ʒ",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Danish",
@@ -342,6 +437,8 @@
     "pangrams": [
       "Quizdeltagerne spiste jordbær med fløde, mens cirkusklovnen Walther spillede på xylofon."
     ],
+    "optionalCharacters": "Ǽ ǽ Ǻ ǻ Ǿ ǿ",
+    "optionalCharactersNote": "Dictionary use.",
     "htmlTag": "da",
     "opentypeTag": "DAN",
     "script": "Latn",
@@ -358,7 +455,8 @@
     "language": "Dinka",
     "region": "African",
     "speakers": 1300000,
-    "specialCharacters": "Ä ä DH dh Ë ë Ɛ ɛ Ɛ̈ ɛ̈ Ɣ ɣ Ï ï NH nh NY ny Ŋ ŋ Ö ö Ɔ ɔ Ɔ̈ ɔ̈ TH th",
+    "alphabet": "A a Ä ä B b C c D d DH dh E e Ë ë Ɛ ɛ Ɛ̈ ɛ̈ G g Ɣ ɣ I i Ï ï J j K k L l M m N n NH nh NY ny Ŋ ŋ T t TH th U u W w O o Ö ö Ɔ ɔ Ɔ̈ ɔ̈ P p R r Y y",
+    "alphabetIsSorted": true,
     "htmlTag": "din",
     "opentypeTag": "DNK",
     "script": "Latn",
@@ -369,7 +467,9 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "alphabet": "A a Ä ä B b C c D d DH dh E e Ë ë Ɛ ɛ Ɛ̈ ɛ̈ F f G g Ɣ ɣ H h I i Ï ï J j K k L l M m N n NH nh NY ny Ŋ ŋ O o Ö ö Ɔ ɔ Ɔ̈ ɔ̈ P p Q q R r S s T t TH th U u V v W w X x Y y Z z"
+    "specialCharacters": "Ä ä Ë ë Ɛ ɛ Ɛ̈ ɛ̈ Ɣ ɣ Ï ï Ŋ ŋ Ö ö Ɔ ɔ Ɔ̈ ɔ̈",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Duala",
@@ -385,7 +485,9 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "alphabet": "A a Á á B b Ɓ ɓ C c D d Ɗ ɗ E e É é Ɛ ɛ F f G g H h I i Í í J j K k L l M m N n Ŋ ŋ O o Ó ó Ɔ ɔ P p Q q R r S s T t U u Ú ú Ū ū V v W w X x Y y Z z"
+    "alphabet": "A a Á á B b Ɓ ɓ C c D d Ɗ ɗ E e É é Ɛ ɛ F f G g H h I i Í í J j K k L l M m N n Ŋ ŋ O o Ó ó Ɔ ɔ P p Q q R r S s T t U u Ú ú Ū ū V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Dutch",
@@ -426,7 +528,9 @@
     "sentences": [],
     "paragraphs": [],
     "smallcaps": [],
-    "alphabet": "A a Á á B b C c D d E e É é F f G g H h I i Í í IJ ij ÍJ íj J j K k L l M m N n O o Ó ó P p Q q R r S s T t U u Ú ú V v W w X x Y y Z z"
+    "alphabet": "A a Á á B b C c D d E e É é F f G g H h I i Í í IJ ij ÍJ íj J j K k L l M m N n O o Ó ó P p Q q R r S s T t U u Ú ú V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "English",
@@ -468,7 +572,7 @@
       "Developing apps requires a knowledge of <span style=\"font-variant-caps: all-small-caps;\">html</span> and JavaScript, and that's it.",
       "This nomination will be examined in 2009 by the responsible <span style=\"font-variant-caps: all-small-caps;\">UNESCO</span> Committee."
     ],
-    "specialCharacters": "",
+    "specialCharacters": "’",
     "optionalCharacters": "",
     "htmlTag": "en",
     "opentypeTag": "ENG",
@@ -476,44 +580,8 @@
     "scriptName": "Latin",
     "sentences": [],
     "gotchas": [],
-    "alphabet": "A a B b C c D d E e F f G g H h I i J j K k L l M m N n O o P p Q q R r S s T t U u V v W w X x Y y Z z"
-  },
-  {
-    "language": "Ewe",
-    "region": "African",
-    "speakers": 6500000,
-    "pangrams": [
-      "Ʋu axaléɖiƒe. Wo dona Eʋegbe le Ghana kple Togo kpakple Benin Dahumey dukɔ siwo le Afrika ƒe ɣetoɖoƒe lɔƒo la me. Gbe gbɔgblɔ siwo teɖe Eʋegbe ŋu wonye Fɔŋgbe kpakple Adzágbe. Esiawo katã wonye Gbe siwo doƒome kple Ʋegbe. Ŋɔŋlɔdzesi blaetɔ̃ ye le Eʋegbe me."
-    ],
-    "alphabet": "A a Á á À à Ã ã B b D d Ɖ ɖ E e É é È è Ẽ ẽ Ɛ ɛ F f Ƒ ƒ G g Ɣ ɣ H h X x I i Í í Ì ì Ĩ ĩ K k L l M m N n Ŋ ŋ O o Ó ó Ò ò Õ õ Ɔ ɔ P p R r S s T t U u Ú ú Ù ù Ũ ũ V v Ʋ ʋ W w Y y Z z",
-    "htmlTag": "ee",
-    "opentypeTag": "EWE",
-    "script": "Latn",
-    "scriptName": "Latin",
-    "letterings": [],
-    "sentences": [],
-    "paragraphs": [],
-    "smallcaps": [],
-    "gotchas": [],
-    "specialCharacters": "Á á À à Ã ã Ɖ ɖ É é È è Ẽ ẽ Ɛ ɛ Ƒ ƒ Ɣ ɣ Í í Ì ì Ĩ ĩ Ŋ ŋ Ó ó Ò ò Õ õ Ɔ ɔ Ú ú Ù ù Ũ ũ Ʋ ʋ"
-  },
-  {
-    "language": "Ewondo",
-    "region": "African",
-    "speakers": 580000,
-    "pangram": "",
-    "specialCharacters": "Á á À à Â â Ǎ ǎ É é È è Ê ê Ě ě Ə ə Ɛ ɛ Í í Ì ì Î î Ǐ ǐ Ń ń Ǹ ǹ Ŋ ŋ Ó ó Ò ò Ô ô Ǒ ǒ Ɔ ɔ Ú ú Ù ù Û û Ǔ ǔ",
-    "htmlTag": "ewo",
-    "opentypeTag": "BTI",
-    "script": "Latn",
-    "scriptName": "Latin",
-    "pangrams": [],
-    "letterings": [],
-    "sentences": [],
-    "paragraphs": [],
-    "smallcaps": [],
-    "gotchas": [],
-    "alphabet": "A a Á á À à Â â Ǎ ǎ B b C c D d E e É é È è Ê ê Ě ě Ə ə Ɛ ɛ F f G g H h I i Í í Ì ì Î î Ǐ ǐ J j K k L l M m N n Ń ń Ǹ ǹ Ŋ ŋ O o Ó ó Ò ò Ô ô Ǒ ǒ Ɔ ɔ P p Q q R r S s T t U u Ú ú Ù ù Û û Ǔ ǔ V v W w X x Y y Z z"
+    "alphabet": "’ A a B b C c D d E e F f G g H h I i J j K k L l M m N n O o P p Q q R r S s T t U u V v W w X x Y y Z z",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Esperanto",
@@ -531,7 +599,9 @@
     "smallcaps": [],
     "gotchas": [],
     "specialCharacters": "Ĉ ĉ Ĝ ĝ Ĥ ĥ Ĵ ĵ Ŝ ŝ Ŭ ŭ",
-    "alphabet": "A a B b C c Ĉ ĉ D d E e F f G g Ĝ ĝ H h Ĥ ĥ I i J j Ĵ ĵ K k L l M m N n O o P p Q q R r S s Ŝ ŝ T t U u Ŭ ŭ V v W w X x Y y Z z"
+    "alphabet": "A a B b C c Ĉ ĉ D d E e F f G g Ĝ ĝ H h Ĥ ĥ I i J j Ĵ ĵ K k L l M m N n O o P p Q q R r S s Ŝ ŝ T t U u Ŭ ŭ V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Estonian",
@@ -550,7 +620,51 @@
     "smallcaps": [],
     "gotchas": [],
     "specialCharacters": "Ä ä Ö ö Õ õ Š š Ü ü Ž ž",
-    "alphabet": "A a Ä ä B b C c D d E e F f G g H h I i J j K k L l M m N n O o Ö ö Õ õ P p Q q R r S s Š š T t U u Ü ü V v W w X x Y y Z z Ž ž"
+    "alphabet": "A a Ä ä B b C c D d E e F f G g H h I i J j K k L l M m N n O o Ö ö Õ õ P p Q q R r S s Š š T t U u Ü ü V v W w X x Y y Z z Ž ž",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
+  },
+  {
+    "language": "Ewe",
+    "region": "African",
+    "speakers": 6500000,
+    "pangrams": [
+      "Ʋu axaléɖiƒe. Wo dona Eʋegbe le Ghana kple Togo kpakple Benin Dahumey dukɔ siwo le Afrika ƒe ɣetoɖoƒe lɔƒo la me. Gbe gbɔgblɔ siwo teɖe Eʋegbe ŋu wonye Fɔŋgbe kpakple Adzágbe. Esiawo katã wonye Gbe siwo doƒome kple Ʋegbe. Ŋɔŋlɔdzesi blaetɔ̃ ye le Eʋegbe me."
+    ],
+    "alphabet": "A a Á á À à Ã ã B b D d Ɖ ɖ E e É é È è Ẽ ẽ Ɛ ɛ F f Ƒ ƒ G g Ɣ ɣ H h X x I i Í í Ì ì Ĩ ĩ K k L l M m N n Ŋ ŋ O o Ó ó Ò ò Õ õ Ɔ ɔ P p R r S s T t U u Ú ú Ù ù Ũ ũ V v Ʋ ʋ W w Y y Z z",
+    "alphabetIsSorted": true,
+    "htmlTag": "ee",
+    "opentypeTag": "EWE",
+    "script": "Latn",
+    "scriptName": "Latin",
+    "letterings": [],
+    "sentences": [],
+    "paragraphs": [],
+    "smallcaps": [],
+    "gotchas": [],
+    "specialCharacters": "Á á À à Ã ã Ɖ ɖ É é È è Ẽ ẽ Ɛ ɛ Ƒ ƒ Ɣ ɣ Í í Ì ì Ĩ ĩ Ŋ ŋ Ó ó Ò ò Õ õ Ɔ ɔ Ú ú Ù ù Ũ ũ Ʋ ʋ",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
+  },
+  {
+    "language": "Ewondo",
+    "region": "African",
+    "speakers": 580000,
+    "pangram": "",
+    "specialCharacters": "Á á À à Â â Ǎ ǎ É é È è Ê ê Ě ě Ə ə Ɛ ɛ Í í Ì ì Î î Ǐ ǐ Ń ń Ǹ ǹ Ŋ ŋ Ó ó Ò ò Ô ô Ǒ ǒ Ɔ ɔ Ú ú Ù ù Û û Ǔ ǔ",
+    "htmlTag": "ewo",
+    "opentypeTag": "BTI",
+    "script": "Latn",
+    "scriptName": "Latin",
+    "pangrams": [],
+    "letterings": [],
+    "sentences": [],
+    "paragraphs": [],
+    "smallcaps": [],
+    "gotchas": [],
+    "alphabet": "A a Á á À à Â â Ǎ ǎ B b C c D d E e É é È è Ê ê Ě ě Ə ə Ɛ ɛ F f G g H h I i Í í Ì ì Î î Ǐ ǐ J j K k L l M m N n Ń ń Ǹ ǹ Ŋ ŋ O o Ó ó Ò ò Ô ô Ǒ ǒ Ɔ ɔ P p Q q R r S s T t U u Ú ú Ù ù Û û Ǔ ǔ V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Finnish",
@@ -569,7 +683,9 @@
     "smallcaps": [],
     "gotchas": [],
     "specialCharacters": "Å å Ä ä Ö ö",
-    "alphabet": "A a Å å Ä ä B b C c D d E e F f G g H h I i J j K k L l M m N n O o Ö ö P p Q q R r S s T t U u V v W w X x Y y Z z"
+    "alphabet": "A a Å å Ä ä B b C c D d E e F f G g H h I i J j K k L l M m N n O o Ö ö P p Q q R r S s T t U u V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Fon",
@@ -592,7 +708,9 @@
     "smallcaps": [],
     "gotchas": [],
     "specialCharacters": "Ɖ ɖ É é Ɛ ɛ Ɔ ɔ",
-    "alphabet": "A a B b C c D d Ɖ ɖ E e É é Ɛ ɛ F f G g H h I i J j K k L l M m N n O o Ɔ ɔ P p Q q R r S s T t U u V v W w X x Y y Z z"
+    "alphabet": "A a B b C c D d Ɖ ɖ E e É é Ɛ ɛ F f G g H h I i J j K k L l M m N n O o Ɔ ɔ P p Q q R r S s T t U u V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "French",
@@ -633,7 +751,9 @@
     "sentences": [],
     "paragraphs": [],
     "smallcaps": [],
-    "alphabet": "A a À à Â â Æ æ B b C c Ç ç D d E e É é È è Ê ê Ë ë F f G g H h I i Î î Ï ï J j K k L l M m N n O o Ô ô Œ œ P p Q q R r S s T t U u Ù ù Û û Ü ü V v W w X x Y y Ÿ ÿ Z z"
+    "alphabet": "A a À à Â â Æ æ B b C c Ç ç D d E e É é È è Ê ê Ë ë F f G g H h I i Î î Ï ï J j K k L l M m N n O o Ô ô Œ œ P p Q q R r S s T t U u Ù ù Û û Ü ü V v W w X x Y y Ÿ ÿ Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "West Frisian",
@@ -655,7 +775,9 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "alphabet": "A a Á á Ä ä B b C c D d E e É é Ë ë F f G g H h I i Ì ì Ï ï J j K k L l M m N n O o Ò ò Ö ö P p Q q R r S s T t U u Ú ú Ü ü V v W w X x Y y Ỳ ỳ Z z"
+    "alphabet": "A a Á á Ä ä B b C c D d E e É é Ë ë F f G g H h I i Ì ì Ï ï J j K k L l M m N n O o Ò ò Ö ö P p Q q R r S s T t U u Ú ú Ü ü V v W w X x Y y Ỳ ỳ Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Fula",
@@ -665,6 +787,7 @@
     "region": "African",
     "speakers": 24000000,
     "alphabet": "A a B b Ɓ ɓ C c D d Ɗ ɗ E e F f G g Ɠ ɠ H h I i J j K k L l M m N n Ñ ñ Ɲ ɲ Ŋ ŋ O o P p R r S s T t U u W w Y y Ƴ ƴ '",
+    "alphabetIsSorted": true,
     "optionalCharacters": "Ñ ñ",
     "pangrams": [
       "Musidɓe tedduɓe, Fulɓe e leƴƴi kala gonɗi e Fuuta, haa Dakaar, e gure Senegaal kala, mi salminii on calminaali tedduɗi."
@@ -678,7 +801,29 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": "Ɓ ɓ Ɗ ɗ Ɠ ɠ Ñ ñ Ɲ ɲ Ŋ ŋ Ƴ ƴ"
+    "specialCharacters": "' Ɓ ɓ Ɗ ɗ Ɠ ɠ Ñ ñ Ɲ ɲ Ŋ ŋ Ƴ ƴ",
+    "optionalCharactersNote": ""
+  },
+  {
+    "language": "Gagauz",
+    "htmlCode": "gag",
+    "speakers": 140000,
+    "region": "European",
+    "alphabet": "A a Ä ä B b C c Ç ç D d E e Ê ê F f G g H h I ı İ i J j K k L l M m N n O o Ö ö P p R r S s Ş ş T t Ţ ţ U u Ü ü V v Y y Z z",
+    "alphabetIsSorted": true,
+    "htmlTag": "gag",
+    "opentypeTag": "GAG",
+    "script": "Latn",
+    "scriptName": "Latin",
+    "pangrams": [],
+    "letterings": [],
+    "sentences": [],
+    "paragraphs": [],
+    "smallcaps": [],
+    "gotchas": [],
+    "specialCharacters": "Ä ä Ç ç Ê ê I i İ ı Ö ö Ş ş Ţ ţ Ü ü",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "German",
@@ -687,7 +832,8 @@
     "pangrams": [
       "Victor jagt zwölf Boxkämpfer quer über den großen Sylter Deich."
     ],
-    "specialCharacters": "Ä ä Ö ö SS ẞ ß Ü ü Ṿ",
+    "alphabet": "A a Ä ä B b C c D d E e F f G g H h I i J j K k L l M m N n O o Ö ö P p Q q R r S s ẞ ß T t U u Ü ü V v W w X x Y y Z z",
+    "specialCharacters": "Ä Ö Ü ä ö ü ß ẞ",
     "htmlTag": "de",
     "opentypeTag": "DEU",
     "script": "Latn",
@@ -697,7 +843,8 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "alphabet": "A a Ä ä B b C c D d E e F f G g H h I i J j K k L l M m N n O o Ö ö P p Q q R r S s SS ss ẞ ß T t U u Ü ü V v Ṿ ṿ W w X x Y y Z z"
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Greek",
@@ -725,13 +872,16 @@
       "Το φυσικό οξυγόνο αποτελείται από τρία (3) σταθερά ισότοπα: το <sup>16</sup>O (σε ποσοστό 99,762&nbsp;%), το <sup>17</sup>O και το <sup>18</sup>O."
     ],
     "alphabet": "Α α Β β Γ γ Δ δ Ε ε Ζ ζ Η η Θ θ Ι ι Κ κ Λ λ Μ μ Ν ν Ξ ξ Ο ο Π π Ρ ρ Σ σ ς Τ τ Υ υ Φ φ Χ χ Ψ ψ Ω ω",
+    "punctuation": ";·",
     "htmlTag": "el",
     "opentypeTag": "ELL",
     "scriptName": "Greek",
     "sentences": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": ""
+    "specialCharacters": "Α α Β β Γ γ Δ δ Ε ε Ζ ζ Η η Θ θ Ι ι Κ κ Λ λ Μ μ Ν ν Ξ ξ Ο ο Π π Ρ ρ Σ σ ς Τ τ Υ υ Φ φ Χ χ Ψ ψ Ω ω",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Guarani",
@@ -742,6 +892,19 @@
       "Mayma yvypóra ou ko yvy ári iñapyty'yre ha eteĩcha tecoruvicharendá ha acatúape jeguerekópe; ha ikatu rupi oikuaa ñetéva ha añete'yva, iporãva ha ivaíva, tekotevẽ pehenguéicha oiko oñondivekuéra."
     ],
     "alphabet": "A a Ã ã Ch ch E e Ẽ ẽ G g G̃ g̃ H h I i Ĩ ĩ J j K k L l M m Mb mb N n Nd nd Ng ng Nt nt Ñ ñ O o Õ õ P p R r Rr rr S s T t U u Ũ ũ V v Y y Ỹ ỹ '",
+    "alphabetIsSorted": true,
+    "gotchas": [
+      {
+        "topic": "G tilde",
+        "tags": [
+          "mark"
+        ],
+        "description": "Combining mark positioning must be implemented as there is no corresponding codepoint for this letter.",
+        "tests": [
+          "G̃ g̃"
+        ]
+      }
+    ],
     "htmlTag": "gn",
     "opentypeTag": "GUA",
     "scriptName": "Latin",
@@ -749,8 +912,9 @@
     "letterings": [],
     "sentences": [],
     "smallcaps": [],
-    "gotchas": [],
-    "specialCharacters": "Ã ã CH ch Ẽ ẽ G̃ g̃ Ĩ ĩ MB mb Ñ ñ ND nd NG ng NT nt Õ õ RR rr Ũ ũ Ỹ ỹ"
+    "specialCharacters": "' Ã ã Ẽ ẽ G̃ g̃ Ĩ ĩ Ñ ñ Õ õ Ũ ũ Ỹ ỹ",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Hausa",
@@ -760,7 +924,7 @@
       "Nonuwana sun cika sun yi nauyi Suna begen hannayenka Kai kadai ka iya rikesu Tamkar kana rike da kwai Kai ka iya murza su kamar amaro Ka iya shan su kamar lemu Yaya zanyi da raina?",
       "Ai ba sauran budurci a tare da nonuwa na Tun ranar da ka ba su ʼyanci Basu san kowa ba sai kai."
     ],
-    "alphabet": "A a B b Ɓ ɓ C c D d Ɗ ɗ E e F f G g H h I i J j K k Ƙ ƙ L l M m N n O o R r R̃ r̃ S s Sh sh T t Ts ts U u W w Y y (Ƴ ƴ) Z z ʼ",
+    "alphabet": "A a B b Ɓ ɓ C c D d Ɗ ɗ E e F f G g H h I i J j K k Ƙ ƙ L l M m N n O o R r R̃ r̃ S s SH sh T t TS ts U u W w Y y Z z ʼ",
     "htmlTag": "ha",
     "opentypeTag": "HAU",
     "script": "Latn",
@@ -770,7 +934,9 @@
     "sentences": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": "(Ƴ (ƴ Ɓ ɓ Ɗ ɗ Ƙ ƙ R̃ r̃ SH sh TS ts Ƴ) ƴ) ʼ"
+    "specialCharacters": "Ɓ ɓ Ɗ ɗ Ƙ ƙ R̃ r̃ ʼ",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Hungarian",
@@ -789,7 +955,9 @@
     "smallcaps": [],
     "gotchas": [],
     "specialCharacters": "Á á É é Í í Ó ó Ö ö Ő ő Ú ú Ü ü Ű ű",
-    "alphabet": "A a Á á B b C c D d E e É é F f G g H h I i Í í J j K k L l M m N n O o Ó ó Ö ö Ő ő P p Q q R r S s T t U u Ú ú Ü ü Ű ű V v W w X x Y y Z z"
+    "alphabet": "A a Á á B b C c D d E e É é F f G g H h I i Í í J j K k L l M m N n O o Ó ó Ö ö Ő ő P p Q q R r S s T t U u Ú ú Ü ü Ű ű V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Icelandic",
@@ -820,7 +988,9 @@
     "paragraphs": [],
     "smallcaps": [],
     "specialCharacters": "Á á Æ æ Ð ð É é Í í Ó ó Ö ö Ú ú Ý ý Þ þ",
-    "alphabet": "A a Á á Æ æ B b C c D d Ð ð E e É é F f G g H h I i Í í J j K k L l M m N n O o Ó ó Ö ö P p Q q R r S s T t U u Ú ú V v W w X x Y y Ý ý Z z Þ þ"
+    "alphabet": "A a Á á Æ æ B b C c D d Ð ð E e É é F f G g H h I i Í í J j K k L l M m N n O o Ó ó Ö ö P p Q q R r S s T t U u Ú ú V v W w X x Y y Ý ý Z z Þ þ",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Igbo",
@@ -838,8 +1008,10 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": "Ị ị Ṅ ṅ Ọ ọ Ụ ụ",
-    "alphabet": "A a B b C c D d E e F f G g H h I i Ị ị J j K k L l M m N n Ṅ ṅ O o Ọ ọ P p Q q R r S s T t U u Ụ ụ V v W w X x Y y Z z"
+    "specialCharacters": "’ Ị ị Ṅ ṅ Ọ ọ Ụ ụ",
+    "alphabet": "’ A a B b C c D d E e F f G g H h I i Ị ị J j K k L l M m N n Ṅ ṅ O o Ọ ọ P p Q q R r S s T t U u Ụ ụ V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Indonesian",
@@ -858,7 +1030,9 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "alphabet": "A a B b C c D d E e F f G g H h I i J j K k L l M m N n O o P p Q q R r S s T t U u V v W w X x Y y Z z"
+    "alphabet": "A a B b C c D d E e F f G g H h I i J j K k L l M m N n O o P p Q q R r S s T t U u V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Irish",
@@ -877,7 +1051,9 @@
     "smallcaps": [],
     "gotchas": [],
     "specialCharacters": "Á á Ḃ ḃ Ċ ċ Ḋ ḋ É é Ḟ ḟ Ġ ġ Í í Ṁ ṁ Ó ó Ṗ ṗ Ṡ ṡ Ṫ ṫ Ú ú",
-    "alphabet": "A a Á á B b Ḃ ḃ C c Ċ ċ D d Ḋ ḋ E e É é F f Ḟ ḟ G g Ġ ġ H h I i Í í J j K k L l M m Ṁ ṁ N n O o Ó ó P p Ṗ ṗ Q q R r S s Ṡ ṡ T t Ṫ ṫ U u Ú ú V v W w X x Y y Z z"
+    "alphabet": "A a Á á B b Ḃ ḃ C c Ċ ċ D d Ḋ ḋ E e É é F f Ḟ ḟ G g Ġ ġ H h I i Í í J j K k L l M m Ṁ ṁ N n O o Ó ó P p Ṗ ṗ Q q R r S s Ṡ ṡ T t Ṫ ṫ U u Ú ú V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Italian",
@@ -906,7 +1082,9 @@
     "sentences": [],
     "paragraphs": [],
     "smallcaps": [],
-    "alphabet": "A a À à B b C c D d E e É é È è F f G g H h I i Ì ì J j K k L l M m N n O o Ó ó Ò ò P p Q q R r S s T t U u Ù ù V v W w X x Y y Z z"
+    "alphabet": "A a À à B b C c D d E e É é È è F f G g H h I i Ì ì J j K k L l M m N n O o Ó ó Ò ò P p Q q R r S s T t U u Ù ù V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Jula",
@@ -927,7 +1105,9 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": "Ɛ ɛ Ɲ ɲ Ŋ ŋ Ɔ ɔ"
+    "specialCharacters": "Ɛ ɛ Ɲ ɲ Ŋ ŋ Ɔ ɔ",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Kabyle",
@@ -946,13 +1126,15 @@
     "smallcaps": [],
     "gotchas": [],
     "specialCharacters": "Č č Ğ ğ Ɣ ɣ Ḥ ḥ Ẓ ẓ",
-    "alphabet": "A a B b C c Č č D d E e F f G g Ğ ğ Ɣ ɣ H h Ḥ ḥ I i J j K k L l M m N n O o P p Q q R r S s T t U u V v W w X x Y y Z z Ẓ ẓ"
+    "alphabet": "A a B b C c Č č D d E e F f G g Ğ ğ Ɣ ɣ H h Ḥ ḥ I i J j K k L l M m N n O o P p Q q R r S s T t U u V v W w X x Y y Z z Ẓ ẓ",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Kako",
     "region": "African",
     "speakers": 120000,
-    "specialCharacters": "Á á À à Â â Ɓ ɓ Ɗ ɗ É é È è Ê ê Ɛ ɛ Í í Ì ì Î î Ǌ ǌ Ŋ ŋ Ó ó Ò ò Ô ô Ɔ ɔ Ú ú Ù ù Û û",
+    "specialCharacters": "Á á À à Â â Ɓ ɓ Ɗ ɗ É é È è Ê ê Ɛ ɛ Í í Ì ì Î î Ǌ ǋ ǌ Ŋ ŋ Ó ó Ò ò Ô ô Ɔ ɔ Ú ú Ù ù Û û",
     "htmlTag": "kkj",
     "script": "Latn",
     "scriptName": "Latin",
@@ -962,7 +1144,28 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "alphabet": "A a Á á À à Â â B b Ɓ ɓ C c D d Ɗ ɗ E e É é È è Ê ê Ɛ ɛ F f G g H h I i Í í Ì ì Î î J j K k L l M m N n Ǌ ǌ Ŋ ŋ O o Ó ó Ò ò Ô ô Ɔ ɔ P p Q q R r S s T t U u Ú ú Ù ù Û û V v W w X x Y y Z z"
+    "alphabet": "A a Á á À à Â â B b Ɓ ɓ C c D d Ɗ ɗ E e É é È è Ê ê Ɛ ɛ F f G g H h I i Í í Ì ì Î î J j K k L l M m N n Ǌ ǌ Ŋ ŋ O o Ó ó Ò ò Ô ô Ɔ ɔ P p Q q R r S s T t U u Ú ú Ù ù Û û V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
+  },
+  {
+    "language": "Kazakh",
+    "speakers": 11700000,
+    "script": "Cyrl",
+    "region": "Asian",
+    "alphabet": "А а Ә ә Б б В в Г г Ғ ғ Д д Е е Ё ё Ж ж З з И и Й й К к Қ қ Л л М м Н н Ң ң О о Ө ө П п Р р С с Т т У у Ұ ұ Ү ү Ф ф Х х Һ һ Ц ц Ч ч Ш ш Щ щ Ъ ъ Ы ы І і Ь ь Э э Ю ю Я я",
+    "htmlTag": "kk",
+    "opentypeTag": "KAZ",
+    "scriptName": "Cyrillic",
+    "pangrams": [],
+    "letterings": [],
+    "sentences": [],
+    "paragraphs": [],
+    "smallcaps": [],
+    "gotchas": [],
+    "specialCharacters": "Ә ә Ғ ғ Ё ё І і Қ қ Ң ң Ө ө Ү ү Ұ ұ Һ һ",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Khoekhoe",
@@ -972,15 +1175,17 @@
     "paragraphs": [
       "ǃGâi tsēs. ǃGâi ǁgoas. Nē ǀkharib ǃnâ da ge ǁgûn tsî ǀgaen tsî doan tsîn; tsî ǀnopodi tsî ǀkhenadi tsî ǀhuigu tsî ǀamin tsîn; tsî ǀkharagagu ǀaon tsîna ra hō."
     ],
-    "alphabet": "A a B b Ɓ ɓ C c D d Ɗ ɗ E e Ə ə F f G g H h I i J j K k L l M m N n Ŋ ŋ O o P p R r S s T t U u V v W w Y y Z z Ã ã Ẽ ẽ Ə̃ ə̃ ĩ Ĩ Õ õ",
-    "specialCharacters": "Ã ã Ɓ ɓ Ɗ ɗ Ẽ ẽ Ə ə Ə̃ ə̃ Ĩ ĩ Ŋ ŋ Õ õ",
+    "alphabet": "A a Ã ã AA aa ÃÃ ãã AE ae AI ai ÃĨ ãĩ AO ao AU au ÃŨ ãũ B b D d E e Ẽ ẽ EE ee F f G g GY gy H h I i Ĩ ĩ II ii ĨĨ ĩĩ J j K k KH kh L l M m N n O o Õ õ OA oa ÕÃ õã OE oe OO oo P p R r S s T t TS ts U u Ũ ũ UI ui ŨĨ ũĩ UU uu ŨŨ ũũ V v W w X x ǀ ǀG ǀg ǀH ǀh ǀKH ǀkh ǀN ǀn ǁ ǁG ǁg ǁH ǁh ǁKH ǁkh ǁN ǁn ǂ ǂG ǂg ǂH ǂh ǂKH ǂkh ǂN ǂn ǃ ǃG ǃg ǃH ǃh ǃKH ǃkh ǃN ǃn",
     "htmlTag": "naq",
     "scriptName": "Latin",
     "pangrams": [],
     "letterings": [],
     "sentences": [],
     "smallcaps": [],
-    "gotchas": []
+    "gotchas": [],
+    "specialCharacters": "Ã ã ÃÃ ãã ÃĨ ãĩ ÃŨ ãũ Ẽ ẽ Ĩ ĩ ĨĨ ĩĩ Õ õ ÕÃ õã Ũ ũ ŨĨ ũĩ ŨŨ ũũ ǀ ǀG ǀg ǀH ǀh ǀKH ǀkh ǀN ǀn ǁ ǁG ǁg ǁH ǁh ǁKH ǁkh ǁN ǁn ǂ ǂG ǂg ǂH ǂh ǂKH ǂkh ǂN ǂn ǃ ǃG ǃg ǃH ǃh ǃKH ǃkh ǃN ǃn",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Koyraboro Senni",
@@ -999,7 +1204,9 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "alphabet": "A a Ã ã B b C c D d E e Ẽ ẽ F f G g H h I i J j K k L l M m N n Ɲ ɲ Ŋ ŋ O o Õ õ P p Q q R r S s Š š T t U u V v W w X x Y y Z z Ž ž"
+    "alphabet": "A a Ã ã B b C c D d E e Ẽ ẽ F f G g H h I i J j K k L l M m N n Ɲ ɲ Ŋ ŋ O o Õ õ P p Q q R r S s Š š T t U u V v W w X x Y y Z z Ž ž",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Koyra Chiini",
@@ -1018,7 +1225,47 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "alphabet": "A a Ã ã B b C c D d E e Ẽ ẽ F f G g H h I i J j K k L l M m N n Ɲ ɲ Ŋ ŋ O o Õ õ P p Q q R r S s Š š T t U u V v W w X x Y y Z z Ž ž"
+    "alphabet": "A a Ã ã B b C c D d E e Ẽ ẽ F f G g H h I i J j K k L l M m N n Ɲ ɲ Ŋ ŋ O o Õ õ P p Q q R r S s Š š T t U u V v W w X x Y y Z z Ž ž",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
+  },
+  {
+    "language": "Kyrgyz",
+    "speakers": 4300000,
+    "script": "Cyrl",
+    "region": "Asian",
+    "alphabet": "А а Б б Г г Д д Е е Ё ё Ж ж З з И и Й й К к Л л М м Н н Ң ң О о Ө ө П п Р р С с Т т У у Ү ү Х х Ч ч Ш ш Ы ы Э э Ю ю Я я",
+    "htmlTag": "ky",
+    "opentypeTag": "KIR",
+    "scriptName": "Cyrillic",
+    "pangrams": [],
+    "letterings": [],
+    "sentences": [],
+    "paragraphs": [],
+    "smallcaps": [],
+    "gotchas": [],
+    "specialCharacters": "Ё ё Ң ң Ө ө Ү ү",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
+  },
+  {
+    "language": "Lakota",
+    "speakers": 2100,
+    "region": "American",
+    "alphabet": "A a Aŋ aŋ B b Č č Čh čh Č’ č’ E e G g Ǧ ǧ H h Ȟ ȟ I i Iŋ iŋ K k Kh kh Kȟ kȟ K’ k’ L l M m N n O o P p Ph ph Pȟ pȟ P’ p’ S s Š š T t Th th Tȟ tȟ T’ t’ U u Uŋ uŋ W w Y y Z z Ž ž ’",
+    "alphabetIsSorted": true,
+    "htmlTag": "lkt",
+    "script": "Latn",
+    "scriptName": "Latin",
+    "pangrams": [],
+    "letterings": [],
+    "sentences": [],
+    "paragraphs": [],
+    "smallcaps": [],
+    "gotchas": [],
+    "specialCharacters": "’ AŊ aŋ Č č Č’ č’ ČH čh Ǧ ǧ Ȟ ȟ IŊ iŋ K’ k’ KȞ kȟ P’ p’ PȞ pȟ Š š T’ t’ TȞ tȟ UŊ uŋ Ž ž",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Latin",
@@ -1037,7 +1284,9 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "alphabet": "A a B b C c D d E e F f G g H h I i J j K k L l M m N n O o P p Q q R r S s T t U u V v W w X x Y y Z z"
+    "alphabet": "A a B b C c D d E e F f G g H h I i J j K k L l M m N n O o P p Q q R r S s T t U u V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Latvian",
@@ -1054,7 +1303,8 @@
           "metrics"
         ],
         "tests": [
-          "spēcīgi līdz Cīrulis peisaistīja Irbītis Skatīt vadība ierādīta piedalījās dīšas čīča \n\"ī\" /ī/ \\ī\\ (ī) [ī] {ī}"
+          "spēcīgi līdz Cīrulis peisaistīja Irbītis Skatīt vadība ierādīta piedalījās dīšas čīča",
+          "\n\"ī\" /ī/ \\ī\\ (ī) [ī] {ī}"
         ]
       }
     ],
@@ -1067,7 +1317,9 @@
     "paragraphs": [],
     "smallcaps": [],
     "specialCharacters": "Ā ā Č č Ē ē Ģ ģ Ī ī Ķ ķ Ļ ļ Ņ ņ Š š Ū ū Ž ž",
-    "alphabet": "A a Ā ā B b C c Č č D d E e Ē ē F f G g Ģ ģ H h I i Ī ī J j K k Ķ ķ L l Ļ ļ M m N n Ņ ņ O o P p Q q R r S s Š š T t U u Ū ū V v W w X x Y y Z z Ž ž"
+    "alphabet": "A a Ā ā B b C c Č č D d E e Ē ē F f G g Ģ ģ H h I i Ī ī J j K k Ķ ķ L l Ļ ļ M m N n Ņ ņ O o P p Q q R r S s Š š T t U u Ū ū V v W w X x Y y Z z Ž ž",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Lingala",
@@ -1078,7 +1330,7 @@
     ],
     "gotchas": [
       {
-        "topic": "mark positioning",
+        "topic": "open E open O acute",
         "tags": [
           "mark"
         ],
@@ -1097,7 +1349,9 @@
     "sentences": [],
     "smallcaps": [],
     "specialCharacters": "Á á É é Ê ê Ɛ ɛ Ɛ́ ɛ́ Í í Ó ó Ô ô Ɔ ɔ Ɔ́ ɔ́ Ú ú",
-    "alphabet": "A a Á á B b C c D d E e É é Ê ê Ɛ ɛ Ɛ́ ɛ́ F f G g H h I i Í í J j K k L l M m N n O o Ó ó Ô ô Ɔ ɔ Ɔ́ ɔ́ P p Q q R r S s T t U u Ú ú V v W w X x Y y Z z"
+    "alphabet": "A a Á á B b C c D d E e É é Ê ê Ɛ ɛ Ɛ́ ɛ́ F f G g H h I i Í í J j K k L l M m N n O o Ó ó Ô ô Ɔ ɔ Ɔ́ ɔ́ P p Q q R r S s T t U u Ú ú V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Lithuanian",
@@ -1116,7 +1370,30 @@
     "smallcaps": [],
     "gotchas": [],
     "specialCharacters": "Ą ą Č č Ė ė Ę ę Į į Š š Ų ų Ū ū Ž ž",
-    "alphabet": "A a Ą ą B b C c Č č D d E e Ė ė Ę ę F f G g H h I i Į į J j K k L l M m N n O o P p Q q R r S s Š š T t U u Ų ų Ū ū V v W w X x Y y Z z Ž ž"
+    "alphabet": "A a Ą ą B b C c Č č D d E e Ė ė Ę ę F f G g H h I i Į į J j K k L l M m N n O o P p Q q R r S s Š š T t U u Ų ų Ū ū V v W w X x Y y Z z Ž ž",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
+  },
+  {
+    "language": "Livonian",
+    "htmlTag": "liv",
+    "speakers": 0,
+    "region": "European",
+    "sentences": [
+      "Jõvā ūomõg! Vȯndzist Ūdāigastõ!"
+    ],
+    "alphabet": "A a Ā ā Ä ä Ǟ ǟ B b D d Ḑ ḑ E e Ē ē F f G g H h I i Ī ī J j K k L l Ļ ļ M m N n Ņ ņ O o Ō ō Ȯ ȯ Ȱ ȱ Õ õ Ȭ ȭ P p R r Ŗ ŗ S s Š š T t Ț ț U u Ū ū V v Z z Ž ž",
+    "alphabetIsSorted": true,
+    "optionalCharacters": "Ö ö Ȫ ȫ Y y Ȳ ȳ",
+    "optionalCharactersNote": "Used for phonemes that were unrounded in later generations; these were used as late as 1997.",
+    "script": "Latn",
+    "scriptName": "Latin",
+    "pangrams": [],
+    "letterings": [],
+    "paragraphs": [],
+    "smallcaps": [],
+    "gotchas": [],
+    "specialCharacters": "Ä ä Ǟ ǟ Ā ā Ḑ ḑ Ē ē Ī ī Ļ ļ Ņ ņ Õ õ Ȭ ȭ Ȯ ȯ Ȱ ȱ Ō ō Ŗ ŗ Š š Ț ț Ū ū Ž ž"
   },
   {
     "language": "Maasai",
@@ -1125,7 +1402,8 @@
     ],
     "region": "African",
     "speakers": 1300000,
-    "alphabet": "a b ch d e ɛ g h i ɨ j k l m n ny ŋ o ɔ p r rr s sh t u ʉ w wu y yi ' ʔ",
+    "alphabet": "A a B b CH ch D d E e Ɛ ɛ G g H h I i Ɨ ɨ J j K k L l M m N n NY ny Ŋ ŋ O o Ɔ ɔ P p R r RR rr S s SH sh T t U u Ʉ ʉ W w WU wu Y y YI yi ' ʔ",
+    "alphabetIsSorted": true,
     "htmlTag": "mas",
     "script": "Latn",
     "scriptName": "Latin",
@@ -1135,7 +1413,9 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": "CH ch Ɛ ɛ Ɨ ɨ NY ny Ŋ ŋ Ɔ ɔ RR rr SH sh Ʉ ʉ WU wu YI yi ʔ"
+    "specialCharacters": "' Ɛ ɛ Ɨ ɨ Ŋ ŋ Ɔ ɔ Ʉ ʉ ʔ",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Macedonian",
@@ -1154,7 +1434,9 @@
     "sentences": [],
     "paragraphs": [],
     "smallcaps": [],
-    "gotchas": []
+    "gotchas": [],
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Maltese",
@@ -1172,8 +1454,10 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": "À à Ċ ċ Ġ ġ Ħ ħ Ż ż",
-    "alphabet": "A a À à B b C c Ċ ċ D d E e F f G g Ġ ġ H h Ħ ħ I i J j K k L l M m N n O o P p Q q R r S s T t U u V v W w X x Y y Z z Ż ż"
+    "specialCharacters": "' À à Ċ ċ Ġ ġ Ħ ħ Ż ż",
+    "alphabet": "' A a À à B b C c Ċ ċ D d E e F f G g Ġ ġ H h Ħ ħ I i J j K k L l M m N n O o P p Q q R r S s T t U u V v W w X x Y y Z z Ż ż",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Mapudungun",
@@ -1194,7 +1478,9 @@
     "smallcaps": [],
     "gotchas": [],
     "specialCharacters": "Ḻ ḻ Ñ ñ Ṉ ṉ Ü ü",
-    "alphabet": "A a B b C c D d E e F f G g H h I i J j K k L l Ḻ ḻ M m N n Ñ ñ Ṉ ṉ O o P p Q q R r S s T t U u Ü ü V v W w X x Y y Z z"
+    "alphabet": "A a B b C c D d E e F f G g H h I i J j K k L l Ḻ ḻ M m N n Ñ ñ Ṉ ṉ O o P p Q q R r S s T t U u Ü ü V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Marshallese",
@@ -1224,7 +1510,9 @@
     "sentences": [],
     "paragraphs": [],
     "smallcaps": [],
-    "specialCharacters": "Ā ā Ļ ļ M̧ m̧ Ņ ņ N̄ n̄ O̧ o̧ Ō ō Ū ū"
+    "specialCharacters": "Ā ā Ļ ļ M̧ m̧ Ņ ņ N̄ n̄ O̧ o̧ Ō ō Ū ū",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Mongolian",
@@ -1234,7 +1522,7 @@
     "pangrams": [
       "Щётканы фермд пийшин цувъя. Бөгж зогсч хэльюү."
     ],
-    "specialCharacters": "ӨӨ өө ҮҮ үү",
+    "specialCharacters": "Ө ө Ү ү",
     "alphabet": "А а Б б В в Г г Д д Е е Ё ё Ж ж З з И и Й й К к Л л М м Н н О о Ө ө П п Р р С с Т т У у Ү ү Ф ф Х х Ц ц Ч ч Ш ш Щ щ Ъ ъ Ы ы Ь ь Э э Ю ю Я я",
     "htmlTag": "mn",
     "opentypeTag": "MNG",
@@ -1243,7 +1531,9 @@
     "sentences": [],
     "paragraphs": [],
     "smallcaps": [],
-    "gotchas": []
+    "gotchas": [],
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Mundang",
@@ -1259,7 +1549,44 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": "Ã ã Ɓ ɓ Ɗ ɗ Ẽ ẽ Ə ə Ə̃ ə̃ Ĩ ĩ Ŋ ŋ Õ õ Ṽ ṽ"
+    "specialCharacters": "Ã ã Ɓ ɓ Ɗ ɗ Ẽ ẽ Ə ə Ə̃ ə̃ Ĩ ĩ Ŋ ŋ Õ õ Ṽ ṽ",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
+  },
+  {
+    "language": "Navajo",
+    "htmlTag": "nv",
+    "opentypeTag": "NAV",
+    "region": "American",
+    "speakers": 169000,
+    "script": "Latn",
+    "alphabet": "’ A a Á á Ą ą Ą́ ą́ AA aa ÁÁ áá ĄĄ ąą Ą́Ą́ ą́ą́ B b CH ch CH’ ch’ D d DL dl DZ dz E e É é Ę ę Ę́ ę́ EE ee ÉÉ éé ĘĘ ęę Ę́Ę́ ę́ę́ G g GH gh H h HW hw I i Í í Į į Į́ į́ II ii ÍÍ íí ĮĮ įį Į́Į́ į́į́ J j K k K’ k’ KW kw L l Ł ł M m N n O o Ó ó Ǫ ǫ Ǫ́ ǫ́ OO oo ÓÓ óó ǪǪ ǫǫ Ǫ́Ǫ́ ǫ́ǫ́ S s SH sh T t T’ t’ TŁ tł TŁ’ tł’ TS ts TS’ ts’ W w X x Y y Z z ZH zh",
+    "paragraphs": [
+      "Ashiiké tʼóó diigis léiʼ tółikaní łaʼ ádiilnííł dóó nihaa nahidoonih níigo yee hodeezʼą́ jiní. Áko tʼáá ałʼąą chʼil naʼatłʼoʼii kʼiidiilá dóó hááhgóóshį́į́ yinaalnishgo tʼáá áłah chʼil naʼatłʼoʼii néineestʼą́ jiní. Áádóó tółikaní áyiilaago tʼáá bíhígíí tʼáá ałʼąą tłʼízíkágí yiiʼ haidééłbįįd jiní. \"Háadida díí tółikaní yígíí doo łaʼ ahaʼdiidził da,\" níigo ahaʼdeetʼą́ jiníʼ. Áádóó baa nahidoonih biniiyé kintahgóó dah yidiiłjid jiníʼ..."
+    ],
+    "sentences": [
+      "Áádóó tółikaní áyiilaago tʼáá bíhígíí tʼáá ałʼąą tłʼízíkágí yiiʼ haidééłbįįd jiní."
+    ],
+    "gotchas": [
+      {
+        "topic": "centered ogonek",
+        "tags": [
+          "localization",
+          "mark"
+        ],
+        "description": "The letters <em>A E I O</em> can take an acute, an ogonek, or both. This requires proper combining mark positioning feature or corresponding precomposed glyphs substituted by OpenType, or both. The ogonek, unlike for Polish and Lithuanian usage, must be centered below the base letters, including <em>A</em> and <em>a</em>.",
+        "tests": [
+          "Ą ą Ą́ ą́ Ę ę Ę́ ę́ Į į Į́ į́ Ǫ ǫ Ǫ́ ǫ́"
+        ]
+      }
+    ],
+    "scriptName": "Latin",
+    "pangrams": [],
+    "letterings": [],
+    "smallcaps": [],
+    "specialCharacters": "’ Á á Ą ą Ą́ ą́ ÁÁ áá ĄĄ ąą Ą́Ą́ ą́ą́ CH’ ch’ É é Ę ę Ę́ ę́ ÉÉ éé ĘĘ ęę Ę́Ę́ ę́ę́ Í í Į į Į́ į́ ÍÍ íí ĮĮ įį Į́Į́ į́į́ K’ k’ Ł ł Ó ó Ǫ ǫ Ǫ́ ǫ́ ÓÓ óó ǪǪ ǫǫ Ǫ́Ǫ́ ǫ́ǫ́ T’ t’ TŁ tł TŁ’ tł’ TS’ ts’",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Ngiemboon",
@@ -1275,7 +1602,9 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "alphabet": "A a Á á À à Â â Ǎ ǎ B b C c D d E e É é È è Ê ê Ě ě Ɛ ɛ F f G g H h I i Í í Ì ì J j K k L l M m Ḿ ḿ N n Ń ń Ŋ ŋ O o Ó ó Ò ò Ô ô Ǒ ǒ Ɔ ɔ P p Q q R r S s T t U u Ú ú Ù ù Û û Ǔ ǔ Ʉ ʉ V v W w Ẅ ẅ X x Y y Ÿ ÿ Z z ʼ"
+    "alphabet": "A a Á á À à Â â Ǎ ǎ B b C c D d E e É é È è Ê ê Ě ě Ɛ ɛ F f G g H h I i Í í Ì ì J j K k L l M m Ḿ ḿ N n Ń ń Ŋ ŋ O o Ó ó Ò ò Ô ô Ǒ ǒ Ɔ ɔ P p Q q R r S s T t U u Ú ú Ù ù Û û Ǔ ǔ Ʉ ʉ V v W w Ẅ ẅ X x Y y Ÿ ÿ Z z ʼ",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Ngomba",
@@ -1291,7 +1620,9 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "alphabet": "A a Á á Â â Ǎ ǎ B b C c D d E e Ɛ ɛ F f G g H h I i Í í Î î Ǐ ǐ J j K k L l M m Ḿ ḿ N n Ń ń Ǹ ǹ Ŋ ŋ O o Ɔ ɔ P p Q q R r S s T t U u Ú ú Û û Ǔ ǔ Ʉ ʉ V v W w Ẅ ẅ X x Y y Z z Ꞌ ꞌ"
+    "alphabet": "A a Á á Â â Ǎ ǎ B b C c D d E e Ɛ ɛ F f G g H h I i Í í Î î Ǐ ǐ J j K k L l M m Ḿ ḿ N n Ń ń Ǹ ǹ Ŋ ŋ O o Ɔ ɔ P p Q q R r S s T t U u Ú ú Û û Ǔ ǔ Ʉ ʉ V v W w Ẅ ẅ X x Y y Z z Ꞌ ꞌ",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Norwegian",
@@ -1300,6 +1631,8 @@
     "pangrams": [
       "Jeg begynte å fortære en sandwich mens jeg kjørte taxi på vei til quiz"
     ],
+    "optionalCharacters": "Ǽ ǽ Ǻ ǻ Ǿ ǿ",
+    "optionalCharactersNote": "Dictionary use.",
     "htmlTag": "no",
     "opentypeTag": "NOR",
     "script": "Latn",
@@ -1343,7 +1676,9 @@
     "sentences": [],
     "paragraphs": [],
     "smallcaps": [],
-    "alphabet": "A a Ą ą B b C c Ć ć D d E e Ę ę F f G g H h I i J j K k L l Ł ł M m N n Ń ń O o Ó ó P p Q q R r S s Ś ś T t U u V v W w X x Y y Z z Ź ź Ż ż"
+    "alphabet": "A a Ą ą B b C c Ć ć D d E e Ę ę F f G g H h I i J j K k L l Ł ł M m N n Ń ń O o Ó ó P p Q q R r S s Ś ś T t U u V v W w X x Y y Z z Ź ź Ż ż",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Portuguese",
@@ -1362,7 +1697,27 @@
     "smallcaps": [],
     "gotchas": [],
     "specialCharacters": "« » Á á À à Â â Ã ã Ç ç É é Ê ê Í í Ó ó Ô ô Õ õ Ú ú Ü ü",
-    "alphabet": "« » A a Á á À à Â â Ã ã B b C c Ç ç D d E e É é Ê ê F f G g H h I i Í í J j K k L l M m N n O o Ó ó Ô ô Õ õ P p Q q R r S s T t U u Ú ú Ü ü V v W w X x Y y Z z"
+    "alphabet": "« » A a Á á À à Â â Ã ã B b C c Ç ç D d E e É é Ê ê F f G g H h I i Í í J j K k L l M m N n O o Ó ó Ô ô Õ õ P p Q q R r S s T t U u Ú ú Ü ü V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
+  },
+  {
+    "language": "Riffian",
+    "htmlTag": "rif",
+    "region": "African",
+    "speakers": 6000000,
+    "specialCharacters": "Č č Ḍ ḍ Ɛ ɛ Ǧ ǧ Ɣ ɣ Ḥ ḥ Ř ř Ṛ ṛ Ṣ ṣ Ṭ ṭ Ẓ ẓ",
+    "script": "Latn",
+    "scriptName": "Latin",
+    "pangrams": [],
+    "letterings": [],
+    "sentences": [],
+    "paragraphs": [],
+    "smallcaps": [],
+    "gotchas": [],
+    "alphabet": "A a B b C c Č č D d Ḍ ḍ E e Ɛ ɛ F f G g Ǧ ǧ Ɣ ɣ H h Ḥ ḥ I i J j K k L l M m N n O o P p Q q R r Ř ř Ṛ ṛ S s Ṣ ṣ T t Ṭ ṭ U u V v W w X x Y y Z z Ẓ ẓ",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Romanian",
@@ -1393,7 +1748,9 @@
     "paragraphs": [],
     "smallcaps": [],
     "specialCharacters": "Ă ă Â â Î î Ș ș Ț ț",
-    "alphabet": "A a Ă ă Â â B b C c D d E e F f G g H h I i Î î J j K k L l M m N n O o P p Q q R r S s Ș ș T t Ț ț U u V v W w X x Y y Z z"
+    "alphabet": "A a Ă ă Â â B b C c D d E e F f G g H h I i Î î J j K k L l M m N n O o P p Q q R r S s Ș ș T t Ț ț U u V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Russian",
@@ -1416,7 +1773,37 @@
     "sentences": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": ""
+    "specialCharacters": "Ё ё",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
+  },
+  {
+    "language": "Northern Sami",
+    "altNames": [
+      "North Sami",
+      "Sami"
+    ],
+    "speakers": 25000,
+    "region": "European",
+    "sentences": [
+      "Buot olbmot leat riegádan friddjan ja olmmošárvvu ja olmmošvuoigatvuođaid dáfus.",
+      "Sii leat jierbmalaš olbmot geain lea oamedovdu ja sii gálggaše leat dego vieljačagat.",
+      "Ruoŧa sámiid riikkasearvi, RSR, hilgu ráđđehusa evttohusa ođđa ráđđádallanortnegii sámiiguin.",
+      "John Ness almmustahttá farga romána mas lea sáhka sápmelaččain, dážain, ruoŧŧilaččain ja skealmmain."
+    ],
+    "alphabet": "A a Á á B b C c Č č D d Đ đ E e F f G g H h I i J j K k L l M m N n Ŋ ŋ O o P p R r S s Š š T t Ŧ ŧ U u V v Z z Ž ž",
+    "htmlTag": "se",
+    "opentypeTag": "NSM",
+    "script": "Latn",
+    "scriptName": "Latin",
+    "pangrams": [],
+    "letterings": [],
+    "paragraphs": [],
+    "smallcaps": [],
+    "gotchas": [],
+    "specialCharacters": "Á á Č č Đ đ Ŋ ŋ Š š Ŧ ŧ Ž ž",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Scottish Gaelic",
@@ -1434,8 +1821,10 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": "À à È è Ì ì Ò ò Ù ù",
-    "alphabet": "A a À à B b C c D d E e È è F f G g H h I i Ì ì J j K k L l M m N n O o Ò ò P p Q q R r S s T t U u Ù ù V v W w X x Y y Z z"
+    "specialCharacters": "’ À à È è Ì ì Ò ò Ù ù",
+    "alphabet": "’ A a À à B b C c D d E e È è F f G g H h I i Ì ì J j K k L l M m N n O o Ò ò P p Q q R r S s T t U u Ù ù V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Serbian",
@@ -1457,7 +1846,9 @@
     "sentences": [],
     "paragraphs": [],
     "smallcaps": [],
-    "gotchas": []
+    "gotchas": [],
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Serbian",
@@ -1476,7 +1867,27 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": "Ć ć Č č Đ đ DŽ dž LJ lj NJ nj Š š Ž ž"
+    "specialCharacters": "Ć ć Č č Đ đ DŽ dž Š š Ž ž",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
+  },
+  {
+    "language": "Shawiya",
+    "htmlTag": "shy",
+    "region": "African",
+    "speakers": 2130000,
+    "specialCharacters": "Č č Ḍ ḍ Ɛ ɛ Ǧ ǧ Ɣ ɣ Ḥ ḥ Ř ř Ṛ ṛ Ṣ ṣ Ṭ ṭ Ẓ ẓ",
+    "script": "Latn",
+    "scriptName": "Latin",
+    "pangrams": [],
+    "letterings": [],
+    "sentences": [],
+    "paragraphs": [],
+    "smallcaps": [],
+    "gotchas": [],
+    "alphabet": "A a B b C c Č č D d Ḍ ḍ E e Ɛ ɛ F f G g Ǧ ǧ Ɣ ɣ H h Ḥ ḥ I i J j K k L l M m N n O o P p Q q R r Ř ř Ṛ ṛ S s Ṣ ṣ T t Ṭ ṭ U u V v W w X x Y y Z z Ẓ ẓ",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Shilha",
@@ -1497,7 +1908,31 @@
     "smallcaps": [],
     "gotchas": [],
     "specialCharacters": "Ḍ ḍ Ɛ ɛ Ɣ ɣ Š š Ṣ ṣ Ž ž Ẓ ẓ",
-    "alphabet": "A a B b C c D d Ḍ ḍ E e Ɛ ɛ F f G g Ɣ ɣ H h I i J j K k L l M m N n O o P p Q q R r S s Š š Ṣ ṣ T t U u V v W w X x Y y Z z Ž ž Ẓ ẓ"
+    "alphabet": "A a B b C c D d Ḍ ḍ E e Ɛ ɛ F f G g Ɣ ɣ H h I i J j K k L l M m N n O o P p Q q R r S s Š š Ṣ ṣ T t U u V v W w X x Y y Z z Ž ž Ẓ ẓ",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
+  },
+  {
+    "language": "Skolt Sami",
+    "altNames": [
+      "Eastern Sami"
+    ],
+    "speakers": 320,
+    "region": "European",
+    "alphabet": "A a Â â Å å Ä ä B b C c Č č D d Đ đ E e F f G g Ǧ ǧ Ǥ ǥ H h I i J j K k Ǩ ǩ L l M m N n Ŋ ŋ O o Õ õ P p R r S s Š š T t U u V v Z z Ž ž Ʒ ʒ Ǯ ǯ",
+    "htmlTag": "sms",
+    "opentypeTag": "SKS",
+    "script": "Latn",
+    "scriptName": "Latin",
+    "pangrams": [],
+    "letterings": [],
+    "sentences": [],
+    "paragraphs": [],
+    "smallcaps": [],
+    "gotchas": [],
+    "specialCharacters": "Â â Å å Ä ä Č č Đ đ Ǧ ǧ Ǥ ǥ Ǩ ǩ Ŋ ŋ Õ õ Š š Ž ž Ʒ ʒ Ǯ ǯ",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Slovak",
@@ -1543,7 +1978,9 @@
     "paragraphs": [],
     "smallcaps": [],
     "specialCharacters": "Á á Ä ä Č č Ď ď É é Í í Ĺ ĺ Ľ ľ Ň ň Ô ô Ŕ ŕ Š š Ť ť Ú ú Ý ý Ž ž",
-    "alphabet": "A a Á á Ä ä B b C c Č č D d Ď ď E e É é F f G g H h I i Í í J j K k L l Ĺ ĺ Ľ ľ M m N n Ň ň O o Ô ô P p Q q R r Ŕ ŕ S s Š š T t Ť ť U u Ú ú V v W w X x Y y Ý ý Z z Ž ž"
+    "alphabet": "A a Á á Ä ä B b C c Č č D d Ď ď E e É é F f G g H h I i Í í J j K k L l Ĺ ĺ Ľ ľ M m N n Ň ň O o Ô ô P p Q q R r Ŕ ŕ S s Š š T t Ť ť U u Ú ú V v W w X x Y y Ý ý Z z Ž ž",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Slovenian",
@@ -1562,7 +1999,9 @@
     "smallcaps": [],
     "gotchas": [],
     "specialCharacters": "Č č Š š Ž ž",
-    "alphabet": "A a B b C c Č č D d E e F f G g H h I i J j K k L l M m N n O o P p Q q R r S s Š š T t U u V v W w X x Y y Z z Ž ž"
+    "alphabet": "A a B b C c Č č D d E e F f G g H h I i J j K k L l M m N n O o P p Q q R r S s Š š T t U u V v W w X x Y y Z z Ž ž",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Spanish",
@@ -1596,7 +2035,9 @@
     "paragraphs": [],
     "smallcaps": [],
     "specialCharacters": "¡ ¿ Á á É é Í í Ñ ñ Ó ó Ú ú Ü ü",
-    "alphabet": "¡ ¿ A a Á á B b C c D d E e É é F f G g H h I i Í í J j K k L l M m N n Ñ ñ O o Ó ó P p Q q R r S s T t U u Ú ú Ü ü V v W w X x Y y Z z"
+    "alphabet": "¡ ¿ A a Á á B b C c D d E e É é F f G g H h I i Í í J j K k L l M m N n Ñ ñ O o Ó ó P p Q q R r S s T t U u Ú ú Ü ü V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Swedish",
@@ -1615,7 +2056,9 @@
     "smallcaps": [],
     "gotchas": [],
     "specialCharacters": "Å å Ä ä Ö ö",
-    "alphabet": "A a Å å Ä ä B b C c D d E e F f G g H h I i J j K k L l M m N n O o Ö ö P p Q q R r S s T t U u V v W w X x Y y Z z"
+    "alphabet": "A a Å å Ä ä B b C c D d E e F f G g H h I i J j K k L l M m N n O o Ö ö P p Q q R r S s T t U u V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Tagalog",
@@ -1634,7 +2077,49 @@
     "smallcaps": [],
     "gotchas": [],
     "specialCharacters": "Ñ ñ",
-    "alphabet": "A a B b C c D d E e F f G g H h I i J j K k L l M m N n Ñ ñ O o P p Q q R r S s T t U u V v W w X x Y y Z z"
+    "alphabet": "A a B b C c D d E e F f G g H h I i J j K k L l M m N n Ñ ñ O o P p Q q R r S s T t U u V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
+  },
+  {
+    "language": "Tatar",
+    "speakers": 5200000,
+    "script": "Cyrl",
+    "region": "Asian",
+    "alphabet": "А а Ә ә Б б В в Г г Д д Е е Ё ё Ж ж Җ җ З з И и Й й К к Л л М м Н н Ң ң О о Ө ө П п Р р С с Т т У у Ү ү Ф ф Х х Һ һ Ц ц Ч ч Ш ш Щ щ Ъ ъ Ы ы Ь ь Э э Ю ю Я я",
+    "htmlTag": "tt",
+    "opentypeTag": "TAT",
+    "scriptName": "Cyrillic",
+    "pangrams": [],
+    "letterings": [],
+    "sentences": [],
+    "paragraphs": [],
+    "smallcaps": [],
+    "gotchas": [],
+    "specialCharacters": "Ә ә Ё ё Җ җ Ң ң Ө ө Ү ү Һ һ",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
+  },
+  {
+    "language": "Tlapanec",
+    "altNames": [
+      "Meꞌphaa"
+    ],
+    "speakers": 127000,
+    "region": "American",
+    "specialCharacters": "Ñ ñ Ꞌ ꞌ",
+    "alphabet": "A a B b C c CH ch D d DX dx E e F f G g H h I i J j K k KH kh L l M m N n Ñ ñ O o P p PH ph Q q R r S s T t TH th U u V v W w X x Y y Z z Ꞌ ꞌ",
+    "htmlTag": "tpc",
+    "script": "Latn",
+    "scriptName": "Latin",
+    "pangrams": [],
+    "letterings": [],
+    "sentences": [],
+    "paragraphs": [],
+    "smallcaps": [],
+    "gotchas": [],
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Turkish",
@@ -1657,6 +2142,8 @@
         ]
       }
     ],
+    "alphabet": "A a B b C c Ç ç D d E e F f G g Ğ ğ H h I ı İ i J j K k L l M m N n O o Ö ö P p R r S s Ş ş T t U u Ü ü V v Y y Z z",
+    "alphabetIsSorted": true,
     "htmlTag": "tr",
     "opentypeTag": "TRK",
     "script": "Latn",
@@ -1665,8 +2152,28 @@
     "sentences": [],
     "paragraphs": [],
     "smallcaps": [],
-    "specialCharacters": "Ç ç Ğ ğ I İ i̇ ı Ö ö Ş ş Ü ü",
-    "alphabet": "A a B b C c Ç ç D d E e F f G g Ğ ğ H h I i İ İ i̇ ı J j K k L l M m N n O o Ö ö P p Q q R r S s Ş ş T t U u Ü ü V v W w X x Y y Z z"
+    "specialCharacters": "Ç ç Ğ ğ I i İ ı Ö ö Ş ş Ü ü",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
+  },
+  {
+    "language": "Turkmen",
+    "speakers": 6700000,
+    "script": "Cyrl",
+    "region": "Asian",
+    "alphabet": "А а Б б В в Г г Д д Е е Ё ё Ж ж Җ җ З з И и Й й К к Л л М м Н н Ң ң О о Ө ө П п Р р С с Т т У у Ү ү Ф ф Х х Ц ц Ч ч Ш ш Щ щ Ъ ъ Ы ы Ь ь Э э Ә ә Ю ю Я я",
+    "htmlTag": "tk",
+    "opentypeTag": "TKM",
+    "scriptName": "Cyrillic",
+    "pangrams": [],
+    "letterings": [],
+    "sentences": [],
+    "paragraphs": [],
+    "smallcaps": [],
+    "gotchas": [],
+    "specialCharacters": "Ә ә Ё ё Җ җ Ң ң Ө ө Ү ү",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Ukrainian",
@@ -1698,7 +2205,66 @@
     "letterings": [],
     "sentences": [],
     "paragraphs": [],
-    "smallcaps": []
+    "smallcaps": [],
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
+  },
+  {
+    "language": "Uzbek",
+    "script": "Cyrl",
+    "htmlTag": "uz",
+    "region": "Asian",
+    "speakers": 27000000,
+    "specialCharacters": "Ғ ғ Қ қ Ў ў Ҳ ҳ",
+    "alphabet": " А а Б б Д д Э э Е е Ф ф Г г Ҳ ҳ И и Ж ж К к Л л М м Н н О о П п Қ қ Р р С с Т т У у В в Х х Й й З з Ў ў Ғ ғ Ш ш Ч ч нг ъ",
+    "opentypeTag": "UZB",
+    "scriptName": "Cyrillic",
+    "pangrams": [],
+    "letterings": [],
+    "sentences": [],
+    "paragraphs": [],
+    "smallcaps": [],
+    "gotchas": [],
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
+  },
+  {
+    "language": "Uzbek",
+    "script": "Latn",
+    "htmlTag": "uz",
+    "region": "Asian",
+    "speakers": 27000000,
+    "specialCharacters": "Gʻ gʻ Oʻ oʻ ʼ",
+    "alphabet": "A a B b CH ch D d E e F f G g Gʻ gʻ H h I i J j K k L l M m N n NG ng O o Oʻ oʻ P p Q q R r S s SH sh T t U u V v X x Y y Z z ʼ",
+    "opentypeTag": "UZB",
+    "scriptName": "Latin",
+    "pangrams": [],
+    "letterings": [],
+    "sentences": [],
+    "paragraphs": [],
+    "smallcaps": [],
+    "gotchas": [],
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
+  },
+  {
+    "language": "Uzbek (planned reform)",
+    "script": "Latn",
+    "htmlTag": "uz",
+    "region": "Asian",
+    "speakers": 27000000,
+    "specialCharacters": "Ç ç Ǵ ǵ Ó ó Ş ş ʼ",
+    "alphabet": "A a B b C c Ç ç D d E e F f G g Ǵ ǵ H h I i J j K k L l M m N n O o Ó ó P p Q q R r S s Ş ş T t U u V v X x Y y Z z ʼ",
+    "opentypeTag": "UZB",
+    "scriptName": "Latin",
+    "pangrams": [],
+    "letterings": [],
+    "sentences": [],
+    "paragraphs": [],
+    "smallcaps": [],
+    "gotchas": [],
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Vai",
@@ -1714,7 +2280,9 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "alphabet": "A a Á á Ã ã B b Ɓ ɓ C c D d Ɗ ɗ E e É é Ẽ ẽ Ɛ ɛ F f G g H h I i Í í Ĩ ĩ J j K k L l M m N n Ŋ ŋ O o Ó ó Õ õ Ɔ ɔ P p Q q R r S s T t U u Ú ú Ũ ũ V v W w X x Y y Z z"
+    "alphabet": "A a Á á Ã ã B b Ɓ ɓ C c D d Ɗ ɗ E e É é Ẽ ẽ Ɛ ɛ F f G g H h I i Í í Ĩ ĩ J j K k L l M m N n Ŋ ŋ O o Ó ó Õ õ Ɔ ɔ P p Q q R r S s T t U u Ú ú Ũ ũ V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Vietnamese",
@@ -1749,7 +2317,9 @@
     "letterings": [],
     "sentences": [],
     "smallcaps": [],
-    "alphabet": "A a Á á À à Ă ă Ắ ắ Ằ ằ Ẵ ẵ Ẳ ẳ Â â Ấ ấ Ầ ầ Ẫ ẫ Ẩ ẩ Ã ã Ả ả Ạ ạ Ặ ặ Ậ ậ B b C c D d Đ đ E e É é È è Ê ê Ế ế Ề ề Ễ ễ Ể ể Ẽ ẽ Ẻ ẻ Ẹ ẹ Ệ ệ F f G g H h I i Í í Ì ì Ĩ ĩ Ỉ ỉ Ị ị J j K k L l M m N n O o Ó ó Ò ò Ô ô Ố ố Ồ ồ Ỗ ỗ Ổ ổ Õ õ Ỏ ỏ Ơ ơ Ớ ớ Ờ ờ Ỡ ỡ Ở ở Ợ ợ Ọ ọ Ộ ộ P p Q q R r S s T t U u Ú ú Ù ù Ũ ũ Ủ ủ Ư ư Ứ ứ Ừ ừ Ữ ữ Ử ử Ự ự Ụ ụ V v W w X x Y y Ý ý Ỳ ỳ Ỹ ỹ Ỷ ỷ Ỵ ỵ Z z"
+    "alphabet": "A a Á á À à Ă ă Ắ ắ Ằ ằ Ẵ ẵ Ẳ ẳ Â â Ấ ấ Ầ ầ Ẫ ẫ Ẩ ẩ Ã ã Ả ả Ạ ạ Ặ ặ Ậ ậ B b C c D d Đ đ E e É é È è Ê ê Ế ế Ề ề Ễ ễ Ể ể Ẽ ẽ Ẻ ẻ Ẹ ẹ Ệ ệ F f G g H h I i Í í Ì ì Ĩ ĩ Ỉ ỉ Ị ị J j K k L l M m N n O o Ó ó Ò ò Ô ô Ố ố Ồ ồ Ỗ ỗ Ổ ổ Õ õ Ỏ ỏ Ơ ơ Ớ ớ Ờ ờ Ỡ ỡ Ở ở Ợ ợ Ọ ọ Ộ ộ P p Q q R r S s T t U u Ú ú Ù ù Ũ ũ Ủ ủ Ư ư Ứ ứ Ừ ừ Ữ ữ Ử ử Ự ự Ụ ụ V v W w X x Y y Ý ý Ỳ ỳ Ỹ ỹ Ỷ ỷ Ỵ ỵ Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Walser German",
@@ -1773,16 +2343,19 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": "« » É é Ö ö Ü ü",
-    "alphabet": "« » A a B b C c D d E e É é F f G g H h I i J j K k L l M m N n O o Ö ö P p Q q R r S s T t U u Ü ü V v W w X x Y y Z z"
+    "specialCharacters": "’ « » É é Ö ö Ü ü",
+    "alphabet": "’ « » A a B b C c D d E e É é F f G g H h I i J j K k L l M m N n O o Ö ö P p Q q R r S s T t U u Ü ü V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Welsh",
     "region": "European",
     "speakers": 700000,
     "pangrams": [
-      "Parciais fy jac codi baw hud llawn dŵr ger tŷ Mabon. John Rhŷs. ẂẃẀẁŴŵẄẅ ÝýỲỳŶŷŸÿ"
+      "Parciais fy jac codi baw hud llawn dŵr ger tŷ Mabon. John Rhŷs."
     ],
+    "specialCharacters": "Á á À à Â â Ä ä É é È è Ê ê Ë ë Í í Ì ì Î î Ï ï Ó ó Ò ò Ô ô Ö ö Ú ú Ù ù Û û Ü ü Ẃ ẃ Ẁ ẁ Ŵ ŵ Ẅ ẅ Ý ý Ỳ ỳ Ŷ ŷ Ÿ ÿ",
     "htmlTag": "cy",
     "opentypeTag": "WEL",
     "script": "Latn",
@@ -1792,8 +2365,9 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": "Ẃ ẃ Ẁ ẁ Ŵ ŵ Ẅ ẅ Ý ý Ỳ ỳ Ŷ ŷ Ÿ ÿ",
-    "alphabet": "A a B b C c D d E e F f G g H h I i J j K k L l M m N n O o P p Q q R r S s T t U u V v W w Ẃ ẃ Ẁ ẁ Ŵ ŵ Ẅ ẅ X x Y y Ý ý Ỳ ỳ Ŷ ŷ Ÿ ÿ Z z"
+    "alphabet": "A a Á á À à Â â Ä ä B b C c D d E e É é È è Ê ê Ë ë F f G g H h I i Í í Ì ì Î î Ï ï J j K k L l M m N n O o Ó ó Ò ò Ô ô Ö ö P p Q q R r S s T t U u Ú ú Ù ù Û û Ü ü V v W w Ẃ ẃ Ẁ ẁ Ŵ ŵ Ẅ ẅ X x Y y Ý ý Ỳ ỳ Ŷ ŷ Ÿ ÿ Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Central Yambasa",
@@ -1812,7 +2386,9 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "alphabet": "A a Á á À à Â â Ǎ ǎ Ā ā B b C c D d E e É é È è Ɛ ɛ F f G g H h I i Í í Ì ì Î î Ī ī J j K k L l M m N n Ŋ ŋ O o Ó ó Ò ò Ô ô Ǒ ǒ Ō ō Ɔ ɔ P p Q q R r S s T t U u Ú ú Ù ù Û û Ǔ ǔ Ū ū V v W w X x Y y Z z"
+    "alphabet": "A a Á á À à Â â Ǎ ǎ Ā ā B b C c D d E e É é È è Ɛ ɛ F f G g H h I i Í í Ì ì Î î Ī ī J j K k L l M m N n Ŋ ŋ O o Ó ó Ò ò Ô ô Ǒ ǒ Ō ō Ɔ ɔ P p Q q R r S s T t U u Ú ú Ù ù Û û Ǔ ǔ Ū ū V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Yoruba",
@@ -1823,16 +2399,18 @@
     ],
     "gotchas": [
       {
-        "topic": "mark positioning",
+        "topic": "vertical line/dot below",
         "tags": [
           "mark"
         ],
-        "description": "Vertical line must be positioned properly (centered) below letters Egrave, Eacute, Ograve, Oacute, S (É̩ é̩ È̩ è̩ Ó̩ ó̩ Ò̩ ò̩ S̩ s̩), as these combinations do not have precomposed diacritics.",
+        "description": "Some combinations do not have precomposed diacritics: letters E, O, S can take <em>vertical line below</em>, E and O also in combination with <em>acute</em>, <em>grave</em>, and <em>macron</em>. In some publications, <em>dot below</em> is used instead of the vertical line.",
         "tests": [
-          "É̩ é̩ È̩ è̩ Ó̩ ó̩ Ò̩ ò̩ S̩ s̩ "
+          "E̩ É̩ È̩ Ē̩ O̩ Ó̩ Ò̩ Ō̩ S̩ e̩ é̩ è̩ ē̩ o̩ ó̩ ò̩ ō̩ s̩",
+          "Ẹ Ẹ́ Ẹ̀ Ẹ̄ Ọ Ọ́ Ọ̀ Ọ̄ Ṣ ẹ ẹ́ ẹ̀ ẹ̄ ọ ọ́ ọ̀ ọ̄ ṣ"
         ]
       }
     ],
+    "specialCharacters": "Á á À à Ā ā É é È è Ē ē E̩ e̩ É̩ é̩ È̩ è̩ Ē̩ ē̩ Ẹ ẹ Ẹ́ ẹ́ Ẹ̀ ẹ̀ Ẹ̄ ẹ̄ Í í Ì ì Ī ī Ó ó Ò ò Ō ō O̩ o̩ Ó̩ ó̩ Ò̩ ò̩ Ō̩ ō̩ Ọ ọ Ọ́ ọ́ Ọ̀ ọ̀ Ọ̄ ọ̄ S̩ s̩ Ṣ ṣ Ú ú Ù ù Ū ū",
     "htmlTag": "yo",
     "opentypeTag": "YBA",
     "script": "Latn",
@@ -1841,8 +2419,9 @@
     "sentences": [],
     "paragraphs": [],
     "smallcaps": [],
-    "specialCharacters": "Á á À à É é É̩ é̩ È̩ è̩ Ì ì Ń ń Ó ó Ó̩ ó̩ Ò̩ ò̩ S̩ s̩ Ú ú",
-    "alphabet": "A a Á á À à B b C c D d E e É é É̩ é̩ È̩ è̩ F f G g H h I i Ì ì J j K k L l M m N n Ń ń O o Ó ó Ó̩ ó̩ Ò̩ ò̩ P p Q q R r S s S̩ s̩ T t U u Ú ú V v W w X x Y y Z z"
+    "alphabet": "A a Á á À à Ā ā B b C c D d E e É é È è Ē ē E̩ e̩ É̩ é̩ È̩ è̩ Ē̩ ē̩ Ẹ ẹ Ẹ́ ẹ́ Ẹ̀ ẹ̀ Ẹ̄ ẹ̄ F f G g H h I i Í í Ì ì Ī ī J j K k L l M m N n O o Ó ó Ò ò Ō ō O̩ o̩ Ó̩ ó̩ Ò̩ ò̩ Ō̩ ō̩ Ọ ọ Ọ́ ọ́ Ọ̀ ọ̀ Ọ̄ ọ̄ P p Q q R r S s S̩ s̩ Ṣ ṣ T t U u Ú ú Ù ù Ū ū V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Zarma",
@@ -1861,7 +2440,27 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "alphabet": "A a Ã ã B b C c D d E e Ẽ ẽ F f G g H h I i J j K k L l M m N n Ɲ ɲ Ŋ ŋ O o Õ õ P p Q q R r S s Š š T t U u V v W w X x Y y Z z Ž ž"
+    "alphabet": "A a Ã ã B b C c D d E e Ẽ ẽ F f G g H h I i J j K k L l M m N n Ɲ ɲ Ŋ ŋ O o Õ õ P p Q q R r S s Š š T t U u V v W w X x Y y Z z Ž ž",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
+  },
+  {
+    "language": "Zazaki",
+    "region": "Asian",
+    "speakers": 1600000,
+    "alphabet": "A a B b C c Ç ç D d E e Ê ê F f G g Ğ ğ H h I i Î î J j K k L l M m N n O o P p Q q R r S s Ş ş T t U u Û û V v W w X x Y y Z z",
+    "htmlTag": "zza",
+    "script": "Latn",
+    "scriptName": "Latin",
+    "pangrams": [],
+    "letterings": [],
+    "sentences": [],
+    "paragraphs": [],
+    "smallcaps": [],
+    "gotchas": [],
+    "specialCharacters": "Ç ç Ê ê Ğ ğ Î î Ş ş Û û",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "Zulu",
@@ -1880,15 +2479,18 @@
     "paragraphs": [],
     "smallcaps": [],
     "gotchas": [],
-    "alphabet": "A a B b C c D d E e F f G g H h I i J j K k L l M m N n O o P p Q q R r S s T t U u V v W w X x Y y Z z"
+    "alphabet": "A a B b C c D d E e F f G g H h I i J j K k L l M m N n O o P p Q q R r S s T t U u V v W w X x Y y Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   },
   {
     "language": "IPA",
+    "pseudo": true,
     "htmlTag": "",
     "opentypeTag": "",
     "script": "IPA",
     "speakers": 0,
-    "specialCharacters": "ˈ ˌ ː Æ æ Ɑ ɑ Ɒ ɒ Ð ð Ə ə ᵊ Ɛ ɛ ɚ Ɜ ɜ ɝ Ɪ ɪ Ɫ ɫ Ŋ ŋ Õ õ Ɔ ɔ ʳ R̩ r̩ ɹ ɾ Ʃ ʃ Ʊ ʊ Ʌ ʌ Ʒ ʒ ʔ Θ θ",
+    "_specialCharacters": "ʃ θ ʊ ʊ ʌ ʒ ʔ æ ɑ ð ə ɚ ɛ ɜ ɝ ɪ ɫ ŋ ɔ ɒ ɹ ɾ ˈ ˌ ː ᵊ ʳ õ r̩",
     "paragraphs": [
       "/sɯ̥ʃi/ /a̠ˈmiɣo̟/ [ˈɲeɣʐɛ] [ðə bɛɪʒ çjuː ˈɒn ðə wɔːtəz əv ðə lɔx ɪmˈprɛst ɔːl ɪnˈkluːdɪŋ ðə frɛntʃ kwiːn bɪˈfɔː ˈʃiː hɜːd ðæt ˈsɪɱfəni əˈɡɛn dʒəst əz jʌŋ ˈɑːθə ˈwɒntɪd]",
       "/à ˈnojtɨ, vuˈvo kuuaɫʃˈki ˈve u ˈimɐ̃ kɐˈiɾ nu ˈpɛ du ˈpĩgüˈĩ kɐjˈʃozu i vuˈvɔ ˈpõj ɐˈsukaɾ nu ˈʃa dɨ ˈtɐmɐɾɐʒ du ʒɐbuˈti fɨˈɫiʃ/",
@@ -1902,6 +2504,9 @@
     "sentences": [],
     "smallcaps": [],
     "gotchas": [],
-    "alphabet": ""
+    "specialCharacters": "",
+    "alphabet": "",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
   }
 ]

@@ -19,7 +19,7 @@ function sortAlphabet(alphabet, locale) {
 
   alphabet = alphabet.toLowerCase() + ' ' + alphabet.toUpperCase();
   
-  // alphabet = alphabet.replace(/i̇/g, 'i'); // replace i followed by combining dot above
+  alphabet = alphabet.replace(/i̇/g, 'i');  // i + dot above -> just "i"
   let array = alphabet.split(' ').filter(c => c).filter((c, i, a) => a.indexOf(c) === i);
   array = Array.from(new Set(array));
   console.log(locale);

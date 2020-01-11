@@ -1,4 +1,6 @@
 import { LanguageDataParser } from './src';
-
 export { LanguageDataParser };
-export default new LanguageDataParser().getData();
+
+const parser = new LanguageDataParser();
+const data = parser.getData();
+export default data;

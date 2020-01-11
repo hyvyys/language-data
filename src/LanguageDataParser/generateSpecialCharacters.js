@@ -1,14 +1,14 @@
 import GraphemeSplitter from "grapheme-splitter";
 import genCharArray from "./generateCharArray";
-import buildAlphabet from "./buildAlphabet";
+import extendCharSet from "./extendCharSet";
+import charsetChangeReason from "./charsetChangeReason";
+import escapeRegExp from "./escapeRegExp";
 
 export default function (entry, originalEntry) {
-  let letters = (entry.specialCharacters || '').split(' ').filter(c => c);
-  if (entry.script == 'Latn') {
-    if (letters.length === 0 && originalEntry.alphabet) {
-      letters = originalEntry.alphabet.split(' ');
-    }
-    else if (letters.length === 0) {
+  let letters = (entry.specialCharacters || entry.alphabet || '').split(/\s+/g).filter(c => c);
+
+  if (entry.script === 'Latn' || entry.script === 'Cyrl') {
+    if (letters.length === 0) {
       let pangram = [
         ...entry.pangrams,
         ...entry.letterings,
@@ -30,16 +30,26 @@ export default function (entry, originalEntry) {
       letters = Array.from(set)
     }
 
-    const abc = genCharArray('a', 'z').join('');
+    const abc = [...genCharArray('a', 'z'), ...genCharArray('а','я')].join('');
     const digits = '0-9';
-    const punct = ' ,.;:!?"\'„“”‘’()\\[\\]{}–—-';
-    const regex = new RegExp(`^[${abc + digits + punct}]$`, 'i');
-    letters = letters
-      .filter(c => c)
-      .filter(c => c !== ' ')
-      .filter(c => !regex.test(c));
+    const punct = escapeRegExp(',.;:!?"„“”()[]{}–—') + '\\-\\s';
+    const regex = new RegExp(`^[ ${abc + digits + punct}]*$`, 'i');
+    letters = letters.filter(c => !regex.test(c));
   }
 
-  let specialCharacters = buildAlphabet(letters.join(' '), entry.htmlTag + '-' + entry.script);
-  return specialCharacters;
+  let locl = entry.htmlTag ? (entry.htmlTag + '-' + entry.script) : 'en';
+  let specialCharacters = extendCharSet(letters.join(' '), locl);
+  if (!entry.specialCharacters) {
+    return specialCharacters;
+  } else if (entry.specialCharacters !== specialCharacters) {
+    // const reason = charsetChangeReason(entry.specialCharacters, specialCharacters);
+    if (!entry.alphabetIsSorted) {
+        this.info(`[!] Consider changing specialCharacters for language ${entry.language}\nfrom "${entry.specialCharacters}"\n  to "${specialCharacters}"`);
+        if (entry.specialCharacters.split(' ').length > specialCharacters.split(' ').length) {
+          this.info(`  (preserve digraphs in the alphabet field, though)`);
+        }
+        // this.info(`[!] Consider changing specialCharacters for language ${entry.language} to "${specialCharacters}" ${reason}.`);
+    }
+  }
+  return entry.specialCharacters;
 }

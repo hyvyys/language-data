@@ -179,11 +179,32 @@ export default {
     sanitize: generateSpecialCharacters,       // comment this out when all languages have this field specified
     // required: true, // uncomment when all languages have this field specified
   },
+  
   alphabet: {
     type: String,
     description: "The letters of the language's alphabet in order, separated by spaces. "
-      + "Typically A-Z with `specialCharacters` intertwined or appended, "
-      + "depending on the language's convention. ",
-    default: generateAlphabet,
+    + "Typically A-Z with `specialCharacters` intertwined or appended, "
+    + "depending on the language's convention. ",
+    sanitize: generateAlphabet,
+  },
+  alphabetIsSorted: {
+    type: Boolean,
+    description: "If true, ignore sorting suggested by JavaScript.",
+  },
+
+  optionalCharacters: {
+    type: String,
+    description: "Optional characters used by the language on rare occasions.",
+    default: '',
+  },
+  optionalCharactersNote: {
+    type: String,
+    description: "Details regarding the usage of optional characters.",
+    default: '',
+  },
+
+  pseudo: {
+    type: Boolean,
+    description: "Set to `true` for writing systems that are not everyday orthographies of spoken languages (e.g. linguistics)."
   },
 };

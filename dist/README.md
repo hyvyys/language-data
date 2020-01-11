@@ -24,6 +24,10 @@ gotchas[i].**description** | `String` | Description of the issue and/or design r
 gotchas[i].**tests** | `Array` of `String` | Strings that can be used to test a font against the issue.
 **specialCharacters** | `String` | Special characters (mainly accented letters — diacritics) used by the language.
 **alphabet** | `String` | The letters of the language's alphabet in order, separated by spaces. Typically A-Z with `specialCharacters` intertwined or appended, depending on the language's convention. 
+**alphabetIsSorted** | `Boolean` | If true, ignore sorting suggested by JavaScript.
+**optionalCharacters** | `String` | Optional characters used by the language on rare occasions.
+**optionalCharactersNote** | `String` | Details regarding the usage of optional characters.
+**pseudo** | `Boolean` | Set to `true` for writing systems that are not everyday orthographies of spoken languages (e.g. linguistics).
 
 <br>
 

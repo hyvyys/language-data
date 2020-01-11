@@ -2,13 +2,16 @@ export default function() {
   // If not in browser (and possibly in Node.js), colorize console output.
   if (typeof window === 'undefined') {
     var colors = require('colors');
-    this.warn = (msg) => console.log(msg.yellow);
     this.error = (msg) => console.log(msg.red);
+    this.warn = (msg) => console.log(msg.yellow);
+    this.info = (msg) => console.log(msg.white.bgBlue);
   }
   else {
     const prefix = "[language-data] ";
-    this.warn = (msg) => console.warn(prefix + msg);
-    this.error = (msg) => console.error(prefix + msg);
+    this.delayedWarnings = [];
+    this.error = (msg) => { if (this.DEBUG) console.error(prefix + msg); }
+    this.warn = (msg) => { if (this.DEBUG) console.warn(prefix + msg); }
+    this.info = (msg) => { if (this.DEBUG) console.info(prefix + msg); }
   }
 }
 
