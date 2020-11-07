@@ -355,7 +355,8 @@ export default function () {
       'Αγκίδα Βέλγα Γύπας Δημιούργημα Εξηγούμαι Ζεσταμένος Ηλιοθεραπεία Θεσμός Ιστιοδρομία Κρασί Λογχίζομαι Μισώ Νωρίς Ξαίνω Οπλίζομαι Παπαρδέλα  Ρύζι Συμφωνία Τσέλιγκας Υποχρέωση Φύομαι Χριστόψωμο Ψυχίατρος Ωταλγία',
     ],
     numbers: ['Έχει θερμοκρασία τήξης 304°C και θερμοκρασία βρασμού 1473°C.', 'Το φυσικό οξυγόνο αποτελείται από τρία (3) σταθερά ισότοπα: το <sup>16</sup>O (σε ποσοστό 99,762&nbsp;%), το <sup>17</sup>O και το <sup>18</sup>O.'],
-    alphabet: 'Α α Β β Γ γ Δ δ Ε ε Ζ ζ Η η Θ θ Ι ι Κ κ Λ λ Μ μ Ν ν Ξ ξ Ο ο Π π Ρ ρ Σ σ ς Τ τ Υ υ Φ φ Χ χ Ψ ψ Ω ω',
+    alphabet: '; · Α α Β β Γ γ Δ δ Ε ε Ζ ζ Η η Θ θ Ι ι Κ κ Λ λ Μ μ Ν ν Ξ ξ Ο ο Π π Ρ ρ Σ σ ς Τ τ Υ υ Φ φ Χ χ Ψ ψ Ω ω Ά Έ Ή Ί Ϊ Ό Ύ Ϋ Ώ ά έ ή ί ϊ ΐ ό ύ ϋ ΰ ώ',
+    specialCharacters: 'Ά Έ Ή Ί Ϊ Ό Ύ Ϋ Ώ ά έ ή ί ϊ ΐ ό ύ ϋ ΰ ώ ; ·',
     punctuation: ';·',
   },
   {
@@ -380,7 +381,7 @@ export default function () {
     region: 'African',
     speakers: million(34),
     paragraphs: ['Nonuwana sun cika sun yi nauyi Suna begen hannayenka Kai kadai ka iya rikesu Tamkar kana rike da kwai Kai ka iya murza su kamar amaro Ka iya shan su kamar lemu Yaya zanyi da raina?', 'Ai ba sauran budurci a tare da nonuwa na Tun ranar da ka ba su ʼyanci Basu san kowa ba sai kai.'],
-    alphabet: 'A a B b Ɓ ɓ C c D d Ɗ ɗ E e F f G g H h I i J j K k Ƙ ƙ L l M m N n O o R r R̃ r̃ S s SH sh T t TS ts U u W w Y y Z z ʼ',
+    alphabet: 'A a B b Ɓ ɓ C c D d Ɗ ɗ E e F f G g H h I i J j K k Ƙ ƙ L l M m N n O o R r R̃ r̃ S s SH sh T t TS ts U u W w Y y Ƴ ƴ Z z ʼ',
   },
   {
     language: 'Hungarian',

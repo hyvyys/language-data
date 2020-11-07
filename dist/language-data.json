@@ -871,7 +871,8 @@
       "Έχει θερμοκρασία τήξης 304°C και θερμοκρασία βρασμού 1473°C.",
       "Το φυσικό οξυγόνο αποτελείται από τρία (3) σταθερά ισότοπα: το <sup>16</sup>O (σε ποσοστό 99,762&nbsp;%), το <sup>17</sup>O και το <sup>18</sup>O."
     ],
-    "alphabet": "Α α Β β Γ γ Δ δ Ε ε Ζ ζ Η η Θ θ Ι ι Κ κ Λ λ Μ μ Ν ν Ξ ξ Ο ο Π π Ρ ρ Σ σ ς Τ τ Υ υ Φ φ Χ χ Ψ ψ Ω ω",
+    "alphabet": "Α α Β β Γ γ Δ δ Ε ε Ζ ζ Η η Θ θ Ι ι Κ κ Λ λ Μ μ Ν ν Ξ ξ Ο ο Π π Ρ ρ Σ σ ς Τ τ Υ υ Φ φ Χ χ Ψ ψ Ω ω Ά Έ Ή Ί Ϊ Ό Ύ Ϋ Ώ ά έ ή ί ϊ ΐ ό ύ ϋ ΰ ώ",
+    "specialCharacters": "Ά Έ Ή Ί Ϊ Ό Ύ Ϋ Ώ ά έ ή ί ϊ ΐ ό ύ ϋ ΰ ώ ; ·",
     "punctuation": ";·",
     "htmlTag": "el",
     "opentypeTag": "ELL",
@@ -879,7 +880,6 @@
     "sentences": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": "Α α Β β Γ γ Δ δ Ε ε Ζ ζ Η η Θ θ Ι ι Κ κ Λ λ Μ μ Ν ν Ξ ξ Ο ο Π π Ρ ρ Σ σ ς Τ τ Υ υ Φ φ Χ χ Ψ ψ Ω ω",
     "optionalCharacters": "",
     "optionalCharactersNote": ""
   },
@@ -924,7 +924,7 @@
       "Nonuwana sun cika sun yi nauyi Suna begen hannayenka Kai kadai ka iya rikesu Tamkar kana rike da kwai Kai ka iya murza su kamar amaro Ka iya shan su kamar lemu Yaya zanyi da raina?",
       "Ai ba sauran budurci a tare da nonuwa na Tun ranar da ka ba su ʼyanci Basu san kowa ba sai kai."
     ],
-    "alphabet": "A a B b Ɓ ɓ C c D d Ɗ ɗ E e F f G g H h I i J j K k Ƙ ƙ L l M m N n O o R r R̃ r̃ S s SH sh T t TS ts U u W w Y y Z z ʼ",
+    "alphabet": "A a B b Ɓ ɓ C c D d Ɗ ɗ E e F f G g H h I i J j K k Ƙ ƙ L l M m N n O o R r R̃ r̃ S s SH sh T t TS ts U u W w Y y Ƴ ƴ Z z ʼ",
     "htmlTag": "ha",
     "opentypeTag": "HAU",
     "script": "Latn",
@@ -934,7 +934,7 @@
     "sentences": [],
     "smallcaps": [],
     "gotchas": [],
-    "specialCharacters": "Ɓ ɓ Ɗ ɗ Ƙ ƙ R̃ r̃ ʼ",
+    "specialCharacters": "Ɓ ɓ Ɗ ɗ Ƙ ƙ R̃ r̃ Ƴ ƴ ʼ",
     "optionalCharacters": "",
     "optionalCharactersNote": ""
   },
