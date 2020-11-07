@@ -14,7 +14,6 @@
     "src/"
   ],
   "scripts": {
-    "test": "node --icu-data-dir=node_modules\\full-icu -r esm scripts/test.js",
     "build": "node --icu-data-dir=node_modules\\full-icu -r esm scripts/build.js"
   },
   "keywords": [

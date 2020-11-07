@@ -3,8 +3,8 @@ export default function() {
   if (typeof window === 'undefined') {
     var colors = require('colors');
     this.error = (msg) => console.log(msg.red);
-    this.warn = (msg) => console.log(msg.yellow);
-    this.info = (msg) => console.log(msg.white.bgBlue);
+    this.warn = (msg) =>  { if (this.DEBUG) console.log(msg.yellow) };
+    this.info = (msg) => {  if (this.DEBUG) console.log(msg.white.bgBlue) };
   }
   else {
     const prefix = "[language-data] ";
