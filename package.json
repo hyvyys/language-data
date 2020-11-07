@@ -9,9 +9,10 @@
     "url": "https://github.com/hyvyys/language-data.git"
   },
   "bugs": "https://github.com/hyvyys/language-data/issues",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
   "files": [
-    "index.js",
-    "src/"
+    "dist/"
   ],
   "scripts": {
     "build": "node --icu-data-dir=node_modules\\full-icu -r esm scripts/build.js"
@@ -30,14 +31,14 @@
   ],
   "license": "MIT",
   "dependencies": {
+  },
+  "devDependencies": {
     "colors": "^1.4.0",
+    "esm": "^3.2.25",
     "full-icu": "^1.3.0",
     "grapheme-splitter": "^1.0.4",
     "iso-15924": "^2.2.0",
     "lang-ietf-opentype": "0.0.1",
     "language-tags": "^1.0.5"
-  },
-  "devDependencies": {
-    "esm": "^3.2.25"
   }
 }
