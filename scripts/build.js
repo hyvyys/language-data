@@ -3,6 +3,8 @@ import entryFormat from '../src/LanguageDataParser/entryFormat';
 const fs = require('fs');
 const path = require('path');
 
+const noDebug = process.argv.find(a => a === '--silent');
+
 /* create output directory */
 const dir = "./dist";
 if (!fs.existsSync(dir)) {
@@ -23,7 +25,7 @@ function buildJsonData() {
     fields = null;
   }
   // get and parse the data
-  const languages = (new LanguageDataParser({ debug: true })).getData();
+  const languages = (new LanguageDataParser({ debug: !noDebug })).getData();
   const text = JSON.stringify(languages, fields, 2);
 
   //save to disk

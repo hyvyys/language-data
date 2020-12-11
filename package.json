@@ -15,7 +15,9 @@
     "dist/"
   ],
   "scripts": {
-    "build": "node --icu-data-dir=node_modules\\full-icu -r esm scripts/build.js"
+    "build": "node --icu-data-dir=node_modules/full-icu -r esm scripts/build.js",
+    "build-silent": "node --icu-data-dir=node_modules/full-icu -r esm scripts/build.js --silent",
+    "watch": "watch \"npm run build-silent\" ./src"
   },
   "keywords": [
     "dataset",
@@ -38,6 +40,7 @@
     "grapheme-splitter": "^1.0.4",
     "iso-15924": "^2.2.0",
     "lang-ietf-opentype": "0.0.1",
-    "language-tags": "^1.0.5"
+    "language-tags": "^1.0.5",
+    "watch": "^1.0.2"
   }
 }
