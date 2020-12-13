@@ -44,7 +44,7 @@ export default function (entry, originalEntry) {
   } else if (entry.specialCharacters !== specialCharacters) {
     // const reason = charsetChangeReason(entry.specialCharacters, specialCharacters);
     if (!entry.alphabetIsSorted) {
-        this.info(`[!] Consider changing specialCharacters for language ${entry.language}\nfrom "${entry.specialCharacters}"\n  to "${specialCharacters}"`);
+        this.info(`[!] Consider changing specialCharacters for language ${entry.language}\nfrom "${entry.specialCharacters}"\n  to "${specialCharacters}", or set \`alphabetIsSorted\``);
         if (entry.specialCharacters.split(' ').length > specialCharacters.split(' ').length) {
           this.info(`  (preserve digraphs in the alphabet field, though)`);
         }

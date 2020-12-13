@@ -25,8 +25,13 @@ function buildJsonData() {
     fields = null;
   }
   // get and parse the data
-  const languages = (new LanguageDataParser({ debug: !noDebug })).getData();
+  const parser = new LanguageDataParser({ debug: !noDebug });
+  const languages = parser.getData();
   const text = JSON.stringify(languages, fields, 2);
+  
+  // print messages
+  parser.getLog();
+
 
   //save to disk
   const filePath = path.join(dir, 'language-data.json');
