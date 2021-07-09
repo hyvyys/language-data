@@ -60,16 +60,6 @@ export default function () {
     alphabet: 'أ ب ج د ه و ز ح ط ي ك ل م ن س ع ف ص ق ر ش ت ث خ ذ ض ظ غ',
   },
   {
-    language: 'Asturian',
-    region: 'European',
-    speakers: thousand(351),
-    opentypeTag: 'AST ',
-    specialCharacters: 'Ḥ ḥ Ḷ ḷ',
-    paragraphs: [
-      'Tolos seres humanos nacen llibres y iguales en dignidá y drechos y, pola mor de la razón y la conciencia de so, han comportase hermaniblemente los unos colos otros.'
-    ],
-  },
-  {
     language: 'Armenian',
     region: 'Caucasian',
     speakers: million(6.7),
@@ -85,6 +75,25 @@ export default function () {
     ],
     alphabet: 'Ա ա Բ բ Գ գ Դ դ Ե ե Զ զ Է է Ը ը Թ թ Ժ ժ Ի ի Լ լ Խ խ Ծ ծ Կ կ Հ հ Ձ ձ Ղ ղ Ճ ճ Մ մ Յ յ Ն ն Շ շ Ո ո Չ չ Պ պ Ջ ջ Ռ ռ Ս ս Վ վ Տ տ Ր ր Ց ց Ւ ւ Փ փ Ք ք Օ օ Ֆ ֆ ՈՒ ու ԵՒ և',
     punctuation: '֊ ՝ ։ ՜ ՞ ․ ՚ ՛ ՟',
+  },
+  {
+    language: 'Aromanian',
+    region: 'European',
+    speakers: thousand(250),
+    alphabet: 'A a Ã ã B b C c D d Dh dh Dz dz E e F f G g H h I i J j K k L l Lj lj M m N n Nj nj O o P p Q q R r S s Sh sh T t Th th Ts ts U u V v W w X x Y y Z z',
+    paragraphs: [
+      'Tatã a nostu tsi eshti tu tser, si ayisiascã numa a Ta, s’yinã amirãria a Ta, si facã vrearea a Ta, cum tu tser, ashe sh\'pisti loc. Pãna a nostã, atsa di cathi dzuã, dãniu sh’azã, sh‘ yartãni amartiili a nosti, ashe cum li yãrtem sh’noi a amãrtor a noci, sh’nu ni du la pirazmo, ma viagljãni di atsel rãu.'
+    ],
+  },
+  {
+    language: 'Asturian',
+    region: 'European',
+    speakers: thousand(351),
+    opentypeTag: 'AST ',
+    specialCharacters: 'Ḥ ḥ Ḷ ḷ',
+    paragraphs: [
+      'Tolos seres humanos nacen llibres y iguales en dignidá y drechos y, pola mor de la razón y la conciencia de so, han comportase hermaniblemente los unos colos otros.'
+    ],
   },
   {
     language: 'Azeri',
@@ -130,7 +139,7 @@ export default function () {
     speakers: million(9),
     script: 'Cyrl',
     pangrams: ['Фучейки и хълцайки, кьоравият грухтящ шопар жадно стъпка зюмбюлите.', 'Ах чудна българска земьо, полюшвай цъфтящи жита.', 'Жълтата дюля беше щастлива, че пухът, който цъфна, замръзна като гьон.', 'Под южно дърво, цъфтящо в синьо, бягаше малко пухкаво зайче. '],
-    alphabet: 'А а Б б В в Г г Д д Е е Ж ж З з И и Й й К к Л л М м Н н О о П п Р р С с Т т У у Ф ф Х х Ц ц Ч ч Ш ш Щ щ Ъ ъ Ь ь Ю ю Я я',
+    alphabet: 'А а Б б В в Г г Д д Е е Ж ж З з И и Ѝ ѝ Й й К к Л л М м Н н О о П п Р р С с Т т У у Ф ф Х х Ц ц Ч ч Ш ш Щ щ Ъ ъ Ь ь Ю ю Я я',
     letterings: [
       'Апелационен Безброен Веществен Глаголица Дъжд Единайсет Жажда Звезда Идиот Керамика Лекомисленост Микрометър Надежден Отвесност Припека Разлюбвам Старост Тяхната Убийца Фосфор Христов Царица Чичо Шофьор Щастие Ъгъл Юбилей Ядосан',
     ],
@@ -151,6 +160,9 @@ export default function () {
         ],
       }
     ],
+    specialCharacters: "À à Ç ç É é È è Í í Ï ï Ó ó Ò ò Ú ú Ü ü",
+    alphabet: "A a À à B b C c Ç ç D d E e É é È è F f G g H h I i Í í Ï ï J j K k L l M m N n O o Ó ó Ò ò P p Q q R r S s T t U u Ú ú Ü ü V v W w X x Y y Z z",
+    punctuation: "«»·’",
     optionalCharacters: 'Ŀ ŀ',
     optionalCharactersNote: 'legacy',
   },
@@ -241,7 +253,7 @@ export default function () {
       tests: ['Wíjze'],
     }],
     specialCharacters: "Á á É é Í í IJ ij ÍJ íj Ó ó Ú ú",
-    specialCharacters: "Á á É é Í í IJ ij ÍJ íj Ó ó Ú ú",
+    alphabetIsSorted: true,
   },
   {
     language: 'English',
@@ -355,6 +367,7 @@ export default function () {
     pangrams: ['Victor jagt zwölf Boxkämpfer quer über den großen Sylter Deich.'],
     alphabet: 'A a Ä ä B b C c D d E e F f G g H h I i J j K k L l M m N n O o Ö ö P p Q q R r S s ẞ ß T t U u Ü ü V v W w X x Y y Z z',
     specialCharacters: 'Ä Ö Ü ä ö ü ß ẞ',
+    alphabetIsSorted: true,
   },
   {
     language: 'Greek',
@@ -377,8 +390,9 @@ export default function () {
       'Αγκίδα Βέλγα Γύπας Δημιούργημα Εξηγούμαι Ζεσταμένος Ηλιοθεραπεία Θεσμός Ιστιοδρομία Κρασί Λογχίζομαι Μισώ Νωρίς Ξαίνω Οπλίζομαι Παπαρδέλα  Ρύζι Συμφωνία Τσέλιγκας Υποχρέωση Φύομαι Χριστόψωμο Ψυχίατρος Ωταλγία',
     ],
     numbers: ['Έχει θερμοκρασία τήξης 304°C και θερμοκρασία βρασμού 1473°C.', 'Το φυσικό οξυγόνο αποτελείται από τρία (3) σταθερά ισότοπα: το <sup>16</sup>O (σε ποσοστό 99,762&nbsp;%), το <sup>17</sup>O και το <sup>18</sup>O.'],
-    alphabet: '; · Α α Β β Γ γ Δ δ Ε ε Ζ ζ Η η Θ θ Ι ι Κ κ Λ λ Μ μ Ν ν Ξ ξ Ο ο Π π Ρ ρ Σ σ ς Τ τ Υ υ Φ φ Χ χ Ψ ψ Ω ω Ά Έ Ή Ί Ϊ Ό Ύ Ϋ Ώ ά έ ή ί ϊ ΐ ό ύ ϋ ΰ ώ',
-    specialCharacters: 'Ά Έ Ή Ί Ϊ Ό Ύ Ϋ Ώ ά έ ή ί ϊ ΐ ό ύ ϋ ΰ ώ ; ·',
+    alphabet: 'Α α Β β Γ γ Δ δ Ε ε Ζ ζ Η η Θ θ Ι ι Κ κ Λ λ Μ μ Ν ν Ξ ξ Ο ο Π π Ρ ρ Σ σ ς Τ τ Υ υ Φ φ Χ χ Ψ ψ Ω ω Ά Έ Ή Ί Ϊ Ό Ύ Ϋ Ώ ά έ ή ί ϊ ΐ ό ύ ϋ ΰ ώ',
+    specialCharacters: 'Ά Έ Ή Ί Ϊ Ό Ύ Ϋ Ώ ά έ ή ί ϊ ΐ ό ύ ϋ ΰ ώ',
+    alphabetIsSorted: true,
     punctuation: ';·',
   },
   {
@@ -472,6 +486,7 @@ export default function () {
     region: 'African',
     speakers: thousand(120),
     specialCharacters: 'Á á À à Â â Ɓ ɓ Ɗ ɗ É é È è Ê ê Ɛ ɛ Í í Ì ì Î î Ǌ ǋ ǌ Ŋ ŋ Ó ó Ò ò Ô ô Ɔ ɔ Ú ú Ù ù Û û',
+    alphabetIsSorted: true,
   },
   {
     language: 'Kazakh',
@@ -855,7 +870,7 @@ export default function () {
   },
   {
     language: 'Tlapanec',
-    altNames: [ 'Meꞌphaa' ],
+    altNames: [ 'Meꞌphaa', 'Azoyú Me\'phaa', 'Azoyú Tlapanec' ],
     speakers: thousand(127),
     region: 'American',
     specialCharacters: 'Ñ ñ Ꞌ ꞌ',

@@ -20,6 +20,27 @@
     "optionalCharactersNote": ""
   },
   {
+    "language": "Afrikaans",
+    "region": "African",
+    "speakers": 7200000,
+    "specialCharacters": "Á á É é È è Ê ê Ë ë Í í Î î Ï ï Ó ó Ô ô Ö ö Ú ú Û û Ü ü Ý ý",
+    "pangrams": [
+      "Jong Xhosas of Zoeloes wil hou by die status quo vir chemie in die Kaap."
+    ],
+    "htmlTag": "af",
+    "opentypeTag": "AFK",
+    "script": "Latn",
+    "scriptName": "Latin",
+    "letterings": [],
+    "sentences": [],
+    "paragraphs": [],
+    "smallcaps": [],
+    "gotchas": [],
+    "alphabet": "A a Á á B b C c D d E e É é È è Ê ê Ë ë F f G g H h I i Í í Î î Ï ï J j K k L l M m N n O o Ó ó Ô ô Ö ö P p Q q R r S s T t U u Ú ú Û û Ü ü V v W w X x Y y Ý ý Z z",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
+  },
+  {
     "language": "Aghem",
     "region": "African",
     "speakers": 27000,
@@ -94,6 +115,25 @@
     "optionalCharactersNote": ""
   },
   {
+    "language": "Alsatian",
+    "region": "European",
+    "speakers": 900000,
+    "alphabet": "A a À à Ä ä B b C c D d E e É é F f G g H h I i J j K k L l M m N n O o Ö ö P p Q q R r S s T t U u Ù ù Ü ü V v W w X x Y y Z z",
+    "htmlTag": "gsw",
+    "opentypeTag": "ALS",
+    "script": "Latn",
+    "scriptName": "Latin",
+    "pangrams": [],
+    "letterings": [],
+    "sentences": [],
+    "paragraphs": [],
+    "smallcaps": [],
+    "gotchas": [],
+    "specialCharacters": "À à Ä ä É é Ö ö Ù ù Ü ü",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
+  },
+  {
     "language": "Arabic",
     "script": "Arab",
     "region": "African, Asian",
@@ -114,27 +154,6 @@
     "smallcaps": [],
     "gotchas": [],
     "specialCharacters": "أ ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ي",
-    "optionalCharacters": "",
-    "optionalCharactersNote": ""
-  },
-  {
-    "language": "Asturian",
-    "region": "European",
-    "speakers": 351000,
-    "opentypeTag": "AST ",
-    "specialCharacters": "Ḥ ḥ Ḷ ḷ",
-    "paragraphs": [
-      "Tolos seres humanos nacen llibres y iguales en dignidá y drechos y, pola mor de la razón y la conciencia de so, han comportase hermaniblemente los unos colos otros."
-    ],
-    "htmlTag": "ast",
-    "script": "Latn",
-    "scriptName": "Latin",
-    "pangrams": [],
-    "letterings": [],
-    "sentences": [],
-    "smallcaps": [],
-    "gotchas": [],
-    "alphabet": "A a B b C c D d E e F f G g H h Ḥ ḥ I i J j K k L l Ḷ ḷ M m N n O o P p Q q R r S s T t U u V v W w X x Y y Z z",
     "optionalCharacters": "",
     "optionalCharactersNote": ""
   },
@@ -161,6 +180,47 @@
     "smallcaps": [],
     "gotchas": [],
     "specialCharacters": "Ա ա Բ բ Գ գ Դ դ Ե ե ԵՒ եւ և Զ զ Է է Ը ը Թ թ Ժ ժ Ի ի Լ լ Խ խ Ծ ծ Կ կ Հ հ Ձ ձ Ղ ղ Ճ ճ Մ մ Յ յ Ն ն Շ շ Ո ո ՈՒ ու Չ չ Պ պ Ջ ջ Ռ ռ Ս ս Վ վ Տ տ Ր ր Ց ց Ւ ւ Փ փ Ք ք Օ օ Ֆ ֆ",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
+  },
+  {
+    "language": "Aromanian",
+    "region": "European",
+    "speakers": 250000,
+    "alphabet": "A a Ã ã B b C c D d Dh dh Dz dz E e F f G g H h I i J j K k L l Lj lj M m N n Nj nj O o P p Q q R r S s Sh sh T t Th th Ts ts U u V v W w X x Y y Z z",
+    "paragraphs": [
+      "    Tatã a nostu tsi eshti tu tser, si ayisiascã numa a Ta, s’yinã amirãria a Ta, si facã vrearea a Ta, cum tu tser, ashe sh'pisti loc. Pãna a nostã, atsa di cathi dzuã, dãniu sh’azã, sh‘ yartãni amartiili a nosti, ashe cum li yãrtem sh’noi a amãrtor a noci, sh’nu ni du la pirazmo, ma viagljãni di atsel rãu."
+    ],
+    "htmlTag": "rup",
+    "script": "Latn",
+    "scriptName": "Latin",
+    "pangrams": [],
+    "letterings": [],
+    "sentences": [],
+    "smallcaps": [],
+    "gotchas": [],
+    "specialCharacters": "Ã ã",
+    "optionalCharacters": "",
+    "optionalCharactersNote": ""
+  },
+  {
+    "language": "Asturian",
+    "region": "European",
+    "speakers": 351000,
+    "opentypeTag": "AST ",
+    "specialCharacters": "Ḥ ḥ Ḷ ḷ",
+    "paragraphs": [
+      "Tolos seres humanos nacen llibres y iguales en dignidá y drechos y, pola mor de la razón y la conciencia de so, han comportase hermaniblemente los unos colos otros."
+    ],
+    "htmlTag": "ast",
+    "script": "Latn",
+    "scriptName": "Latin",
+    "pangrams": [],
+    "letterings": [],
+    "sentences": [],
+    "smallcaps": [],
+    "gotchas": [],
+    "alphabet": "A a B b C c D d E e F f G g H h Ḥ ḥ I i J j K k L l Ḷ ḷ M m N n O o P p Q q R r S s T t U u V v W w X x Y y Z z",
     "optionalCharacters": "",
     "optionalCharactersNote": ""
   },
@@ -319,6 +379,9 @@
         ]
       }
     ],
+    "specialCharacters": "À à Ç ç É é È è Í í Ï ï Ó ó Ò ò Ú ú Ü ü",
+    "alphabet": "A a À à B b C c Ç ç D d E e É é È è F f G g H h I i Í í Ï ï J j K k L l M m N n O o Ó ó Ò ò P p Q q R r S s T t U u Ú ú Ü ü V v W w X x Y y Z z",
+    "punctuation": "«»·’",
     "optionalCharacters": "Ŀ ŀ",
     "optionalCharactersNote": "legacy",
     "htmlTag": "ca",
@@ -328,9 +391,7 @@
     "letterings": [],
     "sentences": [],
     "paragraphs": [],
-    "smallcaps": [],
-    "specialCharacters": "· ’ « » À à Ç ç É é È è Í í Ï ï Ó ó Ò ò Ú ú Ü ü",
-    "alphabet": "· ’ « » A a À à B b C c Ç ç D d E e É é È è F f G g H h I i Í í Ï ï J j K k L l M m N n O o Ó ó Ò ò P p Q q R r S s T t U u Ú ú Ü ü V v W w X x Y y Z z"
+    "smallcaps": []
   },
   {
     "language": "Chinese (Pinyin)",
@@ -546,6 +607,7 @@
       }
     ],
     "specialCharacters": "Á á É é Í í IJ ij ÍJ íj Ó ó Ú ú",
+    "alphabetIsSorted": true,
     "htmlTag": "nl",
     "opentypeTag": "NLD",
     "script": "Latn",
@@ -860,6 +922,7 @@
     ],
     "alphabet": "A a Ä ä B b C c D d E e F f G g H h I i J j K k L l M m N n O o Ö ö P p Q q R r S s ẞ ß T t U u Ü ü V v W w X x Y y Z z",
     "specialCharacters": "Ä Ö Ü ä ö ü ß ẞ",
+    "alphabetIsSorted": true,
     "htmlTag": "de",
     "opentypeTag": "DEU",
     "script": "Latn",
@@ -903,8 +966,9 @@
       "Έχει θερμοκρασία τήξης 304°C και θερμοκρασία βρασμού 1473°C.",
       "Το φυσικό οξυγόνο αποτελείται από τρία (3) σταθερά ισότοπα: το <sup>16</sup>O (σε ποσοστό 99,762&nbsp;%), το <sup>17</sup>O και το <sup>18</sup>O."
     ],
-    "alphabet": "; · Α α Β β Γ γ Δ δ Ε ε Ζ ζ Η η Θ θ Ι ι Κ κ Λ λ Μ μ Ν ν Ξ ξ Ο ο Π π Ρ ρ Σ σ ς Τ τ Υ υ Φ φ Χ χ Ψ ψ Ω ω Ά Έ Ή Ί Ϊ Ό Ύ Ϋ Ώ ά έ ή ί ϊ ΐ ό ύ ϋ ΰ ώ",
-    "specialCharacters": "Ά Έ Ή Ί Ϊ Ό Ύ Ϋ Ώ ά έ ή ί ϊ ΐ ό ύ ϋ ΰ ώ ; ·",
+    "alphabet": "Α α Β β Γ γ Δ δ Ε ε Ζ ζ Η η Θ θ Ι ι Κ κ Λ λ Μ μ Ν ν Ξ ξ Ο ο Π π Ρ ρ Σ σ ς Τ τ Υ υ Φ φ Χ χ Ψ ψ Ω ω Ά Έ Ή Ί Ϊ Ό Ύ Ϋ Ώ ά έ ή ί ϊ ΐ ό ύ ϋ ΰ ώ",
+    "specialCharacters": "Ά Έ Ή Ί Ϊ Ό Ύ Ϋ Ώ ά έ ή ί ϊ ΐ ό ύ ϋ ΰ ώ",
+    "alphabetIsSorted": true,
     "punctuation": ";·",
     "htmlTag": "el",
     "opentypeTag": "ELL",
@@ -1167,6 +1231,7 @@
     "region": "African",
     "speakers": 120000,
     "specialCharacters": "Á á À à Â â Ɓ ɓ Ɗ ɗ É é È è Ê ê Ɛ ɛ Í í Ì ì Î î Ǌ ǋ ǌ Ŋ ŋ Ó ó Ò ò Ô ô Ɔ ɔ Ú ú Ù ù Û û",
+    "alphabetIsSorted": true,
     "htmlTag": "kkj",
     "script": "Latn",
     "scriptName": "Latin",
@@ -2135,7 +2200,9 @@
   {
     "language": "Tlapanec",
     "altNames": [
-      "Meꞌphaa"
+      "Meꞌphaa",
+      "Azoyú Me'phaa",
+      "Azoyú Tlapanec"
     ],
     "speakers": 127000,
     "region": "American",
