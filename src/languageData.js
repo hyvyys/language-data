@@ -322,6 +322,7 @@ export default function () {
     region: 'European',
     pangrams: ['Voix ambiguë d’un cœur qui au zéphyr préfère les jattes de kiwi.'],
     html: [`M<span style="font-feature-settings: 'sups' 1;">lle</span> Orane`],
+    letterings: [ 'Anaéroïde Blâmable Crocoïte Dièdre Enrôlée Ferrifère Gynæcologie Hiérarchique Infidèle Jéjunum Kafkaïen Laçabilité Mémère Nénètse Ostéoïde Périphérique Quéquette Rebrûler Sinistrée Têtière Uninucléé Vancouvérois Xénolexique Yéyéfication Zoïzite' ],
     gotchas: [{
       topic: 'iï ïl',
       tags: ['metrics'],
@@ -364,6 +365,7 @@ export default function () {
     language: 'German',
     speakers: million(95),
     region: 'European',
+    letterings: [ 'Adäquat Bärbeißig Chimärisch Drängend Ernüchternd Fünfjährig Großflächig Höfisch Isländisch Jägermeister Kritikfähig Löffeln Myxomatös Neongrün Oligozän Präskriptiv Querschläger Reißerisch Süßsauer Totprügeln Überflüssig Verknüpfung Westwärts Xänorphika Yottabyte Zusätzlich' ],
     pangrams: ['Victor jagt zwölf Boxkämpfer quer über den großen Sylter Deich.'],
     alphabet: 'A a Ä ä B b C c D d E e F f G g H h I i J j K k L l M m N n O o Ö ö P p Q q R r S s ẞ ß T t U u Ü ü V v W w X x Y y Z z',
     specialCharacters: 'Ä Ö Ü ä ö ü ß ẞ',
@@ -685,6 +687,7 @@ export default function () {
     language: 'Norwegian',
     speakers: million(4.5),
     region: 'European',
+    letterings: [ 'Alfastråling Blåbær Chinchilla Dørhåndtak Erklære Forføre Grønnlig Høflighet Ingeniør Jobbintervju Kjølevæske Latterliggjøre Målmann Nøktern Overfølsomhet Papegøye Qatarsk Reingjøre Sfærisk Tankemønster Upopulær Vikværing Wienerbrød Xenofobi Ydmykelse Zoologisk Ærlegdom Ørnøygd ' ],
     pangrams: ['Jeg begynte å fortære en sandwich mens jeg kjørte taxi på vei til quiz'],
     optionalCharacters: 'Ǽ ǽ Ǻ ǻ Ǿ ǿ',
     optionalCharactersNote: 'Dictionary use.',
@@ -964,8 +967,8 @@ export default function () {
       tests: ['lựt mưng nữi nựi nưm lưu'],
     }],
     specialCharacters: 'Á á À à Ă ă Ắ ắ Ằ ằ Ẵ ẵ Ẳ ẳ Â â Ấ ấ Ầ ầ Ẫ ẫ Ẩ ẩ Ã ã Ả ả Ạ ạ Ặ ặ Ậ ậ Đ đ É é È è Ê ê Ế ế Ề ề Ễ ễ Ể ể Ẽ ẽ Ẻ ẻ Ẹ ẹ Ệ ệ Í í Ì ì Ĩ ĩ Ỉ ỉ Ị ị Ó ó Ò ò Ô ô Ố ố Ồ ồ Ỗ ỗ Ổ ổ Õ õ Ỏ ỏ Ơ ơ Ớ ớ Ờ ờ Ỡ ỡ Ở ở Ợ ợ Ọ ọ Ộ ộ Ú ú Ù ù Ũ ũ Ủ ủ Ư ư Ứ ứ Ừ ừ Ữ ữ Ử ử Ự ự Ụ ụ Ý ý Ỳ ỳ Ỹ ỹ Ỷ ỷ Ỵ ỵ',
-    paragraphs: ['Ảnh hưởng này kéo theo sự xuất hiện của nhiều từ gốc Pháp trong nhiều lĩnh vực khác nhau, đặc biệt là trong khoa học – kỹ thuật. Ễnh ương đốm.', `Tiếng Việt, còn gọi tiếng Việt Nam[5] hay Việt ngữ, là ngôn ngữ của người Việt (người Kinh) và là ngôn ngữ chính thức tại Việt Nam. Đây là tiếng mẹ đẻ của khoảng 85% dân cư Việt Nam, cùng với hơn bốn triệu người Việt hải ngoại. Tiếng Việt còn là ngôn ngữ thứ hai của các dân tộc thiểu số tại Việt Nam. Mặc dù tiếng Việt có một số từ vựng vay mượn từ tiếng Hán và trước đây dùng chữ Nôm — một hệ chữ dựa trên chữ Hán — để viết nhưng tiếng Việt được coi là một trong số các ngôn ngữ thuộc ngữ hệ Nam Á có số người nói nhiều nhất (nhiều hơn một số lần so với các ngôn ngữ khác cùng hệ cộng lại). Ngày nay, tiếng Việt dùng bảng chữ cái Latinh, gọi là chữ Quốc ngữ, cùng các dấu thanh để viết.`,
-      `Tiếng Việt được chính thức ghi nhận trong Hiến pháp nước Cộng hòa Xã hội chủ nghĩa Việt Nam 2013, tại chương I điều 5 mục 3, là ngôn ngữ quốc gia của Việt Nam [6]. Tiếng Việt bao gồm cách phát âm tiếng Việt và chữ Quốc ngữ để viết. Tuy nhiên hiện chưa có bất kỳ văn bản nào ở cấp nhà nước quy định giọng chuẩn và quốc tự của tiếng Việt [7]. Hiện nay phần lớn các văn bản trong nước được viết theo những "Quy định về chính tả tiếng Việt và về thuật ngữ tiếng Việt" áp dụng cho các sách giáo khoa, báo và văn bản của ngành giáo dục nêu tại Quyết định của Bộ Giáo dục số 240/QĐ ngày 5 tháng 3 năm 1984 [8] do những người thụ hưởng giáo dục đó sau này ra làm việc trong mọi lĩnh vực xã hội.`, `Cũng cần lưu ý tránh nhầm lẫn với Việt ngữ (粵語) hay tiếng Quảng Đông, một ngôn ngữ được sử dụng ở miền nam Trung Quốc (Quảng Đông, Quảng Tây) cũng như ở Hồng Kông và Ma Cao.`, `Tổ chức tiêu chuẩn hóa quốc tế đặt mã ngôn ngữ hai chữ cái cho tiếng Việt là "vi" (tiêu chuẩn ISO 639-1) và đặt mã ngôn ngữ ba chữ cái cho tiếng Việt là "vie" (tiêu chuẩn ISO 639-2) [9][10][11].`
+    paragraphs: ['Ảnh hưởng này kéo theo sự xuất hiện của nhiều từ gốc Pháp trong nhiều lĩnh vực khác nhau, đặc biệt là trong khoa học – kỹ thuật. Ễnh ương đốm.', `Tiếng Việt, còn gọi tiếng Việt Nam hay Việt ngữ, là ngôn ngữ của người Việt (người Kinh) và là ngôn ngữ chính thức tại Việt Nam. Đây là tiếng mẹ đẻ của khoảng 85% dân cư Việt Nam, cùng với hơn bốn triệu người Việt hải ngoại. Tiếng Việt còn là ngôn ngữ thứ hai của các dân tộc thiểu số tại Việt Nam. Mặc dù tiếng Việt có một số từ vựng vay mượn từ tiếng Hán và trước đây dùng chữ Nôm — một hệ chữ dựa trên chữ Hán — để viết nhưng tiếng Việt được coi là một trong số các ngôn ngữ thuộc ngữ hệ Nam Á có số người nói nhiều nhất (nhiều hơn một số lần so với các ngôn ngữ khác cùng hệ cộng lại). Ngày nay, tiếng Việt dùng bảng chữ cái Latinh, gọi là chữ Quốc ngữ, cùng các dấu thanh để viết.`,
+      `Tiếng Việt được chính thức ghi nhận trong Hiến pháp nước Cộng hòa Xã hội chủ nghĩa Việt Nam 2013, tại chương I điều 5 mục 3, là ngôn ngữ quốc gia của Việt Nam. Tiếng Việt bao gồm cách phát âm tiếng Việt và chữ Quốc ngữ để viết. Tuy nhiên hiện chưa có bất kỳ văn bản nào ở cấp nhà nước quy định giọng chuẩn và quốc tự của tiếng Việt. Hiện nay phần lớn các văn bản trong nước được viết theo những "Quy định về chính tả tiếng Việt và về thuật ngữ tiếng Việt" áp dụng cho các sách giáo khoa, báo và văn bản của ngành giáo dục nêu tại Quyết định của Bộ Giáo dục số 240/QĐ ngày 5 tháng 3 năm 1984 do những người thụ hưởng giáo dục đó sau này ra làm việc trong mọi lĩnh vực xã hội.`, `Cũng cần lưu ý tránh nhầm lẫn với Việt ngữ (粵語) hay tiếng Quảng Đông, một ngôn ngữ được sử dụng ở miền nam Trung Quốc (Quảng Đông, Quảng Tây) cũng như ở Hồng Kông và Ma Cao.`, `Tổ chức tiêu chuẩn hóa quốc tế đặt mã ngôn ngữ hai chữ cái cho tiếng Việt là "vi" (tiêu chuẩn ISO 639-1) và đặt mã ngôn ngữ ba chữ cái cho tiếng Việt là "vie" (tiêu chuẩn ISO 639-2).`
     ],
   },
   {
