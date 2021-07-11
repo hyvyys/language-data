@@ -322,7 +322,7 @@ export default function () {
     region: 'European',
     pangrams: ['Voix ambiguë d’un cœur qui au zéphyr préfère les jattes de kiwi.'],
     html: [`M<span style="font-feature-settings: 'sups' 1;">lle</span> Orane`],
-    letterings: [ 'Anaéroïde Blâmable Crocoïte Dièdre Enrôlée Ferrifère Gynæcologie Hiérarchique Infidèle Jéjunum Kafkaïen Laçabilité Mémère Nénètse Ostéoïde Périphérique Quéquette Rebrûler Sinistrée Têtière Uninucléé Vancouvérois Xénolexique Yéyéfication Zoïzite' ],
+    letterings: [ 'Anaéroïde Blâmable Crocoïte Dièdre Enrôlée Ferrifère Gynæcologie Hiérarchique Infidèle Jéjunum Kafkaïen Laçabilité Manœuvre Nénètse Ostéoïde Œcologique Périphérique Quéquette Rebrûler Sinistrée Têtière Uninucléé Vancouvérois Xénolexique Yéyéfication Zoïzite' ],
     gotchas: [{
       topic: 'iï ïl',
       tags: ['metrics'],
@@ -704,7 +704,7 @@ export default function () {
     gotchas: [{
       topic: 'łł',
       tags: ['metrics'],
-      description: 'The łł combination an sometimes produces a busy area. A spacing, kerning or ligature solution is possible should the problem arise.',
+      description: 'The łł combination sometimes produces a busy area. A spacing, kerning or ligature solution is possible should the problem arise.',
       tests: ['Kołłątaj Piłka Ełk Półkole Półton PÓŁTON Radziwiłłów'],
     }],
     specialCharacters: 'Ą ą Ć ć Ę ę Ł ł Ń ń Ó ó Ś ś Ź ź Ż ż',

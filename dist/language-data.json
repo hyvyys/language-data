@@ -771,7 +771,7 @@
       "M<span style=\"font-feature-settings: 'sups' 1;\">lle</span> Orane"
     ],
     "letterings": [
-      "Anaéroïde Blâmable Crocoïte Dièdre Enrôlée Ferrifère Gynæcologie Hiérarchique Infidèle Jéjunum Kafkaïen Laçabilité Mémère Nénètse Ostéoïde Périphérique Quéquette Rebrûler Sinistrée Têtière Uninucléé Vancouvérois Xénolexique Yéyéfication Zoïzite"
+      "Anaéroïde Blâmable Crocoïte Dièdre Enrôlée Ferrifère Gynæcologie Hiérarchique Infidèle Jéjunum Kafkaïen Laçabilité Manœuvre Nénètse Ostéoïde Œcologique Périphérique Quéquette Rebrûler Sinistrée Têtière Uninucléé Vancouvérois Xénolexique Yéyéfication Zoïzite"
     ],
     "gotchas": [
       {
@@ -1725,7 +1725,7 @@
         "tags": [
           "metrics"
         ],
-        "description": "The łł combination an sometimes produces a busy area. A spacing, kerning or ligature solution is possible should the problem arise.",
+        "description": "The łł combination sometimes produces a busy area. A spacing, kerning or ligature solution is possible should the problem arise.",
         "tests": [
           "Kołłątaj Piłka Ełk Półkole Półton PÓŁTON Radziwiłłów"
         ]
