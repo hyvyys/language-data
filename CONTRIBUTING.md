@@ -6,7 +6,7 @@ After that, run the `build` script to see the changes reflected in the JSON outp
 You can use the `watch` script to rebuild the output continuously on each change to the sources.
 
 
-# Testing the files in Node.js
+## Testing the files in Node.js
 
 The sources are in ES6 so if you want to run a JS test file directly in Node.js,
 use the [`esm`](https://www.npmjs.com/package/esm) module.
