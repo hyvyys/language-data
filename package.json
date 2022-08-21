@@ -17,8 +17,8 @@
   "scripts": {
     "build": "node --icu-data-dir=node_modules/full-icu -r esm scripts/build.js",
     "build-silent": "node --icu-data-dir=node_modules/full-icu -r esm scripts/build.js --silent",
-    "watch": "watch \"npm run build\" ./src",
-    "watch-silent": "watch \"npm run build-silent\" ./src"
+    "watch": "chokidar \"./src\" -c \"npm run build\"",
+    "watch-silent": "chokidar \"./src\" -c \"npm run build-silent\""
   },
   "keywords": [
     "dataset",
@@ -33,15 +33,14 @@
     "testing"
   ],
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
+    "chokidar-cli": "^3.0.0",
     "colors": "^1.4.0",
     "esm": "^3.2.25",
     "full-icu": "^1.3.0",
     "grapheme-splitter": "^1.0.4",
     "iso-15924": "^2.2.0",
     "lang-ietf-opentype": "0.0.1",
-    "language-tags": "^1.0.5",
-    "watch": "^1.0.2"
+    "language-tags": "^1.0.5"
   }
 }
