@@ -402,6 +402,7 @@ export default function () {
     script: 'Latn',
     speakers: million(4.6),
     region: 'American',
+    pangrams: ['Hĩlandiagua kuñanguéra oho peteĩ sa’yju ypa’ũme Gavõme ombo’e hag̃ua ingyleñe’ẽ mitãnguérare ne’ẽndy’ỹ.'],
     paragraphs: ['Mayma yvypóra ou ko yvy ári iñapyty\'yre ha eteĩcha tecoruvicharendá ha acatúape jeguerekópe; ha ikatu rupi oikuaa ñetéva ha añete\'yva, iporãva ha ivaíva, tekotevẽ pehenguéicha oiko oñondivekuéra.'],
     alphabet: 'A a Ã ã Ch ch E e Ẽ ẽ G g G̃ g̃ H h I i Ĩ ĩ J j K k L l M m Mb mb N n Nd nd Ng ng Nt nt Ñ ñ O o Õ õ P p R r Rr rr S s T t U u Ũ ũ V v Y y Ỹ ỹ \'',
     alphabetIsSorted: true,

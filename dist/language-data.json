@@ -948,6 +948,9 @@
     "script": "Latn",
     "speakers": 4600000,
     "region": "American",
+    "pangrams": [
+      "Hĩlandiagua kuñanguéra oho peteĩ sa’yju ypa’ũme Gavõme ombo’e hag̃ua ingyleñe’ẽ mitãnguérare ne’ẽndy’ỹ."
+    ],
     "paragraphs": [
       "Mayma yvypóra ou ko yvy ári iñapyty'yre ha eteĩcha tecoruvicharendá ha acatúape jeguerekópe; ha ikatu rupi oikuaa ñetéva ha añete'yva, iporãva ha ivaíva, tekotevẽ pehenguéicha oiko oñondivekuéra."
     ],
@@ -968,7 +971,6 @@
     "htmlTag": "gn",
     "opentypeTag": "GUA",
     "scriptName": "Latin",
-    "pangrams": [],
     "letterings": [],
     "sentences": [],
     "smallcaps": [],
